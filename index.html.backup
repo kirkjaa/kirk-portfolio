@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="/images/Questlogo.png" />
+    <link rel="apple-touch-icon" href="/images/Questlogo.png" />
+    <title>Kirk Pathumanun - Venture Builder & Technical Founder | 25 Years Experience</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kirk Pathumanun is a venture builder and technical founder with 25 years of experience building innovative startups across fintech, edtech, AI, and logistics. From pioneering StockSmart.com to leading QUEST EDTECH, duPhonics, and serving as CSO for CUBIKA and SSL Logistics." />
+    <meta name="keywords" content="Kirk Pathumanun, venture builder, technical founder, startup founder, edtech, fintech, AI, QUEST EDTECH, duPhonics, QuestLanguage, CUBIKA, SSL Logistics, Thailand startups, Asia startups, e27, NextRise, Y Combinator, startup mentor" />
+    <meta name="author" content="Kirk Pathumanun" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://kirk.edknovate.com" />
+    
+    <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kirk Pathumanun - Venture Builder & Technical Founder" />
+    <meta property="og:description" content="25 years of experience solving the impossibility of business requirements. Building innovative startups across fintech, edtech, AI, and logistics in Asia." />
+    <meta property="og:url" content="https://kirk.edknovate.com" />
+    <meta property="og:image" content="https://kirk.edknovate.com/images/pasted_file_m3bgxM_image.png" />
+    <meta property="og:site_name" content="Kirk Pathumanun Portfolio" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kirk Pathumanun - Venture Builder & Technical Founder" />
+    <meta name="twitter:description" content="25 years of experience building innovative startups across fintech, edtech, AI, and logistics in Asia." />
+    <meta name="twitter:image" content="https://kirk.edknovate.com/images/pasted_file_m3bgxM_image.png" />
+    
+    <!-- Additional SEO Tags -->
+    <meta name="theme-color" content="#3B82F6" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="geo.region" content="TH" />
+    <meta name="geo.placename" content="Thailand" />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kirk Pathumanun",
+      "jobTitle": "Venture Builder & Technical Founder",
+      "description": "Tech startup builder with 25 years of experience from the US to Thailand, specializing in fintech, edtech, AI, and logistics innovation.",
+      "url": "https://kirk.edknovate.com",
+      "image": "https://kirk.edknovate.com/images/pasted_file_m3bgxM_image.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/kirkjaa/",
+        "https://e27.co/user/kirk.pathumanun/"
+      ],
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Y Combinator Startup School"
+      },
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "QUEST EDTECH",
+          "url": "https://quest.ac"
+        },
+        {
+          "@type": "Organization",
+          "name": "duPhonics"
+        },
+        {
+          "@type": "Organization",
+          "name": "CUBIKA"
+        },
+        {
+          "@type": "Organization",
+          "name": "SSL Logistics"
+        }
+      ],
+      "award": [
+        "NextRise 2025 Seoul Strategist",
+        "E27 Top 100 APAC 2020",
+        "TMA Shark Tank Winner 2019"
+      ]
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Analytics script can be added here if needed -->
+  </body>
+
+</html>

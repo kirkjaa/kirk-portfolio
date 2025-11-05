@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # Development service with hot reload
+  kirk-portfolio-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: kirk-portfolio-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - VITE_APP_LOGO=/images/Questlogo.png
+    command: npm run dev
+    restart: unless-stopped
+
+  # Production service (for use with nginx reverse proxy manager)
+  kirk-portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kirk-portfolio
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=production
+      - VITE_APP_LOGO=/images/Questlogo.png
+    restart: unless-stopped
+    profiles:
+      - production
+
