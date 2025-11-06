@@ -177,6 +177,29 @@
   .card-hover {
     @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
   }
+
+  .markdown-content {
+    @apply space-y-6;
+  }
+
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3,
+  .markdown-content h4 {
+    @apply scroll-mt-28;
+  }
+
+  .markdown-content table {
+    @apply w-full border border-gray-200 text-sm rounded-lg overflow-hidden;
+  }
+
+  .markdown-content thead {
+    @apply bg-gray-100;
+  }
+
+  .markdown-content tbody tr {
+    @apply border-b border-gray-200;
+  }
   
   .fade-in {
     animation: fadeIn 0.8s ease-in;
