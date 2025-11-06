@@ -7,11 +7,9 @@ import {
 } from "@/utils/markdown";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
-import { getStrings } from "@/content/strings";
 
 export default function Profile() {
   const { language } = useLanguage();
-  const strings = getStrings(language);
   const profileContent = useMemo(() => getProfileMarkdown(language), [language]);
   const sections = useMemo(
     () => parseMarkdownSections(profileContent),
