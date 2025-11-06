@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import { ExternalLink, Award, BookOpen, Mail, Linkedin } from "lucide-react";
+import { ImageWithFallback } from "@/components/ImageWithFallback";
 
 export default function Home() {
   
@@ -239,7 +240,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative w-full max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-orange-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
-                <img 
+                <ImageWithFallback 
                   src="/images/pasted_file_m3bgxM_image.png" 
                   alt="Kirk Pathumanun" 
                   className="relative rounded-2xl shadow-2xl w-full"
@@ -297,7 +298,7 @@ export default function Home() {
               <Card key={index} className="card-hover bg-white border-0 shadow-lg">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-center h-24 mb-4">
-                    <img 
+                    <ImageWithFallback 
                       src={venture.logo} 
                       alt={venture.name} 
                       className="max-h-full max-w-full object-contain"
@@ -375,7 +376,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {gallery.map((item, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg shadow-lg card-hover bg-white">
-                <img 
+                <ImageWithFallback 
                   src={item.src} 
                   alt={item.title} 
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
@@ -443,13 +444,13 @@ export default function Home() {
               <Card key={index} className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
                 <CardContent className="p-0">
                   <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-50 to-purple-50">
-                    <img 
+                    <ImageWithFallback 
                       src={startup.photo} 
                       alt={startup.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-4 right-4 bg-white rounded-full p-3 shadow-lg">
-                      <img 
+                      <ImageWithFallback 
                         src={startup.logo} 
                         alt={`${startup.name} logo`}
                         className="w-12 h-12 object-contain"
@@ -495,7 +496,7 @@ export default function Home() {
                 <CardContent className="p-0">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="relative h-64 md:h-auto overflow-hidden">
-                      <img 
+                      <ImageWithFallback 
                         src={story.photo} 
                         alt={story.name}
                         className="w-full h-full object-cover"
