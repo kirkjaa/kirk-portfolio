@@ -173,6 +173,9 @@
   .gradient-bg {
     @apply bg-gradient-to-br from-blue-50 via-purple-50 to-orange-50;
   }
+  .dark .gradient-bg {
+    @apply bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950;
+  }
   
   .card-hover {
     @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
