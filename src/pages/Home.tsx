@@ -47,7 +47,7 @@ export default function Home() {
       role: "Chief Strategy Officer",
       year: "2025 - Present",
       description: "Leading international expansion strategy for logistics innovation",
-      link: "#"
+      link: "https://www.ssllogistics.co.th"
     },
     {
       name: "CUBIKA",
@@ -55,7 +55,7 @@ export default function Home() {
       role: "Chief Strategy Officer",
       year: "2025 - Present",
       description: "AI-driven analytics and intelligence provider for data-driven enterprises",
-      link: "#"
+      link: "https://ddlghq.com"
     },
     {
       name: "Digital Bridge Thailand",
