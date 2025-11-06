@@ -55,10 +55,10 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
           p: ({ node, ...props }) => (
             <p className="text-base md:text-lg leading-relaxed text-gray-700 mb-4" {...props} />
           ),
-          ul: ({ node, ordered, ...props }) => (
+          ul: ({ node, ...props }) => (
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4" {...props} />
           ),
-          ol: ({ node, ordered, ...props }) => (
+          ol: ({ node, ...props }) => (
             <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4" {...props} />
           ),
           li: ({ node, ...props }) => <li className="leading-relaxed" {...props} />,

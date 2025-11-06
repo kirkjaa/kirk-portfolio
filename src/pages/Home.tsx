@@ -1,17 +1,11 @@
-import { useEffect, useState } from "react";
+import { } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { ExternalLink, Award, Briefcase, BookOpen, Mail, Linkedin } from "lucide-react";
+import { ExternalLink, Award, BookOpen, Mail, Linkedin } from "lucide-react";
 
 export default function Home() {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  
 
   const ventures = [
     {
