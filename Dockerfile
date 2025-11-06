@@ -6,8 +6,8 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies (omit devDependencies for production)
-RUN npm install --omit=dev
+# Install dependencies (includes devDependencies for build)
+RUN npm install
 
 # Install serve to serve static files
 RUN npm install -g serve
