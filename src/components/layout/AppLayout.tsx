@@ -1,15 +1,25 @@
+import { ReactNode, useEffect } from "react";
+import { useLocation } from "wouter";
 import { Header } from "@/components/layout/Header";
-import { ReactNode } from "react";
+import { Footer } from "@/components/layout/Footer";
 
 interface AppLayoutProps {
   children: ReactNode;
 }
 
 export function AppLayout({ children }: AppLayoutProps) {
+  const [location] = useLocation();
+
+  // wouter does not reset scroll between routes; do it unless a hash is being targeted.
+  useEffect(() => {
+    if (!window.location.hash) window.scrollTo({ top: 0 });
+  }, [location]);
+
   return (
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="flex min-h-screen flex-col bg-surface text-fg">
       <Header />
-      <main className="pt-6 pb-20">{children}</main>
+      <main className="flex-1">{children}</main>
+      <Footer />
     </div>
   );
 }

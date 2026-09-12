@@ -6,16 +6,13 @@ interface Props {
 
 interface State {
   hasError: boolean;
-  error?: Error;
 }
 
 class ErrorBoundary extends Component<Props, State> {
-  public state: State = {
-    hasError: false
-  };
+  public state: State = { hasError: false };
 
-  public static getDerivedStateFromError(error: Error): State {
-    return { hasError: true, error };
+  public static getDerivedStateFromError(): State {
+    return { hasError: true };
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
@@ -25,24 +22,20 @@ class ErrorBoundary extends Component<Props, State> {
   public render() {
     if (this.state.hasError) {
       return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-          <div className="text-center p-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Oops! Something went wrong</h1>
-            <p className="text-gray-600 mb-4">We're sorry for the inconvenience.</p>
-            <button
-              onClick={() => window.location.reload()}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Reload Page
+        <div className="flex min-h-screen items-center justify-center bg-surface px-6 text-fg">
+          <div className="max-w-md">
+            <p className="eyebrow eyebrow-accent">Error</p>
+            <h1 className="display-md mt-4">Something went wrong.</h1>
+            <p className="mt-3 text-fg-muted">Reload the page, or write to quest@edknovate.com if it keeps happening.</p>
+            <button type="button" onClick={() => window.location.reload()} className="btn btn-primary mt-6">
+              Reload
             </button>
           </div>
         </div>
       );
     }
-
     return this.props.children;
   }
 }
 
 export default ErrorBoundary;
-

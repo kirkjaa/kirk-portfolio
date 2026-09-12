@@ -98,7 +98,7 @@ Founded in 2020 during the COVID-19 pandemic, **duPhonics** represents Kirk's in
 
 ### Whatnot Startup Studio: Entrepreneur in Residence
 
-Kirk serves as an **Entrepreneur in Residence** at **Whatnot Startup Studio**, bringing over 10 years of experience across SaaS, FMCG (Fast-Moving Consumer Goods), and venture capital[24]. In this capacity, Kirk leverages his track record of co-founding three businesses and supporting more than 20 startups and corporates across the European Union and Asia.
+Kirk has served as an **Entrepreneur in Residence** at **Whatnot Startup Studio**, a Bangkok venture builder, since January 2025, with a mandate covering venture building and AI transformation for businesses. Whatnot introduces him as a veteran tech builder with 25 years of experience across the US and Asia, known for solving complex business challenges and for pioneering early fintech innovations with global partners such as British Telecom, NTT DoCoMo and Credit Suisse.
 
 The Entrepreneur in Residence role allows Kirk to work closely with early-stage ventures, providing strategic guidance on product development, market entry, fundraising, and scaling operations. His involvement with Whatnot demonstrates his commitment to ecosystem building and his belief in the power of structured support systems for emerging entrepreneurs.
 
@@ -564,7 +564,7 @@ The Quest Language Facebook page shares updates about Quest Edtech's activities,
 
 ### Company Websites
 
-**Quest Edtech**: [https://quest.ac](https://quest.ac)  
+**Quest Edtech**: [https://questedtech.com](https://questedtech.com)  
 The primary website for Quest Edtech and its educational platforms[6].
 
 **Edknovate**: [https://edknovate.com](https://edknovate.com)  
@@ -657,7 +657,7 @@ As the technology landscape continues to evolve at an accelerating pace, Kirk's 
 
 [5]: LinkedIn Post - Kirk Pathumanun on StockSmart.com. https://www.linkedin.com/posts/kirkjaa_i-would-like-to-express-my-gratitude-for-activity-7293511829786398720-dSpp
 
-[6]: Quest Edtech Website. https://quest.ac
+[6]: Quest Edtech Website. https://questedtech.com
 
 [7]: User-provided information on QuestLanguage founding date
 

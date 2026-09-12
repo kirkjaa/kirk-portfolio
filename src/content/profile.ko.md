@@ -66,7 +66,7 @@
 
 ### Whatnot Startup Studio (Entrepreneur in Residence)
 
-- SaaS, FMCG, VC 경험을 바탕으로 초기 스타트업의 제품 개발·시장 진입 전략 지도
+- 2025년 1월부터 방콕 벤처 빌더 Whatnot Startup Studio의 Entrepreneur in Residence로서 벤처 빌딩과 기업 AI 전환을 담당
 
 ### Digital Dialogue / CUBIKA (2025)
 
@@ -90,7 +90,6 @@
 - NextRise 2025 Seoul Strategist Award
 - E27 Top 100 Program Mentor 2025
 - Angel Fund Connect 2025 Winner (DDLG)
-- Microsoft Partner of the Year (Data & AI) 5년 연속 등 다양한 수상 경력
 
 ---
 
@@ -174,7 +173,7 @@ e27에 기고한 주요 기사:
 - LinkedIn: [https://www.linkedin.com/in/kirkjaa/](https://www.linkedin.com/in/kirkjaa/)
 - e27 Author Profile: [https://e27.co/user/kirk.pathumanun/](https://e27.co/user/kirk.pathumanun/)
 - Facebook Page: [https://www.facebook.com/kirkjaaa/](https://www.facebook.com/kirkjaaa/)
-- 웹사이트: [https://quest.ac](https://quest.ac), [https://edknovate.com](https://edknovate.com)
+- 웹사이트: [https://questedtech.com](https://questedtech.com), [https://edknovate.com](https://edknovate.com)
 - 문의 이메일: `quest@edknovate.com`
 
 ---

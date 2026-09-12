@@ -1,114 +1,43 @@
-# Kirk Pathumanun - Portfolio Website
+# kirkp.com — Kirk Pathumanun
 
-Professional portfolio website showcasing 25 years of venture building experience.
+Personal site of Kirk Pathumanun, venture builder and technical founder. Live at **https://kirkp.com**.
 
-## 🚀 Quick Start with Docker
+React 18 · TypeScript · Vite 6 · Tailwind CSS 4 · wouter · react-markdown. Trilingual (EN / TH / KO) with light and dark themes.
 
-### Development Mode (with hot reload)
-```bash
-docker-compose up kirk-portfolio-dev
-```
-The site will be available at `http://localhost:5173`
+## Develop
 
-### Production Mode
-```bash
-docker-compose --profile production up kirk-portfolio
-```
-The built site will be served at `http://localhost:5173`
-
-## 📦 Local Development (without Docker)
-
-### Prerequisites
-- Node.js 20 or higher
-- npm
-
-### Installation
 ```bash
 npm install
+npm run dev        # http://localhost:5173
+npm run build      # type-check + production build into dist/
+npm run preview    # serve dist/ locally
 ```
 
-### Development Server
-```bash
-npm run dev
+## Structure
+
+```
+index.html                 head metadata, fonts, JSON-LD
+public/favicon.svg         KP monogram
+public/images/             kirk-pathumanun-portrait.jpg · events/ · logos/ · mentees/  (all ≤ 1600 px)
+src/index.css              design tokens (navy / off-white / amber; Archivo + IBM Plex) and components
+src/content/strings.ts     every UI string in EN / TH / KO
+src/content/homeContent.ts roles, track record, articles, mentorship, gallery captions
+src/content/links.ts       the only public contact points
+src/content/profile.*.md   long-form profile rendered on /about, /ventures, /publications, /profile
+src/pages/                 Home · About · Ventures · Publications · Profile · NotFound
+src/components/            Header · Footer · AppLayout · PageHeader · SectionHeading · MarkdownContent
 ```
 
-### Build for Production
-```bash
-npm run build
-```
+The visual system is shared with the QUEST EDTECH corporate deck: deep navy `#0B1F3A` and off-white `#F7F6F2` grounds, amber `#F2A93B` as the single accent, electric blue `#2F6FED` for links only; Archivo for display, IBM Plex Sans (with the Thai and KR cuts) for body, IBM Plex Mono for labels.
 
-### Preview Production Build
-```bash
-npm run preview
-```
+## Content rules
 
-## 🐳 Docker Commands
+- Facts on the site come from the knowledge base; do not add awards, clients, funding or dates that are not verified there.
+- The company website is **questedtech.com** (quest.ac is retired).
+- Public contact is `quest@edknovate.com` only.
 
-### Build and start development container
-```bash
-docker-compose up -d kirk-portfolio-dev
-```
+## Deploy
 
-### Build and start production container
-```bash
-docker-compose --profile production up -d kirk-portfolio
-```
+See [DEPLOYMENT.md](DEPLOYMENT.md). Production runs the `kirk-portfolio` container (`serve -s dist`) behind Nginx Proxy Manager.
 
-### Stop containers
-```bash
-docker-compose down
-```
-
-### Rebuild containers
-```bash
-docker-compose build --no-cache
-```
-
-### View logs
-```bash
-docker-compose logs -f kirk-portfolio-dev
-# or for production
-docker-compose logs -f kirk-portfolio
-```
-
-## 🌐 Deployment
-
-The site is deployed at: **https://kirk.edknovate.com**
-
-### Nginx Reverse Proxy Manager Setup
-When using Nginx Reverse Proxy Manager:
-1. Point your proxy to `http://kirk-portfolio:5173` (production) or `http://kirk-portfolio-dev:5173` (development)
-2. Enable SSL/TLS with Let's Encrypt
-3. Configure domain: `kirk.edknovate.com`
-
-## 📁 Project Structure
-```
-.
-├── src/
-│   ├── components/     # React components
-│   ├── contexts/       # React contexts (Theme)
-│   ├── lib/           # Utility functions
-│   ├── pages/         # Page components
-│   ├── App.tsx        # Main app component
-│   ├── main.tsx       # Entry point
-│   └── index.css      # Global styles
-├── public/
-│   └── images/        # Static images
-├── Dockerfile         # Production container
-├── Dockerfile.dev     # Development container
-├── docker-compose.yml # Docker orchestration
-└── package.json       # Dependencies
-```
-
-## 🛠 Technology Stack
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS 4
-- Wouter (routing)
-- Lucide React (icons)
-- Docker
-
-## 📝 License
-© 2025 Kirk Pathumanun. All rights reserved.
-
+© 2026 Kirk Pathumanun. All rights reserved.

@@ -1,7 +1,7 @@
 # Deployment Guide - Kirk Pathumanun Portfolio
 
 ## 🌐 Deployment URL
-**https://kirk.edknovate.com**
+**https://kirkp.com**
 
 ## 🐳 Docker Deployment
 
@@ -52,7 +52,7 @@ Since you're using Nginx Reverse Proxy Manager, configure it as follows:
 
 ### Proxy Host Configuration
 
-1. **Domain Names**: `kirk.edknovate.com`
+1. **Domain Names**: `kirkp.com`
 
 2. **Scheme**: `http`
 
@@ -64,7 +64,7 @@ Since you're using Nginx Reverse Proxy Manager, configure it as follows:
 
 5. **SSL Certificate**:
    - Enable "Force SSL"
-   - Request a new Let's Encrypt certificate for `kirk.edknovate.com`
+   - Request a new Let's Encrypt certificate for `kirkp.com`
 
 6. **Advanced Settings** (optional):
 ```nginx
@@ -82,20 +82,14 @@ proxy_set_header X-Forwarded-Proto $scheme;
 # 1. Clone/copy the repository to your server
 cd /path/to/project
 
-# 2. Run setup (optional, copies images)
-# PowerShell (Windows)
-.\setup.ps1
-# or Bash (Linux/Mac)
-chmod +x setup.sh && ./setup.sh
-
-# 3. Start production container
+# 2. Start production container
 docker-compose --profile production up -d kirk-portfolio
 
 # 4. Configure Nginx Reverse Proxy Manager
 # Point to kirk-portfolio:5173 with SSL enabled
 
 # 5. Verify deployment
-curl https://kirk.edknovate.com
+curl https://kirkp.com
 ```
 
 ### Updates/Redeployment
@@ -114,18 +108,7 @@ docker-compose logs kirk-portfolio
 
 ## 📦 Image Files
 
-All image files should be in `public/images/` directory:
-- `Questlogo.png`
-- `pasted_file_*.png` (various event and profile photos)
-
-Run the setup script to copy images from the root directory:
-```bash
-# PowerShell
-.\setup.ps1
-
-# Bash
-./setup.sh
-```
+All images live in `public/images/` (`kirk-pathumanun-portrait.jpg`, `events/`, `logos/`, `mentees/`), already sized for the web (≤ 1600 px, ~5 MB in total). Add new photos there and reference them from `src/content/homeContent.ts`.
 
 ## 🔍 Troubleshooting
 
@@ -148,15 +131,6 @@ lsof -i :5173
 
 # Change port in docker-compose.yml if needed
 # Example: "8080:5173" to use port 8080 instead
-```
-
-### Images not loading
-```bash
-# Verify images are in public/images/
-ls public/images/
-
-# Copy images manually if needed
-cp *.png public/images/
 ```
 
 ### Changes not reflecting
@@ -219,5 +193,5 @@ docker-compose logs --tail=100 kirk-portfolio
 - In production, the built static files are served by `serve` package
 - Container automatically restarts unless stopped (`restart: unless-stopped`)
 - Development mode supports hot module replacement (HMR)
-- All changes to the deployment URL have been updated to `https://kirk.edknovate.com`
+- The public site is https://kirkp.com; the Vite **dev** server must never be exposed publicly (see `vite.config.ts` for the scanner guard)
 

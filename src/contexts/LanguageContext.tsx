@@ -1,6 +1,9 @@
-import { createContext, useContext, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 export type Language = "en" | "th" | "ko";
+
+const STORAGE_KEY = "kirkp-language";
+const SUPPORTED: Language[] = ["en", "th", "ko"];
 
 interface LanguageProviderProps {
   children: React.ReactNode;
@@ -12,26 +15,43 @@ interface LanguageProviderState {
   setLanguage: (language: Language) => void;
 }
 
-const LanguageContext = createContext<LanguageProviderState | undefined>(
-  undefined
-);
+const LanguageContext = createContext<LanguageProviderState | undefined>(undefined);
 
-export function LanguageProvider({
-  children,
-  defaultLanguage = "en",
-}: LanguageProviderProps) {
-  const [language, setLanguage] = useState<Language>(defaultLanguage);
+function readStoredLanguage(fallback: Language): Language {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY);
+    if (stored && SUPPORTED.includes(stored as Language)) return stored as Language;
+  } catch {
+    /* storage unavailable — fall through */
+  }
+  return fallback;
+}
+
+export function LanguageProvider({ children, defaultLanguage = "en" }: LanguageProviderProps) {
+  const [language, setLanguageState] = useState<Language>(() => readStoredLanguage(defaultLanguage));
+
+  // Keep <html lang> in step so the Thai / Korean font cuts apply.
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   const value = useMemo(
-    () => ({ language, setLanguage }),
+    () => ({
+      language,
+      setLanguage: (next: Language) => {
+        try {
+          window.localStorage.setItem(STORAGE_KEY, next);
+        } catch {
+          /* ignore */
+        }
+        setLanguageState(next);
+      },
+    }),
     [language]
   );
 
-  return (
-    <LanguageContext.Provider value={value}>
-      {children}
-    </LanguageContext.Provider>
-  );
+  return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
 }
 
 export function useLanguage() {

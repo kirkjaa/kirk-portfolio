@@ -1,187 +1,135 @@
 import { Link, useLocation } from "wouter";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, Moon, Sun, X } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
 import { Language, useLanguage } from "@/contexts/LanguageContext";
 import { getStrings } from "@/content/strings";
 
-interface NavItem {
-  label: string;
-  href: string;
+const LANGUAGES: Language[] = ["en", "th", "ko"];
+
+function scrollToContact() {
+  document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 export function Header() {
   const [location, navigate] = useLocation();
-  const [isOpen, setIsOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const { resolvedTheme, toggleTheme } = useTheme();
   const { language, setLanguage } = useLanguage();
-  const strings = getStrings(language);
+  const s = getStrings(language);
 
-  const navItems: NavItem[] = [
-    { label: strings.navigation.home, href: "/" },
-    { label: strings.navigation.about, href: "/about" },
-    { label: strings.navigation.ventures, href: "/ventures" },
-    { label: strings.navigation.publications, href: "/publications" },
-    { label: strings.navigation.profile, href: "/profile" },
-    { label: strings.navigation.contact, href: "/#contact" },
+  const nav = [
+    { label: s.navigation.home, href: "/" },
+    { label: s.navigation.about, href: "/about" },
+    { label: s.navigation.ventures, href: "/ventures" },
+    { label: s.navigation.writing, href: "/publications" },
+    { label: s.navigation.profile, href: "/profile" },
   ];
 
-  const languages: Language[] = ["en", "th", "ko"];
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
 
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  const handleContact = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    setOpen(false);
+    if (location !== "/") {
+      navigate("/");
+      window.setTimeout(scrollToContact, 150);
+    } else {
+      scrollToContact();
     }
   };
 
-  const handleLinkClick = (
-    event: React.MouseEvent<HTMLAnchorElement>,
-    href: string
-  ) => {
-    if (href === "/#contact") {
-      event.preventDefault();
-      setIsOpen(false);
-      if (location !== "/") {
-        navigate("/");
-        requestAnimationFrame(() => {
-          setTimeout(() => scrollToContact(), 150);
-        });
-      } else {
-        scrollToContact();
-      }
-      return;
-    }
+  const linkClass = (href: string, size: "sm" | "base" = "sm") =>
+    [
+      size === "sm" ? "text-sm" : "text-base py-2",
+      "font-medium transition-colors",
+      location === href
+        ? "text-fg underline decoration-accent decoration-2 underline-offset-8"
+        : "text-fg-muted hover:text-fg",
+    ].join(" ");
 
-    setIsOpen(false);
-  };
+  const themeTitle = resolvedTheme === "dark" ? s.header.themeToggle.light : s.header.themeToggle.dark;
 
-  const isActive = (href: string) => {
-    if (href === "/#contact") return false;
-    return location === href;
-  };
+  const LanguageSwitch = ({ className = "" }: { className?: string }) => (
+    <div role="group" aria-label={s.header.language.label} className={`flex border border-line ${className}`}>
+      {LANGUAGES.map((lang) => (
+        <button
+          key={lang}
+          type="button"
+          onClick={() => setLanguage(lang)}
+          aria-pressed={lang === language}
+          className={`px-2.5 py-1.5 font-mono text-[11px] tracking-[0.12em] transition-colors ${
+            lang === language ? "bg-fg text-surface" : "text-fg-muted hover:text-fg"
+          }`}
+        >
+          {s.header.language.options[lang]}
+        </button>
+      ))}
+    </div>
+  );
+
+  const ThemeButton = ({ className = "" }: { className?: string }) => (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label={s.header.themeToggle.aria}
+      title={themeTitle}
+      className={`flex h-9 w-9 items-center justify-center border border-line text-fg-muted transition-colors hover:border-line-strong hover:text-fg ${className}`}
+    >
+      {resolvedTheme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+    </button>
+  );
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-gray-200 dark:bg-slate-900/80 dark:border-slate-700">
-      <div className="container flex items-center justify-between py-4 gap-4">
-        <Link href="/">
-          <a
-            className="font-bold text-lg md:text-xl gradient-text"
-            onClick={(event) => handleLinkClick(event, "/")}
-          >
-            {strings.siteTitle}
-          </a>
+    <header className="sticky top-0 z-50 border-b border-line bg-surface/90 backdrop-blur">
+      <div className="container flex h-16 items-center justify-between gap-6">
+        <Link href="/" className="font-display text-[1.05rem] font-bold tracking-tight text-fg">
+          {s.wordmark}
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-6">
-          {navItems.map((item) => (
-            <Link key={item.href} href={item.href}>
-              <a
-                className={`text-sm font-semibold transition-colors hover:text-blue-600 dark:hover:text-blue-400 ${
-                  isActive(item.href)
-                    ? "text-blue-600 dark:text-blue-400"
-                    : "text-gray-700 dark:text-slate-300"
-                }`}
-                onClick={(event) => handleLinkClick(event, item.href)}
-              >
-                {item.label}
-              </a>
+        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+          {nav.map((item) => (
+            <Link key={item.href} href={item.href} className={linkClass(item.href)}>
+              {item.label}
             </Link>
           ))}
+          <a href="/#contact" onClick={handleContact} className="text-sm font-medium text-fg-muted transition-colors hover:text-fg">
+            {s.navigation.contact}
+          </a>
         </nav>
 
-        <div className="hidden lg:flex items-center gap-3">
-          <button
-            type="button"
-            onClick={toggleTheme}
-            className="flex items-center justify-center rounded-full border border-gray-200 dark:border-slate-700 p-2 text-gray-700 hover:bg-gray-100 dark:text-slate-200 dark:hover:bg-slate-800 transition"
-            aria-label={strings.header.themeToggle.aria}
-            title={
-              resolvedTheme === "dark"
-                ? strings.header.themeToggle.light
-                : strings.header.themeToggle.dark
-            }
-          >
-            {resolvedTheme === "dark" ? (
-              <Sun className="w-5 h-5" />
-            ) : (
-              <Moon className="w-5 h-5" />
-            )}
-          </button>
-          <label className="sr-only" htmlFor="language-select-desktop">
-            {strings.header.language.label}
-          </label>
-          <select
-            id="language-select-desktop"
-            className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-2.5 py-1.5 text-sm font-medium text-gray-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            value={language}
-            onChange={(event) => setLanguage(event.target.value as Language)}
-          >
-            {languages.map((lang) => (
-              <option key={lang} value={lang}>
-                {strings.header.language.options[lang]}
-              </option>
-            ))}
-          </select>
+        <div className="hidden items-center gap-3 lg:flex">
+          <LanguageSwitch />
+          <ThemeButton />
         </div>
 
         <button
-          className="lg:hidden p-2 rounded-md border border-gray-200 text-gray-700 hover:bg-gray-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800 transition"
-          onClick={() => setIsOpen((prev) => !prev)}
-          aria-label="Toggle navigation menu"
+          type="button"
+          className="flex h-9 w-9 items-center justify-center border border-line text-fg lg:hidden"
+          onClick={() => setOpen((value) => !value)}
+          aria-expanded={open}
+          aria-label={s.header.menu}
         >
-          {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
-      {isOpen && (
-        <div className="lg:hidden border-t border-gray-200 bg-white/90 dark:bg-slate-900/95 dark:border-slate-700 backdrop-blur">
-          <div className="container py-4 flex flex-col gap-3">
-            {navItems.map((item) => (
-              <Link key={item.href} href={item.href}>
-                <a
-                  className={`text-base font-semibold transition-colors hover:text-blue-600 dark:hover:text-blue-400 ${
-                    isActive(item.href)
-                      ? "text-blue-600 dark:text-blue-400"
-                      : "text-gray-700 dark:text-slate-300"
-                  }`}
-                  onClick={(event) => handleLinkClick(event, item.href)}
-                >
-                  {item.label}
-                </a>
+      {open && (
+        <div className="border-t border-line bg-surface lg:hidden">
+          <div className="container flex flex-col py-4">
+            {nav.map((item) => (
+              <Link key={item.href} href={item.href} className={linkClass(item.href, "base")}>
+                {item.label}
               </Link>
             ))}
-            <div className="flex items-center justify-between pt-3">
-              <button
-                type="button"
-                onClick={() => {
-                  toggleTheme();
-                }}
-                className="flex items-center gap-2 rounded-full border border-gray-200 dark:border-slate-700 px-3 py-2 text-sm font-medium text-gray-700 dark:text-slate-200"
-              >
-                {resolvedTheme === "dark" ? (
-                  <Sun className="w-4 h-4" />
-                ) : (
-                  <Moon className="w-4 h-4" />
-                )}
-                <span>
-                  {resolvedTheme === "dark"
-                    ? strings.header.themeToggle.light
-                    : strings.header.themeToggle.dark}
-                </span>
-              </button>
-              <select
-                className="rounded-lg border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-2.5 py-1.5 text-sm font-medium text-gray-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={language}
-                onChange={(event) => setLanguage(event.target.value as Language)}
-                aria-label={strings.header.language.label}
-              >
-                {languages.map((lang) => (
-                  <option key={lang} value={lang}>
-                    {strings.header.language.options[lang]}
-                  </option>
-                ))}
-              </select>
+            <a href="/#contact" onClick={handleContact} className="py-2 text-base font-medium text-fg-muted hover:text-fg">
+              {s.navigation.contact}
+            </a>
+            <div className="mt-4 flex items-center justify-between border-t border-line pt-4">
+              <LanguageSwitch />
+              <ThemeButton />
             </div>
           </div>
         </div>

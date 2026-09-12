@@ -1,58 +1,50 @@
-import { MarkdownContent } from "@/components/MarkdownContent";
-import {
-  buildMarkdownFromSections,
-  getSectionsByIds,
-  parseMarkdownSections,
-} from "@/utils/markdown";
 import { useMemo } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { MarkdownContent } from "@/components/MarkdownContent";
+import { PageHeader } from "@/components/PageHeader";
+import { buildMarkdownFromSections, getSectionsByIds, parseMarkdownSections } from "@/utils/markdown";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
+import { getHomeContent } from "@/content/homeContent";
+import { getStrings } from "@/content/strings";
 
-const publicationSectionIds = [
-  "thought-leadership-publications",
-  "technical-expertise-innovation-focus",
-  "digital-presence-contact-information",
-  "references",
-];
+const WRITING_SECTIONS = ["thought-leadership", "technical-expertise", "digital-presence"];
 
 export default function Publications() {
   const { language } = useLanguage();
-  const profileContent = useMemo(() => getProfileMarkdown(language), [language]);
+  const s = getStrings(language);
+  const { articles } = getHomeContent(language);
   const markdown = useMemo(() => {
-    const sections = parseMarkdownSections(profileContent);
-    const selected = getSectionsByIds(sections, publicationSectionIds);
-    return buildMarkdownFromSections(selected);
-  }, [profileContent]);
+    const sections = parseMarkdownSections(getProfileMarkdown(language));
+    return buildMarkdownFromSections(getSectionsByIds(sections, WRITING_SECTIONS));
+  }, [language]);
 
   return (
-    <div className="container">
-      <div className="max-w-3xl mb-12">
-        <p className="uppercase tracking-wide text-sm font-semibold text-blue-600 mb-3">
-          {language === "en"
-            ? "Thought Leadership & Media"
-            : language === "th"
-            ? "บทความและสื่อเผยแพร่"
-            : "사고 리더십 & 미디어"}
-        </p>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-slate-100 mb-4">
-          {language === "en"
-            ? "Publications, Expertise, and Global Reach"
-            : language === "th"
-            ? "ผลงานเผยแพร่ ความเชี่ยวชาญ และเครือข่ายระดับโลก"
-            : "기고문, 전문성, 글로벌 영향력"}
-        </h1>
-        <p className="text-lg md:text-xl text-gray-700 dark:text-slate-300">
-          {language === "en"
-            ? "A curated library of articles, insights, and media coverage showcasing Kirk Pathumanun's thought leadership across education, sustainability, logistics, and innovation ecosystems."
-            : language === "th"
-            ? "รวมบทความ อินไซท์ และสื่อที่สะท้อนบทบาทผู้นำทางความคิดของเคิร์ก ปถุมานันท์ ในด้านการศึกษา ความยั่งยืน โลจิสติกส์ และระบบนิเวศนวัตกรรม"
-            : "교육, 지속가능성, 물류, 혁신 생태계 전반에서 커크 파투마난의 사고 리더십을 보여 주는 기사와 인사이트, 미디어를 모았습니다."}
-        </p>
+    <article>
+      <PageHeader eyebrow={s.pages.writing.eyebrow} title={s.pages.writing.title} lede={s.pages.writing.lede} />
+      <div className="container pb-24 pt-12">
+        <p className="eyebrow eyebrow-accent">{s.sections.writing.eyebrow}</p>
+        <ol className="mt-6 max-w-3xl border-t border-line">
+          {articles.map((article) => (
+            <li key={article.link} className="border-b border-line">
+              <a href={article.link} target="_blank" rel="noopener noreferrer" className="group grid gap-1 py-4 md:grid-cols-[7.5rem_1fr] md:gap-6">
+                <span className="caption md:pt-1">{article.date}</span>
+                <span>
+                  <span className="font-display font-semibold leading-snug tracking-tight decoration-accent decoration-2 underline-offset-4 group-hover:underline">
+                    {article.title}
+                  </span>
+                  <span className="caption mt-1 inline-flex items-center gap-1 md:ml-3 md:mt-0">
+                    {s.labels.readOnE27} <ArrowUpRight className="h-3 w-3" />
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ol>
+        <div className="mt-16">
+          <MarkdownContent content={markdown} />
+        </div>
       </div>
-
-      <div className="rounded-3xl border border-gray-200 bg-white shadow-lg p-6 md:p-10 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">
-        <MarkdownContent content={markdown} className="space-y-6" />
-      </div>
-    </div>
+    </article>
   );
 }

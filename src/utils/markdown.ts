@@ -24,56 +24,54 @@ export function parseMarkdownSections(markdown: string): MarkdownSection[] {
     if (match) {
       const level = match[1].length;
       const title = match[2].trim();
-      const id = slugify(title);
-
       pushCurrent();
-      current = {
-        id,
-        title,
-        level,
-        content: "",
-      };
+      current = { id: slugify(title), title, level, content: "" };
     } else {
       if (!current) {
-        current = {
-          id: "introduction",
-          title: "Introduction",
-          level: 1,
-          content: "",
-        };
+        current = { id: "introduction", title: "Introduction", level: 1, content: "" };
       }
-
       current.content += line + "\n";
     }
   }
 
   pushCurrent();
-
   return sections;
 }
 
 export function buildMarkdownFromSections(sections: MarkdownSection[]): string {
   return sections
-    .map((section) => {
-      const hashes = "#".repeat(section.level);
-      return `${hashes} ${section.title}\n${section.content.trim()}\n`;
-    })
+    .map((section) => `${"#".repeat(section.level)} ${section.title}\n${section.content.trim()}\n`)
     .join("\n");
 }
 
-export function getSectionsByIds(
-  sections: MarkdownSection[],
-  ids: string[]
-): MarkdownSection[] {
-  const lookup = new Map(sections.map((section) => [section.id, section] as const));
-  return ids
-    .map((id) => lookup.get(id))
-    .filter((section): section is MarkdownSection => Boolean(section));
+/**
+ * Select sections whose id matches one of the keys (exact, or key followed by
+ * a hyphen — so "early-career" finds both "early-career-fintech" and
+ * "early-career-pioneering-work-in-fintech" across the three languages) and
+ * carry their child headings with them, up to the next heading of the same or
+ * a higher level.
+ */
+export function getSectionsByIds(sections: MarkdownSection[], keys: string[]): MarkdownSection[] {
+  const matches = (id: string) => keys.some((key) => id === key || id.startsWith(`${key}-`));
+  const picked: MarkdownSection[] = [];
+  let carryLevel: number | null = null;
+
+  for (const section of sections) {
+    if (matches(section.id)) {
+      picked.push(section);
+      carryLevel = section.level;
+      continue;
+    }
+    if (carryLevel !== null && section.level > carryLevel) {
+      picked.push(section);
+      continue;
+    }
+    carryLevel = null;
+  }
+
+  return picked;
 }
 
-export function getSectionsByLevel(
-  sections: MarkdownSection[],
-  level: number
-): MarkdownSection[] {
+export function getSectionsByLevel(sections: MarkdownSection[], level: number): MarkdownSection[] {
   return sections.filter((section) => section.level === level);
 }

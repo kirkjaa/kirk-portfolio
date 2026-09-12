@@ -72,7 +72,7 @@
 
 ### Whatnot Startup Studio (Entrepreneur in Residence)
 
-- นำประสบการณ์กว่า 10 ปีด้าน SaaS, FMCG และ Venture Capital มาช่วยสตูดิโอสร้าง/เร่งธุรกิจ รวมถึงการให้คำปรึกษาเรื่องการพัฒนาผลิตภัณฑ์และการขยายตลาด
+- ดำรงตำแหน่ง Entrepreneur in Residence ที่ Whatnot Startup Studio (Venture Builder ในกรุงเทพฯ) ตั้งแต่มกราคม 2025 ดูแลด้าน Venture Building และ AI Transformation ให้ธุรกิจ
 
 ### Digital Dialogue (DDLG) / CUBIKA (2025)
 
@@ -96,7 +96,6 @@
 - NextRise 2025 Seoul Strategist Award
 - E27 Top 100 Program Mentor (2025)
 - Angel Fund Connect Winner 2025 (DDLG)
-- Microsoft Partner of the Year (Data & AI) – หลายปีซ้อนผ่าน Digital Dialogue
 - AWS EdStart, Y Combinator Startup School, TechBite, APTG Accelerator ฯลฯ
 
 รางวัลเหล่านี้สะท้อนถึงการเป็นผู้นำนวัตกรรมระดับภูมิภาค การได้รับการสนับสนุนจากทั้งภาครัฐและองค์กรระดับโลก และการรักษามาตรฐานความเป็นเลิศต่อเนื่อง
@@ -183,7 +182,7 @@
 - LinkedIn: [https://www.linkedin.com/in/kirkjaa/](https://www.linkedin.com/in/kirkjaa/)
 - e27 Author Profile: [https://e27.co/user/kirk.pathumanun/](https://e27.co/user/kirk.pathumanun/)
 - Facebook Page: [https://www.facebook.com/kirkjaaa/](https://www.facebook.com/kirkjaaa/)
-- เว็บไซต์: [https://quest.ac](https://quest.ac), [https://edknovate.com](https://edknovate.com)
+- เว็บไซต์: [https://questedtech.com](https://questedtech.com), [https://edknovate.com](https://edknovate.com)
 - Email ติดต่อหลัก: `quest@edknovate.com`
 
 ---
@@ -212,7 +211,7 @@
 
 [5]: LinkedIn Post - Kirk Pathumanun on StockSmart.com. https://www.linkedin.com/posts/kirkjaa_i-would-like-to-express-my-gratitude-for-activity-7293511829786398720-dSpp
 
-[6]: Quest Edtech Website. https://quest.ac
+[6]: Quest Edtech Website. https://questedtech.com
 
 [7]: User-provided information on QuestLanguage founding date
 

@@ -1,17 +1,17 @@
-export default function NotFound() {
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-orange-50">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
-        <p className="text-2xl text-gray-600 mb-8">Page Not Found</p>
-        <a 
-          href="/" 
-          className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all inline-block"
-        >
-          Go Home
-        </a>
-      </div>
-    </div>
-  )
-}
+import { Link } from "wouter";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { getStrings } from "@/content/strings";
 
+export default function NotFound() {
+  const { language } = useLanguage();
+  const s = getStrings(language);
+
+  return (
+    <div className="container py-32">
+      <p className="eyebrow eyebrow-accent">404</p>
+      <h1 className="display-lg mt-5">{s.pages.notFound.title}</h1>
+      <p className="lede mt-4">{s.pages.notFound.body}</p>
+      <Link href="/" className="btn btn-primary mt-8">{s.pages.notFound.cta}</Link>
+    </div>
+  );
+}

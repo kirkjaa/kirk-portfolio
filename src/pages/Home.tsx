@@ -1,409 +1,330 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { ExternalLink, Award, BookOpen, Mail, Linkedin } from "lucide-react";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { ArrowRight, ArrowUpRight, Linkedin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getStrings } from "@/content/strings";
-import { getHomeContent } from "@/content/homeContent";
+import { getHomeContent, TrackItem } from "@/content/homeContent";
+import { LINKS } from "@/content/links";
+import { SectionHeading } from "@/components/SectionHeading";
+import { ImageWithFallback } from "@/components/ImageWithFallback";
+
+function groupByYear(items: TrackItem[]): [string, TrackItem[]][] {
+  const map = new Map<string, TrackItem[]>();
+  for (const item of items) {
+    const list = map.get(item.year) ?? [];
+    list.push(item);
+    map.set(item.year, list);
+  }
+  return Array.from(map.entries());
+}
 
 export default function Home() {
   const { language } = useLanguage();
-  const strings = getStrings(language);
-  const content = getHomeContent(language);
+  const s = getStrings(language);
+  const c = getHomeContent(language);
+  const years = groupByYear(c.track);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-950">
-      <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
-        <div className="container relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="text-5xl md:text-7xl font-bold">
-                <span className="gradient-text">{strings.siteTitle}</span>
-              </h1>
-              <p className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-slate-100">
-                {content.hero.subtitle}
-              </p>
-              <p className="text-xl text-gray-600 dark:text-slate-300 leading-relaxed">
-                {content.hero.description}
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                  <a
-                    href="https://www.linkedin.com/in/kirkjaa/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                    {strings.cta.connectLinkedIn}
-                  </a>
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 dark:border-blue-400 dark:text-blue-300 dark:hover:bg-slate-800"
-                  onClick={() =>
-                    document
-                      .getElementById("contact")
-                      ?.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
-                  <Mail className="w-5 h-5 mr-2" />
-                  {strings.cta.getInTouch}
-                </Button>
-                <Link href="/profile">
-                  <a className="inline-flex items-center justify-center gap-2 rounded-md border border-blue-600 bg-transparent px-6 py-3 font-semibold text-blue-600 transition hover:bg-blue-50 dark:border-blue-400 dark:text-blue-300 dark:hover:bg-slate-800">
-                    {strings.cta.exploreProfile}
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="relative w-full max-w-md mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-orange-500 rounded-full blur-3xl opacity-30 animate-pulse"></div>
-                <ImageWithFallback
-                  src="/images/pasted_file_m3bgxM_image.png" 
-                  alt={strings.siteTitle}
-                  className="relative rounded-2xl shadow-2xl w-full"
-                />
-              </div>
+    <>
+      {/* Hero */}
+      <section className="border-b border-line">
+        <div className="container grid gap-12 pb-14 pt-14 lg:grid-cols-12 lg:items-end lg:gap-16 lg:pb-20 lg:pt-20">
+          <div className="lg:col-span-7">
+            <p className="eyebrow eyebrow-accent">{s.hero.eyebrow}</p>
+            <h1 className="display-xl mt-6">{s.hero.title}</h1>
+            <p className="lede mt-6">{s.hero.lede}</p>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <a className="btn btn-primary" href={`mailto:${LINKS.email}`}>
+                {s.hero.ctaPrimary}
+                <ArrowUpRight className="h-4 w-4" />
+              </a>
+              <a className="btn" href={LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-4 w-4" />
+                {s.hero.ctaSecondary}
+              </a>
+              <Link href="/profile" className="btn btn-ghost">
+                {s.hero.ctaTertiary}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
           </div>
+          <figure className="w-full max-w-sm lg:col-span-5 lg:justify-self-end">
+            <div className="frame frame-bar aspect-[4/5]">
+              <img
+                src="/images/kirk-pathumanun-portrait.jpg"
+                alt="Kirk Pathumanun"
+                width={800}
+                height={800}
+                className="h-full w-full object-cover object-top"
+              />
+            </div>
+            <figcaption className="caption mt-3">{s.hero.portraitCaption}</figcaption>
+          </figure>
         </div>
-      </section>
 
-      {/* About Section */}
-      <section className="py-20 bg-white dark:bg-slate-950">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            <span className="gradient-text">{content.aboutHeading}</span>
-          </h2>
-          <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 dark:text-slate-300 leading-relaxed">
-            {content.aboutParagraphs.map((paragraph, index) => (
-              <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Ventures Section */}
-      <section className="py-20 gradient-bg dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
-        <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.ventures.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 text-lg">
-            {content.ventures.subheading}
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {content.ventures.items.map((venture, index) => (
-              <Card
-                key={`${venture.name}-${index}`}
-                className="card-hover bg-white border-0 shadow-lg dark:bg-slate-900 dark:text-slate-200"
+          <dl className="grid grid-cols-2 border-t border-line md:grid-cols-4">
+            {s.proof.map((item, index) => (
+              <div
+                key={item.label}
+                className={`py-7 pr-6 ${index > 0 ? "md:border-l md:border-line md:pl-6" : ""} ${index % 2 === 1 ? "border-l border-line pl-6 md:border-l md:pl-6" : ""}`}
               >
-                <CardContent className="p-6">
-                  <div className="flex items-center justify-center h-24 mb-4">
-                    <ImageWithFallback
-                      src={venture.logo} 
-                      alt={venture.name} 
-                      className="max-h-full max-w-full object-contain"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-center">{venture.name}</h3>
-                  <p className="text-sm text-purple-600 font-semibold mb-1 text-center">
-                    {venture.role}
-                  </p>
-                  <p className="text-sm text-gray-500 dark:text-slate-400 mb-3 text-center">
-                    {venture.year}
-                  </p>
-                  <p className="text-gray-600 dark:text-slate-300 text-sm mb-4 text-center">
-                    {venture.description}
-                  </p>
-                  {venture.link && venture.link !== "#" && (
-                    <a 
-                      href={venture.link} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium text-sm"
-                    >
-                      {strings.cta.visitWebsite} <ExternalLink className="w-4 h-4" />
-                    </a>
-                  )}
-                </CardContent>
-              </Card>
+                <dt className="numeral">{item.value}</dt>
+                <dd className="mt-3 max-w-[18ch] text-sm leading-snug text-fg-muted">{item.label}</dd>
+              </div>
             ))}
+          </dl>
+        </div>
+      </section>
+
+      {/* About */}
+      <section className="section">
+        <div className="container grid gap-10 lg:grid-cols-12">
+          <div className="lg:col-span-4">
+            <SectionHeading eyebrow={s.sections.about.eyebrow} title={s.sections.about.title} />
+          </div>
+          <div className="space-y-5 lg:col-span-7 lg:col-start-6">
+            {c.about.map((paragraph, index) => (
+              <p key={index} className={`leading-relaxed text-fg-2 ${index === 0 ? "text-xl md:text-[1.35rem] md:leading-snug" : "text-[1.0625rem]"}`}>
+                {paragraph}
+              </p>
+            ))}
+            <Link href="/about" className="text-link inline-flex items-center gap-1 pt-2 text-sm font-medium">
+              {s.labels.fullProfile} <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Awards Timeline */}
-      <section className="py-20 bg-white dark:bg-slate-950">
+      {/* Roles & ventures */}
+      <section className="section border-t border-line">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.awards.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 text-lg">
-            {content.awards.subheading}
-          </p>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {content.awards.items.map((award, index) => (
-                <div key={index} className="flex gap-6 group">
-                  <div className="flex flex-col items-center">
-                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 transition-transform">
-                      {award.year}
+          <SectionHeading eyebrow={s.sections.roles.eyebrow} title={s.sections.roles.title} lede={s.sections.roles.lede} />
+          <ul className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+            {c.roles.map((role, index) => {
+              // The first role (QUEST EDTECH) runs full width; the remaining six fill a 3 × 2 grid.
+              const feature = index === 0;
+              return (
+                <li
+                  key={role.org}
+                  className={`flex flex-col gap-4 bg-surface-2 p-6 ${feature ? "lg:col-span-3 lg:flex-row lg:items-start lg:gap-10 lg:p-8" : ""}`}
+                >
+                  <div className={`flex items-start justify-between gap-4 ${feature ? "lg:w-40 lg:shrink-0 lg:flex-col" : ""}`}>
+                    <div className="logo-plate h-14 w-28">
+                      <ImageWithFallback src={role.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
                     </div>
-                    {index !== content.awards.items.length - 1 && (
-                      <div className="w-1 h-full bg-gradient-to-b from-blue-600 to-purple-600 opacity-20"></div>
+                    <span className="caption pt-1">
+                      {role.from} — {s.labels.present}
+                    </span>
+                  </div>
+                  <div className={`flex flex-col gap-4 ${feature ? "lg:max-w-2xl lg:flex-1" : "flex-1"}`}>
+                    <div>
+                      <h3 className={`font-display font-bold tracking-tight ${feature ? "text-2xl" : "text-lg"}`}>{role.org}</h3>
+                      <p className="mt-0.5 text-sm font-medium text-accent-ink">{role.role}</p>
+                    </div>
+                    <p className={`leading-relaxed text-fg-muted ${feature ? "text-base" : "text-sm"}`}>{role.blurb}</p>
+                    {role.link && (
+                      <a href={role.link} target="_blank" rel="noopener noreferrer" className="text-link mt-auto inline-flex items-center gap-1 text-sm">
+                        {s.labels.visit} <ArrowUpRight className="h-3.5 w-3.5" />
+                      </a>
                     )}
                   </div>
-                  <div className="flex-1 pb-8">
-                    <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-slate-900 dark:to-slate-900/80 p-6 rounded-lg shadow-md group-hover:shadow-xl transition-shadow">
-                      <div className="flex items-start gap-3">
-                        <Award className="w-6 h-6 text-orange-500 flex-shrink-0 mt-1" />
-                        <div>
-                          <h3 className="text-xl font-bold text-gray-800 dark:text-slate-200 mb-2">{award.title}</h3>
-                          <p className="text-gray-600 dark:text-slate-300">{award.description}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </section>
 
-      {/* Event Gallery */}
-      <section className="py-20 gradient-bg dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
+      {/* Thailand → Korea */}
+      <section className="section bg-navy text-paper dark:bg-void">
+        <div className="container grid gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-6">
+            <SectionHeading inverse eyebrow={s.sections.korea.eyebrow} title={s.sections.korea.title} />
+            <p className="mt-6 max-w-prose text-[1.0625rem] leading-relaxed text-paper/80">{s.sections.korea.body}</p>
+            <ul className="mt-6 flex flex-wrap gap-2">
+              {s.sections.korea.chips.map((chip) => (
+                <li key={chip} className="chip border-paper/25 text-paper/90">{chip}</li>
+              ))}
+            </ul>
+            <a className="btn btn-accent mt-8" href={`mailto:${LINKS.email}`}>
+              {s.sections.korea.cta}
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
+          </div>
+          <figure className="lg:col-span-6">
+            <div className="frame border-paper/20 bg-void">
+              <img
+                src="/images/events/2024-nextrise-seoul-duphonics-on-stage.jpg"
+                alt={s.sections.korea.photoCaption}
+                width={1600}
+                height={1200}
+                loading="lazy"
+                className="w-full object-cover"
+              />
+            </div>
+            <figcaption className="caption mt-3 text-mist">{s.sections.korea.photoCaption}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Track record */}
+      <section className="section">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.gallery.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 text-lg">
-            {content.gallery.subheading}
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {content.gallery.items.map((item, index) => (
-              <div
-                key={`${item.title}-${index}`}
-                className="group relative overflow-hidden rounded-lg shadow-lg card-hover bg-white dark:bg-slate-900"
-              >
-                <ImageWithFallback 
-                  src={item.src} 
-                  alt={item.title} 
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 text-white">
-                    <p className="text-xs font-semibold text-orange-400 mb-1">{item.event}</p>
-                    <p className="text-sm font-medium">{item.title}</p>
-                  </div>
+          <SectionHeading eyebrow={s.sections.track.eyebrow} title={s.sections.track.title} lede={s.sections.track.lede} />
+          <div className="mt-12 border-t-2 border-line-strong">
+            {years.map(([year, items]) => (
+              <div key={year} className="grid gap-3 border-b border-line py-8 md:grid-cols-12 md:gap-8">
+                <div className="md:col-span-2">
+                  <span className="numeral text-[2.25rem] md:text-[2.75rem]">{year}</span>
                 </div>
+                <ul className="divide-y divide-line md:col-span-10">
+                  {items.map((item) => (
+                    <li key={item.title} className="grid gap-1 py-3 md:grid-cols-[7.5rem_1fr] md:gap-6">
+                      <span className="caption md:pt-1">{s.labels.kinds[item.kind]}</span>
+                      <div>
+                        <p className="font-medium text-fg">{item.title}</p>
+                        {item.detail && <p className="mt-0.5 text-sm text-fg-muted">{item.detail}</p>}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Thought Leadership */}
-      <section className="py-20 bg-white dark:bg-slate-950">
+      {/* Writing */}
+      <section className="section border-t border-line bg-surface-3/50">
         <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.thoughtLeadership.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 text-lg">
-            {content.thoughtLeadership.subheading}
-          </p>
-          <div className="max-w-3xl mx-auto space-y-6">
-            {content.thoughtLeadership.items.map((pub, index) => (
-              <Card
-                key={`${pub.title}-${index}`}
-                className="card-hover border-0 shadow-lg bg-white dark:bg-slate-900 dark:text-slate-200"
-              >
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <BookOpen className="w-8 h-8 text-blue-600 flex-shrink-0" />
-                    <div className="flex-1">
-                      <h3 className="text-xl font-bold mb-2">{pub.title}</h3>
-                      <p className="text-sm text-gray-500 dark:text-slate-400 mb-3">
-                        {pub.outlet} • {pub.date}
-                      </p>
-                      <a 
-                        href={pub.link} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
-                      >
-                        {strings.cta.readArticle} <ExternalLink className="w-4 h-4" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Startups Under Mentorship Section */}
-      <section className="py-20 bg-gray-50 dark:bg-slate-900">
-        <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.mentorship.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 max-w-2xl mx-auto">
-            {content.mentorship.subheading}
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {content.mentorship.items.map((startup, index) => (
-              <Card
-                key={`${startup.name}-${index}`}
-                className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 overflow-hidden bg-white dark:bg-slate-900 dark:text-slate-200"
-              >
-                <CardContent className="p-0">
-                  <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-50 to-purple-50 dark:from-slate-900 dark:to-slate-900/80">
-                    <ImageWithFallback 
-                      src={startup.photo} 
-                      alt={startup.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                    />
-                    <div className="absolute top-4 right-4 bg-white dark:bg-slate-900 rounded-full p-3 shadow-lg">
-                      <ImageWithFallback 
-                        src={startup.logo} 
-                        alt={`${startup.name} logo`}
-                        className="w-12 h-12 object-contain"
-                      />
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-3">
-                      <h3 className="text-xl font-bold">{startup.name}</h3>
-                      {startup.link && (
-                        <a 
-                          href={startup.link} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
-                        >
-                          <ExternalLink className="w-5 h-5" />
-                        </a>
-                      )}
-                    </div>
-                    <p className="text-sm font-medium text-purple-600 mb-3">{startup.program}</p>
-                    <p className="text-gray-600 dark:text-slate-300">{startup.description}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Mentorship Success Stories Section */}
-      <section className="py-20 bg-white dark:bg-slate-950">
-        <div className="container">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-            <span className="gradient-text">{content.mentorshipSuccess.heading}</span>
-          </h2>
-          <p className="text-center text-gray-600 dark:text-slate-300 mb-12 max-w-2xl mx-auto">
-            {content.mentorshipSuccess.subheading}
-          </p>
-          <div className="max-w-4xl mx-auto">
-            {content.mentorshipSuccess.items.map((story, index) => (
-              <Card
-                key={`${story.name}-${index}`}
-                className="hover:shadow-2xl transition-all duration-300 bg-white dark:bg-slate-900 dark:text-slate-200"
-              >
-                <CardContent className="p-0">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="relative h-64 md:h-auto overflow-hidden">
-                      <ImageWithFallback 
-                        src={story.photo} 
-                        alt={story.name}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div className="p-8 flex flex-col justify-center">
-                      <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 self-start">
-                        {story.program}
-                      </div>
-                      <h3 className="text-2xl font-bold mb-2">{story.name}</h3>
-                      <p className="text-lg font-semibold text-purple-600 mb-4">{story.achievement}</p>
-                      <p className="text-gray-600 dark:text-slate-300 leading-relaxed">{story.description}</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="py-20 gradient-bg dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
-        <div className="container">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="gradient-text">{content.contact.heading}</span>
-            </h2>
-            <p className="text-xl text-gray-700 dark:text-slate-300 mb-8">
-              {content.contact.description}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                <a href="https://www.linkedin.com/in/kirkjaa/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                  <Linkedin className="w-5 h-5" />
-                  {strings.cta.contactLinkedIn}
+          <SectionHeading eyebrow={s.sections.writing.eyebrow} title={s.sections.writing.title} lede={s.sections.writing.lede} />
+          <ol className="mt-12 border-t border-line">
+            {c.articles.map((article) => (
+              <li key={article.link} className="border-b border-line">
+                <a
+                  href={article.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group grid gap-2 py-5 md:grid-cols-[8rem_1fr_auto] md:items-baseline md:gap-8"
+                >
+                  <span className="caption">{article.date}</span>
+                  <span>
+                    <span className="font-display text-lg font-semibold leading-snug tracking-tight decoration-accent decoration-2 underline-offset-4 group-hover:underline">
+                      {article.title}
+                    </span>
+                    <span className="mt-1 block text-sm text-fg-muted">{article.theme}</span>
+                  </span>
+                  <span className="caption inline-flex items-center gap-1 group-hover:text-fg">
+                    {s.labels.readOnE27} <ArrowUpRight className="h-3.5 w-3.5" />
+                  </span>
                 </a>
-              </Button>
-              <Button size="lg" variant="outline" className="border-2 dark:border-blue-400 dark:text-blue-300 dark:hover:bg-slate-800">
-                <a href="mailto:quest@edknovate.com" className="flex items-center gap-2">
-                  <Mail className="w-5 h-5" />
-                  {strings.cta.contactEmail}
-                </a>
-              </Button>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      {/* Mentorship & consulting */}
+      <section className="section border-t border-line">
+        <div className="container">
+          <SectionHeading eyebrow={s.sections.mentorship.eyebrow} title={s.sections.mentorship.title} lede={s.sections.mentorship.lede} />
+          <ul className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+            {c.mentorship.map((item) => (
+              <li key={item.name} className="flex flex-col bg-surface-2 p-6">
+                <div className="flex items-center gap-4">
+                  <div className="logo-plate h-14 w-14 shrink-0">
+                    <ImageWithFallback src={item.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
+                  </div>
+                  <div>
+                    <h3 className="font-display font-bold tracking-tight">{item.name}</h3>
+                    <p className="caption mt-0.5">{item.program}</p>
+                  </div>
+                </div>
+                <p className="mt-4 text-sm leading-relaxed text-fg-muted">{item.blurb}</p>
+                {item.link && (
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-link mt-4 inline-flex items-center gap-1 text-sm">
+                    {s.labels.visit} <ArrowUpRight className="h-3.5 w-3.5" />
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+
+          {c.success.map((story) => (
+            <div key={story.name} className="card mt-8 grid overflow-hidden md:grid-cols-[18rem_1fr]">
+              <div className="bg-void">
+                <ImageWithFallback src={story.photo} alt={story.name} className="h-56 w-full object-contain md:h-full" loading="lazy" />
+              </div>
+              <div className="p-6 md:p-8">
+                <p className="eyebrow eyebrow-accent">{s.labels.successStory}</p>
+                <h3 className="display-md mt-4">{story.name}</h3>
+                <p className="mt-1 font-medium text-accent-ink">{story.achievement}</p>
+                <p className="mt-4 max-w-prose leading-relaxed text-fg-muted">{story.blurb}</p>
+                <p className="caption mt-4">{story.program}</p>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      {/* Field notes */}
+      <section className="section border-t border-line">
         <div className="container">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">{strings.footer.title}</h3>
-            <p className="text-gray-400 mb-6">{strings.footer.subtitle}</p>
-            <div className="flex justify-center gap-6 mb-6">
-              <a href="https://www.linkedin.com/in/kirkjaa/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
-                <Linkedin className="w-6 h-6" />
+          <SectionHeading eyebrow={s.sections.gallery.eyebrow} title={s.sections.gallery.title} lede={s.sections.gallery.lede} />
+          <ul className="mt-12 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            {c.gallery.map((photo) => (
+              <li key={photo.src}>
+                <figure>
+                  <div className="frame aspect-[4/3]">
+                    <img src={photo.src} alt={photo.caption} loading="lazy" className="h-full w-full object-cover" />
+                  </div>
+                  <figcaption className="mt-3">
+                    <p className="caption">{photo.meta}</p>
+                    <p className="mt-1 text-sm text-fg-2">{photo.caption}</p>
+                  </figcaption>
+                </figure>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="contact" className="section scroll-mt-16 bg-navy text-paper dark:bg-void">
+        <div className="container grid gap-12 lg:grid-cols-12">
+          <div className="lg:col-span-7">
+            <SectionHeading inverse eyebrow={s.sections.contact.eyebrow} title={s.sections.contact.title} lede={s.sections.contact.lede} />
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a className="btn btn-accent" href={`mailto:${LINKS.email}`}>
+                {LINKS.email}
+                <ArrowUpRight className="h-4 w-4" />
               </a>
-              <a href="mailto:quest@edknovate.com" className="hover:text-blue-400 transition-colors">
-                <Mail className="w-6 h-6" />
+              <a className="btn border-paper/40 text-paper hover:bg-paper hover:text-navy" href={LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-4 w-4" />
+                {s.labels.linkedin}
               </a>
             </div>
-            <div className="text-sm text-gray-500 space-y-2">
-              <p>{strings.footer.copyright}</p>
-              <p className="text-xs space-x-1">
-                <span>{strings.footer.sourcesLabel}</span>
-                <a href="https://www.linkedin.com/in/kirkjaa/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-                  {strings.footer.sources.linkedin}
-                </a>
-                <span>•</span>
-                <a href="https://e27.co/user/kirk.pathumanun/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-                  {strings.footer.sources.e27}
-                </a>
-                <span>•</span>
-                <a href="https://www.digitalbridgethailand.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-                  {strings.footer.sources.digitalBridge}
-                </a>
-              </p>
-            </div>
           </div>
+          <dl className="grid gap-5 border-t border-paper/20 pt-8 text-sm lg:col-span-4 lg:col-start-9 lg:border-t-0 lg:pt-2">
+            <div>
+              <dt className="caption text-mist">{s.labels.email}</dt>
+              <dd className="mt-1"><a href={`mailto:${LINKS.email}`} className="text-paper hover:text-amber">{LINKS.email}</a></dd>
+            </div>
+            <div>
+              <dt className="caption text-mist">{s.labels.linkedin}</dt>
+              <dd className="mt-1"><a href={LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="text-paper hover:text-amber">linkedin.com/in/kirkjaa</a></dd>
+            </div>
+            <div>
+              <dt className="caption text-mist">{s.labels.company}</dt>
+              <dd className="mt-1"><a href={LINKS.company} target="_blank" rel="noopener noreferrer" className="text-paper hover:text-amber">questedtech.com</a></dd>
+            </div>
+            <div>
+              <dt className="caption text-mist">{s.labels.location}</dt>
+              <dd className="mt-1 text-paper">{s.labels.locationValue}</dd>
+            </div>
+          </dl>
         </div>
-      </footer>
-    </div>
+      </section>
+    </>
   );
 }
