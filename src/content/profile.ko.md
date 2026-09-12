@@ -144,8 +144,8 @@ BASCII — 출라롱콘대학교 통합혁신학부 — 에서는 **SoPet**(온�
 
 ## 연락처 (Contact)
 
-**이메일:** quest@edknovate.com
-**LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
-**회사:** [questedtech.com](https://questedtech.com)
-**기고:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
-**거점:** 태국 방콕
+- **이메일:** [quest@edknovate.com](mailto:quest@edknovate.com)
+- **LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
+- **회사:** [questedtech.com](https://questedtech.com)
+- **기고:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
+- **거점:** 태국 방콕

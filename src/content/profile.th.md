@@ -144,8 +144,8 @@ QUEST EDTECH เป็นพันธมิตรอย่างเป็นท�
 
 ## ติดต่อ (Contact)
 
-**อีเมล:** quest@edknovate.com
-**LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
-**บริษัท:** [questedtech.com](https://questedtech.com)
-**บทความ:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
-**ประจำอยู่ที่:** กรุงเทพฯ ประเทศไทย
+- **อีเมล:** [quest@edknovate.com](mailto:quest@edknovate.com)
+- **LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
+- **บริษัท:** [questedtech.com](https://questedtech.com)
+- **บทความ:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
+- **ประจำอยู่ที่:** กรุงเทพฯ ประเทศไทย

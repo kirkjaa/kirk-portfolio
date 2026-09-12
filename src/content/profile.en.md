@@ -144,8 +144,8 @@ Delivered in Thai or English, online or on site in Bangkok.
 
 ## Contact
 
-**Email:** quest@edknovate.com
-**LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
-**Company:** [questedtech.com](https://questedtech.com)
-**Writing:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
-**Based in:** Bangkok, Thailand
+- **Email:** [quest@edknovate.com](mailto:quest@edknovate.com)
+- **LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
+- **Company:** [questedtech.com](https://questedtech.com)
+- **Writing:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
+- **Based in:** Bangkok, Thailand
