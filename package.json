@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "node scripts/check-sections.mjs && tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "check": "node scripts/check-sections.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -38,4 +39,3 @@
     "vite": "^6.0.1"
   }
 }
-
