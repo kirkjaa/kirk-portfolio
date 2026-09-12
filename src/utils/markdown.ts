@@ -52,7 +52,9 @@ export function buildMarkdownFromSections(sections: MarkdownSection[]): string {
  * a higher level.
  */
 export function getSectionsByIds(sections: MarkdownSection[], keys: string[]): MarkdownSection[] {
-  const matches = (id: string) => keys.some((key) => id === key || id.startsWith(`${key}-`));
+  // Thai and Korean headings may carry a Latin word before the parenthesis ("บทบาท CSO และ… (Where I serve…)"),
+  // so a key may also match the end of an id.
+  const matches = (id: string) => keys.some((key) => id === key || id.startsWith(`${key}-`) || id.endsWith(`-${key}`));
   const picked: MarkdownSection[] = [];
   let carryLevel: number | null = null;
 

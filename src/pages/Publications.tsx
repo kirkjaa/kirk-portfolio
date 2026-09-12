@@ -9,7 +9,7 @@ import { getHomeContent } from "@/content/homeContent";
 import { getStrings } from "@/content/strings";
 import { usePageTitle } from "@/lib/usePageTitle";
 
-const WRITING_SECTIONS = ["thought-leadership", "technical-expertise", "digital-presence"];
+const WRITING_SECTIONS = ["what-i-write-about", "what-i-can-help-with", "contact"];
 
 export default function Publications() {
   const { language } = useLanguage();

@@ -1,322 +1,151 @@
-# เคิร์ก ปถุมานันท์: โปรไฟล์เชิงวิจัยเชิงลึก
+## สรุปสั้น ๆ (In short)
 
-**25 ปีแห่งการสร้างธุรกิจ เทคโนโลยีเชิงลึก และการพลิกโฉมการศึกษา**
+ผมเป็น Technical Founder และ Venture Builder ที่มีประสบการณ์ 25 ปีทั้งในสหรัฐอเมริกาและประเทศไทย ชื่อเสียงที่ผมสะสมมาตลอดทางค่อนข้างเฉพาะเจาะจงครับ — ผมคือคนที่แก้โจทย์ธุรกิจที่ใครก็ว่าเป็นไปไม่ได้ให้ทีมได้
 
-*อัปเดต: 6 พฤศจิกายน 2025*
+วันนี้ผมเป็น CEO และผู้ร่วมก่อตั้ง QUEST EDTECH ที่กรุงเทพฯ และตั้งแต่พฤษภาคม 2026 ที่กรุงโซลด้วย เป็น Chief Strategy Officer ให้ CUBIKA / Digital Dialogue และ SSL Logistics เป็น Entrepreneur in Residence ที่ Whatnot Startup Studio เป็นผู้ก่อตั้ง duPhonics และเป็นที่ปรึกษาให้ Digital Bridge Thailand ในปี 2025 ผมได้รับคัดเลือกเป็น K-Scouter ทำหน้าที่คัดเลือกและโค้ชบริษัทจากอาเซียนเข้าสู่โปรแกรมสตาร์ทอัพของเกาหลีร่วมกับ Nautilus Investment
 
----
+ผมทำงานทั้งภาษาไทยและอังกฤษ ประจำอยู่ที่กรุงเทพฯ และใช้เวลาส่วนหนึ่งของแต่ละปีที่โซลและสิงคโปร์
 
-## สรุปผู้บริหาร (Executive Summary)
+## ที่มาของผม (Where I come from)
 
-เคิร์ก ปถุมานันท์ คือหนึ่งในผู้บุกเบิกเทคโนโลยีและการศึกษาของเอเชีย มีประสบการณ์กว่า 25 ปี ครอบคลุมฟินเทค เทคโนโลยีการศึกษา เกมมือถือ และปัญญาประดิษฐ์ เขาเป็นที่รู้จักในฐานะ “คนที่แก้โจทย์ธุรกิจที่ดูเป็นไปไม่ได้ให้กับทีมได้เสมอ” ตั้งแต่การเป็นส่วนหนึ่งของสตาร์ทอัพฟินเทครุ่นบุกเบิกในปี 1999 ไปจนถึงการนำทัพบริษัทร่วมก่อตั้งหลายแห่งในประเทศไทย และการเป็นที่ปรึกษากลยุทธ์ให้บริษัทที่ต้องการขยายตลาดทั่วโลก
+ผมโตที่เท็กซัส เริ่มจาก Richland College (International Business, 1996–98) แล้วต่อที่ The University of Texas at Dallas ในสาขา Information System Management (1998–2003)
 
-ตลอดเส้นทางอาชีพ เคิร์กได้ก่อตั้ง/ร่วมก่อตั้งธุรกิจหลายบริษัท ดูแลที่ปรึกษาสตาร์ทอัพกว่า 20 รายในเอเชีย เผยแพร่บทความเชิงผู้นำทางความคิดบนแพลตฟอร์มอย่าง e27 และเป็นผู้บุกเบิกการนำเทคโนโลยีใหม่อย่างเมตาเวิร์สและ Generative AI มาประยุกต์ใช้กับการศึกษา จุดเด่นของเขาคือการผสานความสามารถด้านเทคนิคเข้ากับวิสัยทัศน์ธุรกิจ และประสบการณ์ข้ามวัฒนธรรมระหว่างสหรัฐอเมริกาและไทย ทำให้สามารถสร้างสะพานเชื่อมตลาดและเร่งนวัตกรรมได้อย่างต่อเนื่อง
+ปี 1999 ตอนเรียนปีสาม ผมเข้าร่วมทีมผู้ก่อตั้ง StockSmart.com หนึ่งในสตาร์ทอัพ Fintech รุ่นแรกของโลก ผมมีส่วนช่วยปิดดีลพันธมิตรที่นำไปสู่การใช้งาน 3G ครั้งแรกของ British Telecom และช่วยสร้างแอป Fintech แบบเรียลไทม์ตัวแรกของโลกร่วมกับเครือข่าย FOMA ของ NTT DoCoMo และ Credit Suisse การฝึกงานครั้งนั้นคือจุดเปลี่ยนที่กำหนดเส้นทางทั้งหมดหลังจากนั้น
 
----
+แปดปีถัดมาผมอยู่กับสตาร์ทอัพในดัลลัส สร้าง Mobile Application และเกมในช่วงที่ App Economy กำลังถือกำเนิด และได้ใบรับรอง Oracle DBA (2003) ระหว่างทาง ปี 2006 ผมประสานงานโครงการระหว่าง CommunityMobile กับกรมพัฒนาที่ดินของไทย — ฐานข้อมูลภาพถ่ายทางอากาศขนาด 12 เทราไบต์ที่ค้นหาออนไลน์ได้ พร้อมระบบ GIS แบบ Web Services ปี 2007 ผมย้ายไปอีกฝั่งของโต๊ะ เป็น Quantitative Analyst และ Qualitative Reporter ที่ Morning Star Research ดูแลตลาดหลักทรัพย์ออสเตรเลีย
 
-## พื้นฐานและการศึกษา (Professional Background & Education)
+ปี 2012 ผมพบความหลงใหลในด้านการศึกษาและย้ายมาประเทศไทย และสร้างธุรกิจที่นี่มาตลอดตั้งแต่นั้น
 
-### พื้นฐานทางการศึกษา
+## สิ่งที่ผมสร้าง (What I build)
 
-- ปริญญาตรีจาก **The University of Texas at Dallas** (1998) ซึ่งเป็นรากฐานสำคัญด้านเทคโนโลยี
-- ใบรับรอง **Oracle Certified Database Administrator** (มิถุนายน 2003)
-- ใบรับรอง **Microsoft Certified Professional – Microsoft Access 2.0** (สิงหาคม 1996)
+### QUEST EDTECH — CEO และผู้ร่วมก่อตั้ง, 2018 →
 
-ใบรับรองเหล่านี้ได้มาช่วงที่ระบบคอมพิวเตอร์องค์กรกำลังเติบโต ทำให้เคิร์กอยู่แถวหน้าของคลื่นการเปลี่ยนผ่านสู่ดิจิทัลตั้งแต่ช่วงแรกๆ
+QUEST เริ่มต้นที่ Edtech Hackathon 2018 กรุงเทพฯ และเป็นสตาร์ทอัพไทยเพียงรายเดียวในกลุ่ม Top Finalists ของ Project Alpha โดย SeedPlus ที่สิงคโปร์ในปีนั้น เราสร้างแพลตฟอร์มเรียลไทม์เพื่อทักษะดิจิทัล — Coding และภาษาไปด้วยกัน — ได้รับทุน 80,000 ดอลลาร์สหรัฐจาก depa และ TED Fund สำหรับแอปบริหารกำลังคนบน Blockchain และปิดรอบ Seed ที่นำโดย Reapra พร้อมนักลงทุน Angel ในเดือนกุมภาพันธ์ 2020
 
-### เส้นทางชีวิตระหว่างประเทศ
+ผลิตภัณฑ์ตลอดหลายปี: หลักสูตร Coding แบบ Full-stack, Coding Co-Pilot Tutor (2024), การเตรียมสอบ GED, IGCSE และ IELTS, REACH LearnSpace และ duPhonics ในปี 2025 QUEST เปลี่ยนเป็นบริษัทที่ปรึกษาด้าน AI — การ Localize LLM สำหรับภาษาไทยและภาษาในอาเซียน ระบบ Agentic AI และ Proof of Concept ด้าน Agentic HR — โดยผลิตภัณฑ์เดิมยังเดินต่อ พฤษภาคม 2026 ผมจดทะเบียน QUEST EDTECH Korea ที่กรุงโซลในฐานะบริษัทซอฟต์แวร์
 
-- ช่วงแรกของอาชีพ เคิร์กทำงานในสหรัฐอเมริกา โดยเฉพาะที่ **เมืองดัลลัส รัฐเท็กซัส** นาน 8 ปี เน้นงานแอปพลิเคชันมือถือและเกมในช่วงที่สมาร์ทโฟนกำลังเติบโต
-- ปี 2007 เขาย้ายไป Morning Star Research รับบทนักวิเคราะห์เชิงปริมาณและผู้รายงานเชิงคุณภาพให้ตลาดหลักทรัพย์ออสเตรเลีย
-- ปี 2012 เขาย้ายกลับประเทศไทยและเริ่มสร้างระบบนิเวศด้านการศึกษา พร้อมรักษามุมมองแบบสากลและเครือข่ายระหว่างประเทศ
+เว็บไซต์: [questedtech.com](https://questedtech.com)
 
----
+### duPhonics — ผู้ก่อตั้ง, 2020 →
 
-## จุดเริ่มต้นและบทบาทบุกเบิกในวงการฟินเทค (Early Career & Fintech)
+แพลตฟอร์ม Telenanny เพื่อทักษะชีวิต เริ่มต้นในช่วงเดือนแรก ๆ ของโรคระบาด เด็ก ๆ เรียนอยู่ใน Metaverse แบบเรียลไทม์ที่มีครูอยู่ด้วย ขณะที่ Generative AI ประกอบหลักสูตร — ภาพ วิดีโอ และเสียง — ไปพร้อมกับบทเรียน สร้างมาเพื่อ Gen Alpha ซึ่งเป็นชาว VR/XR โดยกำเนิด ตัวละครในพิทช์ของเราคือ Anna เกิดหลังปี 2010 และไม่เคยรู้จักโลกที่ไม่มีหน้าจอให้ก้าวเข้าไป
 
-### StockSmart.com: ผู้บุกเบิกฟินเทค (1999)
+duPhonics ผ่าน APTG 5G Accelerator (2022) จัดแสดงที่ Smart City Expo 2022 ผ่าน TED Fund ที่ EdTech Asia ปี 2023 และ 2024 ขึ้นเวที NextRise 2024 Seoul (สนับสนุนโดยกรมส่งเสริมการค้าระหว่างประเทศ กระทรวงพาณิชย์) และที่ Investment & Demo Day ของ TECHBITE 5.0 ในปี 2024
 
-ปี 1999 เคิร์กเข้าร่วมทีมผู้ก่อตั้ง **StockSmart.com** หนึ่งในสตาร์ทอัพฟินเทคยุคแรกของโลก ประสบการณ์นี้ทำให้เขาได้อยู่แนวหน้าการพัฒนาเทคโนโลยีการเงินระหว่างยุคดอทคอม
+เว็บไซต์: [duphonics.com](https://duphonics.com)
 
-ความสำเร็จสำคัญในช่วงนั้น ได้แก่
+### QuestLanguage — ผู้ร่วมก่อตั้ง, 2013 →
 
-- **ความร่วมมือกับ British Telecom**: สร้างเครือข่าย **3G เชิงพาณิชย์ครั้งแรกของโลก**
-- **ความร่วมมือกับ NTT DoCoMo FOMA และ Credit Suisse**: พัฒนาแอปฟินเทคแบบเรียลไทม์ครั้งแรกของโลกบนเครือข่ายมือถือ ซึ่งเกิดขึ้นก่อนยุคสมาร์ทโฟนหลายปี
+ธุรกิจแรกของผมในประเทศไทย และเป็นที่ที่ผมยังสอนอยู่ หลักสูตรเตรียมสอบ IELTS, SAT และ TOEFL สำหรับนักเรียนมัธยม ด้วยอัตราความสำเร็จ 100% ในการเข้าหลักสูตรนานาชาติระดับปริญญาตรีอันดับต้น ๆ ของไทย ผมเป็นทั้งหัวหน้าโค้ช ครู และหัวหน้าวิศวกรซอฟต์แวร์ เราสอนสดบน BigBlueButton โดยมี QUEST STUDY LMS ของเราเองอยู่เบื้องหลัง และพิสูจน์โมเดลนี้กับนักเรียนในสหรัฐฯ สหราชอาณาจักร แคนาดา ออสเตรเลีย และนิวซีแลนด์ ก่อนที่การเรียนออนไลน์จะเป็นเรื่องปกติ
 
-บทเรียนจากการสร้างผลิตภัณฑ์บนแพลตฟอร์มใหม่ และการทำงานกับพันธมิตรระดับโลกกลย่างเป็นพื้นฐานสำคัญต่อการสร้างธุรกิจของเขา
+### REACH LearnSpace — 2020
 
-### ระบบนิเวศเทคโนโลยีดัลลัส (Dallas Tech Ecosystem)
+พื้นที่การเรียนรู้แบบเรียลไทม์สำหรับผู้ใช้หลายคนพร้อมกระดานไวท์บอร์ดร่วม — ทางเลือกแทน Zoom ที่สร้างมาเพื่อการศึกษาโดยเฉพาะ ผ่าน Y Combinator Startup School ปี 2020 สื่อที่รายงานข่าวรอบ Seed ของเราในปี 2020 ระบุว่านี่คือผลิตภัณฑ์ Online Conferencing และการศึกษาของ QUEST สำหรับ SME ไทย
 
-หลังจาก StockSmart.com เคิร์กทำงานอยู่ในดัลลัส เท็กซัส นาน 8 ปี เน้นการพัฒนาแอปและเกมมือถือในช่วงที่อุตสาหกรรมแอปกำลังขยายตัว ช่วยให้เขาเข้าใจการสร้างผลิตภัณฑ์สำหรับผู้ใช้อย่างลึกซึ้ง
+## บทบาท CSO และที่ปรึกษา (Where I serve as CSO and advisor)
 
-### Morning Star Research (2007)
+### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-ปี 2007 เขาย้ายไป Morning Star Research ทำงานด้านการวิเคราะห์ข้อมูลทั้งเชิงปริมาณและเชิงคุณภาพให้ตลาดหลักทรัพย์ออสเตรเลีย เพิ่มพูนความเข้าใจด้านการเงินและการประเมินมูลค่าธุรกิจ ซึ่งต่อมามีประโยชน์อย่างยิ่งในการให้คำปรึกษาสตาร์ทอัพ
+Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี และชนะ Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน
 
----
+### SSL Logistics — Chief Strategy Officer, พฤศจิกายน 2025 →
 
-## ธุรกิจหลักและบทบาทผู้นำ (Core Ventures & Leadership Roles)
+SSL คือแพลตฟอร์มโลจิสติกส์และขนส่งสินค้าดิจิทัลของไทย ใช้ AI และ IoT จับคู่งานขนส่ง ติดตามแบบเรียลไทม์ วางเส้นทางให้เหมาะสม จัดการเอกสารดิจิทัล สินเชื่อเงินทุนหมุนเวียน และรายงาน ESG ผมเริ่มเป็นที่ปรึกษาด้านการขยายสู่ต่างประเทศในปี 2025 และรับตำแหน่ง CSO ในเดือนพฤศจิกายน รับผิดชอบ AI Transformation และการขยายสู่เกาหลีและญี่ปุ่น SSL เป็นหนึ่งในสามบริษัทที่ผมโค้ชจนได้ที่ใน e27 Top 100 ปี 2025
 
-### Quest Edtech (2018–ปัจจุบัน)
+### Whatnot Startup Studio — Entrepreneur in Residence, มกราคม 2025 →
 
-- ก่อตั้งและเป็น CEO ของ **Quest Edtech** หรือ Quest Academy นำเสนอแพลตฟอร์มการเรียนรู้สมัยใหม่ เช่น Quest Language, GED, IGCSE และ IELTS Preparation
-- ปี 2025 บริษัททรานส์ฟอร์มจาก EdTech สู่ **AI Consulting** ช่วยองค์กรนำ AI และ LLM ไปใช้กับผลิตภัณฑ์การศึกษา
-- พัฒนาเทคโนโลยีระดับสูง เช่น การทำ LLM Localization, Agentic AI สำหรับ HR และประสบการณ์การเรียนรู้แบบเมตาเวิร์ส
-- ได้รับเชิญเป็นวิทยากรในงาน **EdTech Asia 2024**
+Whatnot คือ Venture Builder ในกรุงเทพฯ ที่ลงทุนและสร้างสตาร์ทอัพรุ่นใหม่ หน้าที่ของผมคือ Venture Building และ AI Transformation ให้ธุรกิจ คำแนะนำที่ผมให้ผู้ก่อตั้งที่นั่นเหมือนกับที่ให้ทุกที่: ให้ AI เป็นเด็กรับใช้ของคุณ ไม่ใช่กลับกัน
 
-### duPhonics (2020–ปัจจุบัน)
+### Digital Bridge Thailand — ที่ปรึกษา, 2024 →
 
-- ก่อตั้งแพลตฟอร์มการอ่านออกเสียงสำหรับเด็กแบบเมตาเวิร์ส ผสาน Generative AI และประสบการณ์เชิงโต้ตอบ
-- คัดเลือกเข้าร่วมโปรแกรม: APTG 5G Accelerator (2022), TECHBITE 5.0 (2024), NextRise Seoul (2024)
-- เผยแพร่แนวคิดผ่านบทความและโพสต์บน LinkedIn เช่น “Why I built duPhonics Telenanny”
+องค์กรไม่แสวงกำไรที่ก่อตั้งโดยคุณธฤต "แมท" อมาตยกุล เพื่อลดช่องว่างดิจิทัลให้เด็กด้อยโอกาสทั่วประเทศไทย ผ่านสามโครงการ — Digital Access, Digital Skills & AI และ Career Café — ร่วมกับพันธมิตรอย่าง IBM, AWS, SCG และธนาคารกรุงเทพ เป็น CSR อย่างเป็นทางการโครงการแรกของ Digital Dialogue ผมนำสิ่งที่รู้เรื่องการสร้างแพลตฟอร์มการเรียนรู้แบบ Interactive ด้าน Coding, AI และ Web Design มาช่วย
 
-### Whatnot Startup Studio (Entrepreneur in Residence)
+## จากไทยสู่เกาหลี (Thailand to Korea)
 
-- ดำรงตำแหน่ง Entrepreneur in Residence ที่ Whatnot Startup Studio (Venture Builder ในกรุงเทพฯ) ตั้งแต่มกราคม 2025 ดูแลด้าน Venture Building และ AI Transformation ให้ธุรกิจ
+ตั้งแต่ปี 2024 ผมพาบริษัทไทยและอาเซียนเข้าสู่ระบบสตาร์ทอัพของเกาหลี และงานนี้กลายเป็นศูนย์กลางของสิ่งที่ผมทำ
 
-### Digital Dialogue (DDLG) / CUBIKA (2025)
+- **NextRise 2024, โซล** — นำเสนอ duPhonics บนเวที Pitching Station สนับสนุนโดยกรมส่งเสริมการค้าระหว่างประเทศ กระทรวงพาณิชย์
+- **Korean Market Landing Program, ธันวาคม 2024** — หนึ่งสัปดาห์ในโซลกับคณะสตาร์ทอัพไทย
+- **NextRise 2025, โซล** — บูธ CUBIKA ในกลุ่ม Pre-seed สาย Big Data และรางวัล Inc & IR
+- **K-Scouter 2025** — ได้รับคัดเลือกในเดือนสิงหาคม 2025 เข้าโปรแกรม K-Scouter ร่วมกับ Nautilus Investment เพื่อคัดเลือกและโค้ชสตาร์ทอัพอาเซียนสำหรับตลาดเกาหลี
+- **COMEUP 2025, โซล** — ประจำบูธ Nautilus Investment ในเดือนธันวาคม
+- **QUEST EDTECH Korea** — จดทะเบียนที่กรุงโซลในเดือนพฤษภาคม 2026 ในฐานะบริษัทซอฟต์แวร์
 
-- รับตำแหน่ง Chief Strategy Officer ดูแลการขยาย CUBIKA และ DDLG สู่ตลาดต่างประเทศ โดยเฉพาะเกาหลี
-- มุ่งเน้นโซลูชันด้าน ESG, Carbon Data Platform และ AI Analytics
-- ได้รับรางวัลจาก NextRise 2025 และ Angel Fund Connect 2025
+QUEST EDTECH เป็นพันธมิตรอย่างเป็นทางการของ Nautilus Investment, Pen Ventures และ Seoul Business Agency สำหรับบริษัทที่จะเข้าเกาหลี ผมทำงานทั้งกระบวนการ: โปรแกรมไหนเหมาะและเป็นไปได้จริงหรือไม่ แผนธุรกิจและ Pitch Deck ทั้งภาษาอังกฤษและเกาหลี การแนะนำให้รู้จักผู้ดำเนินโปรแกรมและนักลงทุน และเมื่อจำเป็น ผมขึ้นพิทช์แทนคุณในห้องประชุมเอง โซลในเดือนมิถุนายนและธันวาคม สิงคโปร์ระหว่างนั้น — นั่นคือจังหวะของผม
 
-### SSL Logistics (2025)
+## รางวัลและการยอมรับ (Recognition)
 
-- รับตำแหน่ง CSO วางกลยุทธ์ตอบโจทย์การค้าโลกที่ผันผวนและการทรานส์ฟอร์มด้านดิจิทัล
-- เผยแพร่บทความ “Navigating Trade Turbulence…” บน e27 ให้มุมมองต่ออุตสาหกรรมโลจิสติกส์ยุคใหม่
+| ปี | รางวัล / การคัดเลือก | สำหรับ |
+|---|---|---|
+| 2026 | จดทะเบียน QUEST EDTECH Korea ที่กรุงโซล | บริษัทซอฟต์แวร์ พฤษภาคม 2026 |
+| 2025 | K-Scouter, K-Scouter Program 2025 | คัดเลือกสิงหาคม 2025 ร่วมกับ Nautilus Investment; บูธ Nautilus ที่ COMEUP 2025 |
+| 2025 | NextRise 2025 Seoul — Inc & IR Award | นักกลยุทธ์การขยาย CUBIKA สู่เกาหลี |
+| 2025 | Angel Fund Connect 2025 — ชนะเลิศ 500,000 บาท | CUBIKA / Digital Dialogue; กรมส่งเสริมอุตสาหกรรมและ Delta Electronics |
+| 2025 | e27 Top 100 Programme — Mentor | ASAPH (Top 10), Tasted Better, SSL Logistics |
+| 2025 | Chief Strategy Officer | CUBIKA / Digital Dialogue; SSL Logistics |
+| 2024 | NextRise 2024 Seoul — พิทช์บนเวที | duPhonics สนับสนุนโดย DITP |
+| 2024 | Korean Market Landing Program 2024 | โซล 16–20 ธันวาคม |
+| 2024 | TECHBITE 5.0 Incubator | duPhonics, Investment & Demo Day |
+| 2022 | APTG 5G Accelerator | duPhonics |
+| 2020 | e27 TOP100 APAC | QUEST |
+| 2020 | รอบ Seed นำโดย Reapra | QUEST EDTECH พร้อมนักลงทุน Angel |
+| 2020 | Y Combinator Startup School — จบหลักสูตร | REACH LearnSpace |
+| 2019 | TMA Shark Tank — รางวัลชนะเลิศ | Thailand Competitiveness Conference 2019 |
+| 2019 | ทุน 80,000 ดอลลาร์สหรัฐ | depa และ TED Fund |
+| 2019 | AWS EdStart · DigitalOcean Hatch · TED Fund · Y Combinator Startup School | โปรแกรมที่ QUEST EDTECH เข้าร่วม |
+| 2019 | Startup Thailand 2019 — Showcase | บูธ QUEST |
+| 2018 | Asia Accelerator — ชนะเลิศ 1-Minute Pitch | |
+| 2018 | Project Alpha โดย SeedPlus — Top Finalist | สตาร์ทอัพไทยเพียงรายเดียว |
+| 2018 | depa S2 · Startup Thailand 2018 · Edtech Hackathon Finalist | จุดเริ่มต้นของ QUEST |
 
-### QuestLanguage (2013–ปัจจุบัน)
+## ผู้ก่อตั้งที่ผมเป็น Mentor (Founders I mentor)
 
-- แพลตฟอร์มการเรียนภาษาอังกฤษที่ปูทางสู่การสร้าง Quest Edtech ในเวลาต่อมา
+ในปี 2025 ผมโค้ชบริษัทไทยสามแห่งจนได้ที่ใน e27 Top 100 และไปกับพวกเขาที่ Echelon Singapore: **Tasted Better** (แป้ง GI ใกล้ศูนย์), **SSL Logistics** และ **ASAPH** ตลาดประมูลสดบนมือถือแห่งแรกของอาเซียนสำหรับของสะสมที่ผ่านการรับรอง ซึ่งจบใน Top 10
 
----
+ที่ BASCII — Chulalongkorn School of Integrated Innovation — ผมเป็น Mentor อย่างเป็นทางการให้สตาร์ทอัพนิสิต รวมถึง **SoPet** (ปรึกษาสัตวแพทย์ออนไลน์) และ **Wooffy** (คอมมูนิตี้คนรักสุนัข) และเป็น Mentor ใน Culture Re-creation 2025 Hackathon ปี 2025 ผมยังบรรยายและจัด Workshop ให้โปรแกรมผู้ประกอบการของ NTU Singapore ร่วมกับ NUS ด้วย
 
-## รางวัลและการยอมรับ (Awards & Recognition)
+คนที่ผมภูมิใจที่สุด: **ธนัท "มิวนิค" ลิมาพิชาติ** ซึ่งสตาร์ทอัพผลิตไฟฟ้าจากเซลล์เชื้อเพลิงจุลินทรีย์ที่เราร่วมกันพัฒนาที่ QUEST ได้รับคัดเลือกเข้า Research Science Institute ของ MIT ในฤดูร้อนปี 2025
 
-- NextRise 2025 Seoul Strategist Award
-- E27 Top 100 Program Mentor (2025)
-- Angel Fund Connect Winner 2025 (DDLG)
-- AWS EdStart, Y Combinator Startup School, TechBite, APTG Accelerator ฯลฯ
+ในด้านที่ปรึกษา ผมทำงานกับธุรกิจมากกว่า 20 แห่งทั่วเอเชีย — องค์กรขนาดใหญ่ หน่วยงานภาครัฐ และสตาร์ทอัพ สองงานที่แสดงรูปแบบของมันได้ดี: **STL Group / VEV** (2023) กลยุทธ์ขยายตลาดต่างประเทศสำหรับธุรกิจ EV และ **TREG / SMO** (2023) แอปพลิเคชันแฟนคลับแบบ Hyperlocal ที่เข้าตลาดจีน ทั้งสองงานผมส่งมอบ Pitch Deck ภาษาอังกฤษ ไทย และจีน สรุปธุรกิจและแผนธุรกิจ สคริปต์การพิทช์ และฝึกทีมให้นำเสนอได้เอง
 
-รางวัลเหล่านี้สะท้อนถึงการเป็นผู้นำนวัตกรรมระดับภูมิภาค การได้รับการสนับสนุนจากทั้งภาครัฐและองค์กรระดับโลก และการรักษามาตรฐานความเป็นเลิศต่อเนื่อง
+## สิ่งที่ผมเขียน (What I write about)
 
----
+ผมเขียนให้ e27 ตั้งแต่ปี 2022 จนถึงตอนนี้เจ็ดชิ้น:
 
-## ระบบนิเวศและการให้คำปรึกษา (Mentorship & Ecosystem Building)
+- **How emotional economics is reshaping alternative investments in Southeast Asia** (มิถุนายน 2025) — มูลค่าทางอารมณ์กับมูลค่าทางการเงินผูกพันกันมากขึ้นเรื่อย ๆ และนั่นหมายถึงอะไรสำหรับของสะสมและคนที่ขายให้ผู้ซื้อชาวเอเชียที่มีกำลังซื้อสูง
+- **Navigating trade turbulence** (เมษายน 2025) — ภาษีศุลกากรกำลังเปลี่ยนเส้นทางการค้า การมองเห็นแบบเรียลไทม์ การวิเคราะห์เชิงคาดการณ์ และการตัดสินใจอัตโนมัติคือสิ่งที่ทำให้บริษัทโลจิสติกส์ยืนอยู่ได้
+- **Bridging the carbon data gap** (พฤศจิกายน 2024) — บัญชีการปล่อยคาร์บอนล้มเหลวเพราะข้อมูลกระจัดกระจาย ข้อมูลที่จัดการด้วย AI แบบคาดการณ์ได้คือทางแก้
+- **Innovate to Dominate** (ตุลาคม 2024) — สตาร์ทอัพเติบโตไปกับยักษ์ใหญ่ในอุตสาหกรรมได้อย่างไร ตั้งแต่ Licensing ถึง Joint Venture
+- **The future of Gen Alpha in the workplace** (กรกฎาคม 2024) — ภายในปี 2035 จะเป็นเจเนอเรชันที่ใหญ่ที่สุดในที่ทำงาน และ Gen Alpha จะทำงานอยู่ใน Roblox
+- **Learning Reimagined** (มิถุนายน 2024) — ทำไมผมถึงสร้าง duPhonics: การรู้หนังสือใน Metaverse แบบเรียลไทม์ โดยให้ Generative AI ทำเนื้อหา
+- **The metaverse opens new opportunities for education** (มิถุนายน 2022) — การศึกษาใน Metaverse จะเป็นประชาธิปไตยมากขึ้น และหลักสูตรจะเท่าเทียมและเปิดกว้างขึ้น
 
-- Mentor ให้โปรแกรม **E27 Top 100** ดูแลสตาร์ทอัพอย่าง Tasted Better, ASAPH, SSL Logistics
-- Mentor โปรแกรม **BASCII** และมหาวิทยาลัย เช่น จุฬาฯ สถาบัน SIIT
-- ให้คำปรึกษาเชิงกลยุทธ์แก่ **STL/VEV, TREG/SMO** และองค์กรอีกกว่า 20 แห่งในเอเชีย
-- ความสำเร็จเด่น: "Munich" Thanat Limapichat ได้รับคัดเลือกเข้า **MIT CEE Research Science Institute 2025** ภายใต้การดูแลของ Quest Edtech
+ธีมซ้ำ ๆ เพราะผมต่อยอดจากมันเรื่อย ๆ: Gen Alpha, Generative และ Agentic AI, ทักษะดิจิทัลและการ Reskill, การเติบโตข้ามพรมแดน, ข้อมูลเพื่อความยั่งยืน และ Open Innovation ระหว่างสตาร์ทอัพกับองค์กรใหญ่
 
-### รูปแบบการให้คำปรึกษา
+## วิธีทำงานของผม (How I work)
 
-- พัฒนาแผนธุรกิจ, Origin Story, Financial Model, Deck Script ทั้งภาษาอังกฤษ/ไทย/จีน
-- โฟกัสการขยายตลาดต่างประเทศและการเตรียมความพร้อมด้าน Pitching
+- **โจทย์มาก่อน เทคโนโลยีมาทีหลัง** ผมเลือกปัญหาที่ยังไม่มีใครแก้ดี ๆ — การรู้หนังสือของ Gen Alpha ข้อมูลคาร์บอน โลจิสติกส์ที่โดนภาษีกระแทก — แล้วค่อยหยิบเทคโนโลยีใหม่ล่าสุดที่แก้ได้จริง
+- **AI-first ไม่ใช่ AI เป็นของแถม** ผสาน AI เข้ากับ Workflow ตั้งแต่วันแรก ให้ AI เป็นเด็กรับใช้ของคุณ ไม่ใช่กลับกัน
+- **เร็วสู่รายได้** MVP ที่เล็กที่สุดที่ทดสอบตลาดและหาเงินได้ Explore, Validate, Build, Grow
+- **พร้อมระดมทุนตั้งแต่ออกแบบ** วางโครงสร้างธุรกิจแบบที่นักลงทุนจะอ่าน: Unit Economics เรื่องราวของ Traction และเรื่องเล่าที่ป้องกันได้
+- **ประสบการณ์จริง ไม่ใช่แค่ทฤษฎี** ผมเคยระดมทุน พิทช์ ชนะ และแพ้ในห้องจริงมาแล้ว ผมโค้ชจากตรงนั้น ไม่ใช่จากตำรา
+- **ข้ามพรมแดนโดยปริยาย** บริษัทไทยควรไปลงหลักปักฐานที่เกาหลี ญี่ปุ่น และสิงคโปร์ องค์กรใหญ่ควรทำ Open Innovation กับสตาร์ทอัพ
+- **ส่งต่อ** การเป็น Mentor ที่ e27, BASCII และ Digital Bridge เป็นส่วนหนึ่งของงาน ไม่ใช่การกุศล
 
----
+## สิ่งที่ผมช่วยได้ (What I can help with)
 
-## Thought Leadership & Publications
+- **Venture Building ด้วย AI** — หนึ่งวันเข้มข้นตั้งแต่ Business Model สู่ AI Opportunity Map สู่ Roadmap ของ AI-MVP และแผน 90 วัน หรืองานระยะยาวเพื่อสร้างมันขึ้นมาจริง
+- **การพิทช์และระดมทุน** — Deck เรื่องราว และสคริปต์ การรับมือ Q&A การซ้อมพิทช์และซ้อมเจรจา การโค้ช Unit Economics ร่วมกับพาร์ทเนอร์ที่เป็น Investment Banker ผมชนะ TMA Shark Tank และ Asia Accelerator 1-Minute Pitch มาแล้ว และโค้ชคนที่ไม่ได้ใช้ภาษาอังกฤษเป็นภาษาแม่ให้ขึ้นเวทีนานาชาติได้
+- **Corporate Innovation และ AI Transformation** — วันทำงานร่วมกับทีมผู้บริหารที่สำนักงานของคุณ: Business Model Canvas การวิเคราะห์ตลาดและคู่แข่ง การนำ AI มาใช้ และ Roadmap ที่ทีมของคุณลงมือทำได้
+- **การเข้าตลาดต่างประเทศ** — เกาหลีเป็นหลัก รวมถึงญี่ปุ่น สิงคโปร์ และจีน: ความเหมาะสมของโปรแกรม แผนธุรกิจและ Deck ในภาษาเป้าหมาย การแนะนำให้รู้จัก และการเป็นตัวแทนในพื้นที่
+- **งานวิจัยและการเขียน** — บทความ Thought Leadership รายงานวิจัย และเนื้อหาเว็บไซต์ ทั้งภาษาอังกฤษและไทย
 
-บทความสำคัญบน **e27** ได้แก่
+ส่งมอบเป็นภาษาไทยหรืออังกฤษ ออนไลน์หรือที่สำนักงานของคุณในกรุงเทพฯ
 
-- Navigating Trade Turbulence (โลจิสติกส์ยุคสงครามการค้า)
-- Emotional Economics in ALT Investments (อารมณ์กับการลงทุนทางเลือก)
-- Bridging the Carbon Data Gap (ESG & Carbon Accounting)
-- The Future of Gen Alpha in the Workplace (อนาคตของแรงงานรุ่นใหม่)
-- Open Innovation Paths for Startups (รูปแบบความร่วมมือกับองค์กรใหญ่)
-- The Metaverse Opens New Opportunities for Education (โอกาสของการศึกษาในโลกเมตาเวิร์ส)
+## ติดต่อ (Contact)
 
-แนวคิดของเคิร์กเน้นการเชื่อมโยงเทคโนโลยี ธุรกิจ และบริบทภูมิภาคอย่างลึกซึ้ง พร้อมชี้โอกาสล่วงหน้าได้แม่นยำ
-
----
-
-## ความเชี่ยวชาญทางเทคนิค (Technical Expertise)
-
-- ระบบวิดีโอคอนเฟอเรนซ์ขั้นสูง และโครงสร้างพื้นฐาน real-time
-- การพัฒนา Metaverse แบบ Full-stack รวมถึงการออกแบบ UX/Avatar/Sync
-- การพัฒนาและ Localize Large Language Models (LLMs) และ Agentic AI
-- Adaptive Learning, GenAI Content, Predictive Analytics สำหรับ EdTech
-- บุกเบิกการใช้ GenAI กับคอนเทนต์เด็กตั้งแต่ปี 2022–2023
-
-### ปรัชญาการสร้างนวัตกรรม
-
-1. เริ่มจากปัญหาจริงก่อนเทคโนโลยี
-2. ยึดผู้ใช้เป็นศูนย์กลาง
-3. เน้นวิธีการที่ใช้งานได้จริง (Pragmatic)
-4. เรียนรู้อย่างต่อเนื่องและจับตาเทรนด์ล่วงหน้า
-
----
-
-## ปรัชญาการสร้างธุรกิจ (Business Philosophy)
-
-- สร้างชื่อเสียงจากการแก้ปัญหาธุรกิจที่ท้าทายที่สุด
-- ผสานทักษะเทคนิคและกลยุทธ์ธุรกิจเข้าด้วยกัน
-- ใช้ระบบ “Identify underserved market → Apply emerging tech → Build ecosystem → Adapt & evolve”
-- เชี่ยวชาญการขยายธุรกิจข้ามวัฒนธรรมและหลายภาษา (อังกฤษ/ไทย/จีน)
-- ให้คำปรึกษาแบบครบวงจร ตั้งแต่กลยุทธ์จนถึงการฝึกทีม
-
----
-
-## โฟกัสปัจจุบันและทิศทางอนาคต (Current Focus & Future Directions)
-
-- **Quest Edtech AI Consulting**: ช่วยองค์กรการศึกษานำ AI ไปใช้จริง
-- **DDLG / CUBIKA**: ขยายตลาดเกาหลีและโซลูชันด้าน ESG
-- **SSL Logistics**: เสริมความยืดหยุ่นห่วงโซ่อุปทานยุคสงครามการค้า
-- **Mentorship**: ขยายการดูแลสตาร์ทอัพรุ่นใหม่ เช่น ASAPH, Tasted Better, SoPet
-- **ธีมหลัก**: Generative AI, Sustainability, Gen Alpha Workforce, International Expansion
-
----
-
-## คุณค่าและบทบาท (Unique Value Proposition)
-
-- สะพานข้ามวัฒนธรรม: มีประสบการณ์ทั้งในสหรัฐฯ และเอเชีย เข้าใจตลาดทั้งสองฝั่งลึกซึ้ง
-- ผสานเทคนิคกับกลยุทธ์: สามารถคุยได้ทั้งฝั่งวิศวกรรมและผู้บริหาร
-- วิสัยทัศน์ล่วงหน้า: มองเห็นเทรนด์ก่อนกระแสหลัก เช่น Metaverse Education, GenAI in EdTech
-- Ecosystem Builder: ไม่เพียงสร้างธุรกิจของตนเอง แต่ยังก่อให้เกิดผู้ประกอบการรุ่นต่อไปผ่านการ Mentoring
-
----
-
-## การปรากฏตัวออนไลน์ (Digital Presence)
-
-- LinkedIn: [https://www.linkedin.com/in/kirkjaa/](https://www.linkedin.com/in/kirkjaa/)
-- e27 Author Profile: [https://e27.co/user/kirk.pathumanun/](https://e27.co/user/kirk.pathumanun/)
-- Facebook Page: [https://www.facebook.com/kirkjaaa/](https://www.facebook.com/kirkjaaa/)
-- เว็บไซต์: [https://questedtech.com](https://questedtech.com), [https://edknovate.com](https://edknovate.com)
-- Email ติดต่อหลัก: `quest@edknovate.com`
-
----
-
-## ผลกระทบและมรดก (Impact & Legacy)
-
-- ก่อให้เกิดธุรกิจและงานจำนวนมากในภูมิภาค
-- ยกระดับการศึกษา EdTech ในไทยและเอเชีย
-- เมนเทอร์ผู้ประกอบการที่ประสบความสำเร็จระดับนานาชาติ
-- ถ่ายทอดความรู้ข้ามทวีปและข้ามเจเนอเรชัน
-- เตรียมพร้อมสำหรับอนาคตของ Gen Alpha, AI, และธุรกิจที่ยั่งยืน
-
-เคิร์ก ปถุมานันท์ ยังคงเดินหน้าผสานเทคโนโลยี นวัตกรรม และความเป็นมนุษย์ เพื่อสร้างผลกระทบเชิงบวกให้กับระบบนิเวศธุรกิจของเอเชียและโลก
-
----
-
-## References
-
-[1]: Crunchbase - Kirk Pathumanun Profile. https://www.crunchbase.com/person/kirk-pathumanun
-
-[2]: User-provided biographical information and portfolio content
-
-[3]: Clay.earth - Kirk Pathumanun Profile. https://clay.earth/profile/kirk-pathumanun
-
-[4]: LinkedIn - Kirk Pathumanun Profile (Thailand). https://th.linkedin.com/in/kirkjaa
-
-[5]: LinkedIn Post - Kirk Pathumanun on StockSmart.com. https://www.linkedin.com/posts/kirkjaa_i-would-like-to-express-my-gratitude-for-activity-7293511829786398720-dSpp
-
-[6]: Quest Edtech Website. https://questedtech.com
-
-[7]: User-provided information on QuestLanguage founding date
-
-[8]: LinkedIn Post - Quest Edtech's AI transformation. https://www.linkedin.com/posts/kirkjaa_questedtech-ai-businesstransformation-activity-7300570667098247168-c_Pa
-
-[9]: LinkedIn Post - Kirk Pathumanun on edtech #llms #agents. https://www.linkedin.com/posts/kirkjaa_edtech-llms-agents-activity-7256188341132382209-VFaG
-
-[10]: Facebook Post - Quest Language on Agentic HR PoC. https://www.facebook.com/questlanguage/posts/congratulations-to-p-kirk-p-pathumanun-our-ceo-of-quest-edtech-and-co-founder-of/1200352048801315/
-
-[11]: Facebook Post - Quest Language thanking EdTech Asia. https://www.facebook.com/questlanguage/posts/thank-you-edtech-asia-for-inviting-our-ceo-kirk-pathumanun-to-speak-again-this-y/928611602642029/
-
-[12]: User-provided information on duPhonics founding during pandemic
-
-[13]: LinkedIn Post - Kirk Pathumanun on duPhonics gratitude. https://www.linkedin.com/posts/kirkjaa_duphonics-metaverse-genai-activity-7222497190605209600-KQ5w
-
-[14]: Crunchbase - duPhonics Company Profile. https://www.crunchbase.com/organization/duphonics
-
-[15]: E27 - duPhonics Telenanny Profile. https://e27.co/startups/duphonics/
-
-[16]: LinkedIn Post - Kirk Pathumanun on metaverse for literacy. https://www.linkedin.com/posts/kirkjaa_edtech-metaverse-genalpha-activity-7210223443001163776-V2K7
-
-[17]: User-provided information on duPhonics technical capabilities
-
-[18]: User-provided awards list - APTG 5G Accelerator 2022
-
-[19]: User-provided awards list - TECHBITE 5.0 Incubator 2024
-
-[20]: User-provided awards list - NextRise 2024 Seoul presentation
-
-[21]: LinkedIn Post - Kirk Pathumanun on Smart City Expo 2022. https://www.linkedin.com/posts/kirkjaa_edtech-startups-coding-activity-7005162208812826624-nXBX
-
-[22]: LinkedIn Post - Why I built duPhonics Telenanny. https://www.linkedin.com/posts/kirkjaa_learning-reimagined-enhancing-literacy-with-activity-7212344808596459520-FgtJ
-
-[23]: LinkedIn Post - How duPhonics uses GenAI for metaverse. https://www.linkedin.com/posts/kirkjaa_iterate-create-metaverse-activity-7231567767420682241-XPU7
-
-[24]: Whatnot About Page. https://whatnot.co/about/
-
-[25]: User-provided information on CSO appointments 2025
-
-[26]: Facebook Post - Digital Dialogue welcoming Kirk as CSO. https://m.facebook.com/ddlg.th/photos/digital-dialogue-%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%B4%E0%B8%81-%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B9%8C-%E0%B9%83%E0%B8%99%E0%B8%95%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%87-chief-strategy-office/1193617149435250/
-
-[27]: User-provided information on DDLG strategic focus
-
-[28]: User-provided awards list - NextRise 2025 Seoul Strategist Award
-
-[29]: LinkedIn Post - Kirk Pathumanun on Angel Fund Connect 2025. https://www.linkedin.com/posts/kirkjaa_venturebuilding-corporate-consultant-activity-7390777636152795136-AR_4
-
-[30]: Facebook Post - DDLG Angel Fund Connect 2025 winner. https://www.facebook.com/ddlg.th/posts/-%E0%B8%AD%E0%B8%B5%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B8%97%E0%B8%B5-angel-fund-connect-2025-%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%AD%E0%B8%A5-%E0%B9%84%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-ddlg/1434389472024682/
-
-[31]: E27 - Bridging the carbon data gap. https://e27.co/bridging-the-carbon-data-gap-how-predictive-insights-for-data-sustainability-are-revolutionising-emission-accounting-20241125/
-
-[32]: User-provided information on SSL Logistics CSO role
-
-[33]: E27 - Navigating trade turbulence. https://e27.co/navigating-trade-turbulence-digital-transformation-enhances-global-logistics-amid-rising-tariffs-20250406/
-
-[34]: LinkedIn Post - Kirk Pathumanun on trade turbulence. https://www.linkedin.com/posts/kirkjaa_navigating-trade-turbulence-digital-transformation-activity-7319973697887309824-ueW7
-
-[35]: Facebook Post - Quest Language congratulating E27 Top 100 winners. https://www.facebook.com/questlanguage/posts/congratulations-to-tasted-better-ssl-logistics-and-asaph-for-winning-the-e27-top/1106022254900962/
-
-[36]: User-provided information on E27 Top 100 mentorship
-
-[37]: E27 - The startups of TOP100 2025. https://e27.co/the-startups-of-top100-2025-569218-2/
-
-[38]: User-provided awards list - E27 Top 100 mentor to ASAPH and Tasted Better
-
-[39]: Facebook Post - Quest Language on BASCII mentorship. https://www.facebook.com/questlanguage/posts/happy-to-see-p-kirk-as-mentor-to-bascii-startups-and-students-officially-kha-let/1210637991106054/
-
-[40]: User-provided information and images on SoPet mentorship
-
-[41]: User-provided information and images on Woofy mentorship
-
-[42]: User-provided information on STL Group/VEV consulting
-
-[43]: User-provided information on TREG/SMO consulting
-
-[44]: User-provided information and image on Munich's MIT acceptance
-
-[45]: E27 - The metaverse opens new opportunities for education. https://e27.co/the-metaverse-opens-new-opportunities-for-education-20220606/
-
-[46]: E27 - The future of Gen Alpha in the workplace. https://e27.co/the-future-of-gen-alpha-in-the-workplace-a-primer-for-business-leaders-20240714/
-
-[47]: E27 - How emotional economics is reshaping alternative investments. https://e27.co/how-emotional-economics-is-reshaping-alternative-investments-in-southeast-asia-20250603/
-
-[48]: E27 - Open innovation paths for startups. https://e27.co/innovate-to-dominate-open-innovation-paths-for-startups-to-grow-with-industry-titans-20241026/
-
-[49]: LinkedIn Post - Kirk Pathumanun on GenAI prediction. https://www.linkedin.com/posts/kirkjaa_iterate-create-metaverse-activity-7231567767420682241-XPU7
-
-[50]: E27 - Kirk Pathumanun Author Profile. https://e27.co/user/kirk.pathumanun/
-
-[51]: Muck Rack - Kirk Pathumanun Profile. https://muckrack.com/kirk-pathumanun
-
-[52]: Facebook - Kirk P Pathumanun Personal Page. https://www.facebook.com/kirkjaaa/
-
-[53]: Facebook - Quest Language Page. https://www.facebook.com/questlanguage
-
-[54]: Digital Bridge Thailand - About Page. https://www.digitalbridgethailand.com/about
-
----
-
-*This comprehensive research document was compiled from publicly available sources, user-provided information, and cross-referenced across multiple platforms. Every effort has been made to ensure accuracy, though some details may be subject to change as Kirk Pathumanun's career continues to evolve.*
-
-*For the most current information, please refer to Kirk's LinkedIn profile or contact him directly at quest@edknovate.com*
-
-**Document Statistics:**
-- Word Count: ~15,000 words
-- Sources Referenced: 54 unique sources
-- Coverage Period: 1996-2025 (29 years)
-- Last Updated: November 6, 2025
+**อีเมล:** quest@edknovate.com
+**LinkedIn:** [linkedin.com/in/kirkjaa](https://www.linkedin.com/in/kirkjaa/)
+**บริษัท:** [questedtech.com](https://questedtech.com)
+**บทความ:** [e27.co/user/kirk.pathumanun](https://e27.co/user/kirk.pathumanun/)
+**ประจำอยู่ที่:** กรุงเทพฯ ประเทศไทย

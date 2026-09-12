@@ -7,7 +7,7 @@ import { getProfileMarkdown } from "@/content/profileContent";
 import { getStrings } from "@/content/strings";
 import { usePageTitle } from "@/lib/usePageTitle";
 
-const VENTURE_SECTIONS = ["core-ventures", "awards-recognition", "mentorship-ecosystem", "current-focus", "impact-legacy"];
+const VENTURE_SECTIONS = ["what-i-build", "where-i-serve-as-cso-and-advisor", "thailand-to-korea", "recognition", "founders-i-mentor"];
 
 export default function Ventures() {
   const { language } = useLanguage();

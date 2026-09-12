@@ -8,7 +8,7 @@ import { getStrings } from "@/content/strings";
 import { usePageTitle } from "@/lib/usePageTitle";
 
 /* Section keys match by prefix so the EN, TH and KO headings all resolve. */
-const ABOUT_SECTIONS = ["executive-summary", "professional-background", "early-career", "business-philosophy", "unique-value"];
+const ABOUT_SECTIONS = ["in-short", "where-i-come-from", "how-i-work"];
 
 export default function About() {
   const { language } = useLanguage();
