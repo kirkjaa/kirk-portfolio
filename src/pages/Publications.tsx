@@ -7,12 +7,14 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
 import { getHomeContent } from "@/content/homeContent";
 import { getStrings } from "@/content/strings";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 const WRITING_SECTIONS = ["thought-leadership", "technical-expertise", "digital-presence"];
 
 export default function Publications() {
   const { language } = useLanguage();
   const s = getStrings(language);
+  usePageTitle(s.navigation.writing);
   const { articles } = getHomeContent(language);
   const markdown = useMemo(() => {
     const sections = parseMarkdownSections(getProfileMarkdown(language));
@@ -36,6 +38,7 @@ export default function Publications() {
                   <span className="caption mt-1 inline-flex items-center gap-1 md:ml-3 md:mt-0">
                     {s.labels.readOnE27} <ArrowUpRight className="h-3 w-3" />
                   </span>
+                  {article.quote && <span className="mt-1.5 block text-sm italic leading-snug text-fg-muted">“{article.quote}”</span>}
                 </span>
               </a>
             </li>

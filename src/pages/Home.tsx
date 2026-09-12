@@ -6,6 +6,7 @@ import { getHomeContent, TrackItem } from "@/content/homeContent";
 import { LINKS } from "@/content/links";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 function groupByYear(items: TrackItem[]): [string, TrackItem[]][] {
   const map = new Map<string, TrackItem[]>();
@@ -22,6 +23,7 @@ export default function Home() {
   const s = getStrings(language);
   const c = getHomeContent(language);
   const years = groupByYear(c.track);
+  usePageTitle();
 
   return (
     <>
@@ -213,6 +215,7 @@ export default function Home() {
                       {article.title}
                     </span>
                     <span className="mt-1 block text-sm text-fg-muted">{article.theme}</span>
+                    {article.quote && <span className="mt-2 block max-w-2xl text-[0.95rem] italic leading-snug text-fg-2">“{article.quote}”</span>}
                   </span>
                   <span className="caption inline-flex items-center gap-1 group-hover:text-fg">
                     {s.labels.readOnE27} <ArrowUpRight className="h-3.5 w-3.5" />

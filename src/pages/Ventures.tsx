@@ -5,12 +5,14 @@ import { buildMarkdownFromSections, getSectionsByIds, parseMarkdownSections } fr
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
 import { getStrings } from "@/content/strings";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 const VENTURE_SECTIONS = ["core-ventures", "awards-recognition", "mentorship-ecosystem", "current-focus", "impact-legacy"];
 
 export default function Ventures() {
   const { language } = useLanguage();
   const s = getStrings(language);
+  usePageTitle(s.navigation.ventures);
   const markdown = useMemo(() => {
     const sections = parseMarkdownSections(getProfileMarkdown(language));
     return buildMarkdownFromSections(getSectionsByIds(sections, VENTURE_SECTIONS));

@@ -28,6 +28,8 @@ export interface ArticleItem {
   date: string;
   theme: string;
   link: string;
+  /** A line from the piece, verbatim — only where the knowledge base records one. */
+  quote?: string;
 }
 
 export interface MentorshipItem {
@@ -153,13 +155,13 @@ const gallery: GalleryItem[] = [
 
 /* All seven e27 contributor pieces, newest first. */
 const articles: ArticleItem[] = [
-  { date: "3 Jun 2025", title: "How emotional economics is reshaping alternative investments in Southeast Asia", theme: "Collectibles and investor psychology", link: "https://e27.co/how-emotional-economics-is-reshaping-alternative-investments-in-southeast-asia-20250603/" },
-  { date: "6 Apr 2025", title: "Navigating trade turbulence: Digital transformation enhances global logistics amid rising tariffs", theme: "Logistics resilience", link: "https://e27.co/navigating-trade-turbulence-digital-transformation-enhances-global-logistics-amid-rising-tariffs-20250406/" },
+  { date: "3 Jun 2025", title: "How emotional economics is reshaping alternative investments in Southeast Asia", theme: "Collectibles and investor psychology", quote: "Emotional value and financial value are increasingly intertwined.", link: "https://e27.co/how-emotional-economics-is-reshaping-alternative-investments-in-southeast-asia-20250603/" },
+  { date: "6 Apr 2025", title: "Navigating trade turbulence: Digital transformation enhances global logistics amid rising tariffs", theme: "Logistics resilience", quote: "Technology and startup ideas will flourish from this turbulent time in the logistics sector.", link: "https://e27.co/navigating-trade-turbulence-digital-transformation-enhances-global-logistics-amid-rising-tariffs-20250406/" },
   { date: "25 Nov 2024", title: "Bridging the carbon data gap: How predictive insights for data sustainability are revolutionising emission accounting", theme: "Carbon accounting and AI data", link: "https://e27.co/bridging-the-carbon-data-gap-how-predictive-insights-for-data-sustainability-are-revolutionising-emission-accounting-20241125/" },
   { date: "26 Oct 2024", title: "Innovate to Dominate: Open innovation paths for startups to grow with industry titans", theme: "Startup–corporate partnerships", link: "https://e27.co/innovate-to-dominate-open-innovation-paths-for-startups-to-grow-with-industry-titans-20241026/" },
-  { date: "14 Jul 2024", title: "The future of Gen Alpha in the workplace: A primer for business leaders", theme: "Gen Alpha and XR", link: "https://e27.co/the-future-of-gen-alpha-in-the-workplace-a-primer-for-business-leaders-20240714/" },
+  { date: "14 Jul 2024", title: "The future of Gen Alpha in the workplace: A primer for business leaders", theme: "Gen Alpha and XR", quote: "Gen Alpha will be working in Roblox.", link: "https://e27.co/the-future-of-gen-alpha-in-the-workplace-a-primer-for-business-leaders-20240714/" },
   { date: "27 Jun 2024", title: "Learning Reimagined: Enhancing literacy with real-time metaverse and Gen AI", theme: "duPhonics", link: "https://e27.co/learning-reimagined-enhancing-literacy-with-real-time-metaverse-and-gen-ai-20240627/" },
-  { date: "6 Jun 2022", title: "The metaverse opens new opportunities for education", theme: "Metaverse education", link: "https://e27.co/the-metaverse-opens-new-opportunities-for-education-20220606/" },
+  { date: "6 Jun 2022", title: "The metaverse opens new opportunities for education", theme: "Metaverse education", quote: "Education in the metaverse will be more democratised, the academic curriculum will be more equitable and open.", link: "https://e27.co/the-metaverse-opens-new-opportunities-for-education-20220606/" },
 ];
 
 const mentorshipBase = [

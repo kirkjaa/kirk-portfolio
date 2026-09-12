@@ -1,10 +1,12 @@
 import { Link } from "wouter";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getStrings } from "@/content/strings";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 export default function NotFound() {
   const { language } = useLanguage();
   const s = getStrings(language);
+  usePageTitle(s.pages.notFound.title);
 
   return (
     <div className="container py-32">

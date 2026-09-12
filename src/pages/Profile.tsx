@@ -5,10 +5,12 @@ import { buildMarkdownFromSections, getSectionsByLevel, parseMarkdownSections } 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
 import { getStrings } from "@/content/strings";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 export default function Profile() {
   const { language } = useLanguage();
   const s = getStrings(language);
+  usePageTitle(s.navigation.profile);
   const sections = useMemo(() => parseMarkdownSections(getProfileMarkdown(language)), [language]);
   const topLevel = useMemo(() => getSectionsByLevel(sections, 2), [sections]);
   const [activeId, setActiveId] = useState(() => topLevel[0]?.id ?? "");

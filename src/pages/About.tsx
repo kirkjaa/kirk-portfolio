@@ -5,6 +5,7 @@ import { buildMarkdownFromSections, getSectionsByIds, parseMarkdownSections } fr
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getProfileMarkdown } from "@/content/profileContent";
 import { getStrings } from "@/content/strings";
+import { usePageTitle } from "@/lib/usePageTitle";
 
 /* Section keys match by prefix so the EN, TH and KO headings all resolve. */
 const ABOUT_SECTIONS = ["executive-summary", "professional-background", "early-career", "business-philosophy", "unique-value"];
@@ -12,6 +13,7 @@ const ABOUT_SECTIONS = ["executive-summary", "professional-background", "early-c
 export default function About() {
   const { language } = useLanguage();
   const s = getStrings(language);
+  usePageTitle(s.navigation.about);
   const markdown = useMemo(() => {
     const sections = parseMarkdownSections(getProfileMarkdown(language));
     return buildMarkdownFromSections(getSectionsByIds(sections, ABOUT_SECTIONS));
