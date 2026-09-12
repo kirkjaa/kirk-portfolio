@@ -24,15 +24,11 @@ QUEST began at the Edtech Hackathon 2018 in Bangkok and was the only Thai startu
 
 Products over the years: a full-stack coding curriculum, the Coding Co-Pilot Tutor (2024), GED, IGCSE and IELTS preparation, REACH LearnSpace, and duPhonics. In 2025 QUEST became an AI consulting practice — LLM localisation for Thai and Southeast Asian languages, agentic AI systems, and an agentic HR proof of concept — while the products kept running. In May 2026 I incorporated QUEST EDTECH Korea in Seoul as an application-software company.
 
-Website: [questedtech.com](https://questedtech.com)
-
 ### duPhonics — Founder, 2020 →
 
 A telenanny platform for life literacy, started in the first months of the pandemic. Children learn inside a real-time metaverse where a teacher is present and generative AI composes the curriculum — images, video and audio — as the lesson goes. It's built for Gen Alpha, who are VR/XR natives; our pitch persona is Anna, born after 2010, who has never known a world without a screen she can step into.
 
 duPhonics went through the APTG 5G Accelerator (2022), showed at Smart City Expo 2022 through the TED Fund, at EdTech Asia in 2023 and 2024, on stage at NextRise 2024 Seoul (sponsored by DPIT, Ministry of Commerce of Thailand), and at TECHBITE 5.0's Investment & Demo Day in 2024.
-
-Website: [duphonics.com](https://duphonics.com)
 
 ### QuestLanguage — Co-Founder, 2013 →
 

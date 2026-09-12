@@ -53,6 +53,11 @@ export type LanguageStrings = {
     locationValue: string;
     kinds: Record<TrackKind, string>;
   };
+  about: {
+    atAGlance: { title: string; roles: string; korea: string; koreaValue: string; languages: string; languagesValue: string };
+    timeline: { title: string };
+  };
+  ventures: { arcCaption: string; arcAlt: string; bangkok: string; seoul: string };
   pages: {
     about: { eyebrow: string; title: string; lede: string };
     ventures: { eyebrow: string; title: string; lede: string };
@@ -131,6 +136,23 @@ const en: LanguageStrings = {
     location: "Based in",
     locationValue: "Bangkok, Thailand",
     kinds: { win: "Winner", selected: "Selected", milestone: "Milestone", mentor: "Mentor", role: "Appointed" },
+  },
+  about: {
+    atAGlance: {
+      title: "At a glance",
+      roles: "Current roles",
+      korea: "Korea",
+      koreaValue: "K-Scouter 2025 · QUEST EDTECH Korea, Seoul",
+      languages: "Works in",
+      languagesValue: "Thai, English",
+    },
+    timeline: { title: "The path" },
+  },
+  ventures: {
+    arcCaption: "The corridor: Bangkok to Seoul, 2024 to 2026.",
+    arcAlt: "An arc from Bangkok to Seoul marked 2024, 2025 and 2026",
+    bangkok: "Bangkok",
+    seoul: "Seoul",
   },
   pages: {
     about: { eyebrow: "About", title: "Technical founder, venture builder, ecosystem builder", lede: "The journey behind a 25-year career — from early fintech to education ventures in Thailand and advisory work across Asia-Pacific." },
@@ -211,6 +233,23 @@ const th: LanguageStrings = {
     locationValue: "กรุงเทพฯ ประเทศไทย",
     kinds: { win: "ชนะเลิศ", selected: "ได้รับคัดเลือก", milestone: "หมุดหมาย", mentor: "Mentor", role: "แต่งตั้ง" },
   },
+  about: {
+    atAGlance: {
+      title: "ข้อมูลโดยสรุป",
+      roles: "บทบาทปัจจุบัน",
+      korea: "เกาหลี",
+      koreaValue: "K-Scouter 2025 · QUEST EDTECH Korea, โซล",
+      languages: "ภาษาที่ใช้ทำงาน",
+      languagesValue: "ไทย, อังกฤษ",
+    },
+    timeline: { title: "เส้นทาง" },
+  },
+  ventures: {
+    arcCaption: "เส้นทางเชื่อม: กรุงเทพฯ สู่โซล ปี 2024 ถึง 2026",
+    arcAlt: "เส้นโค้งจากกรุงเทพฯ ไปโซล ระบุปี 2024, 2025 และ 2026",
+    bangkok: "กรุงเทพฯ",
+    seoul: "โซล",
+  },
   pages: {
     about: { eyebrow: "เกี่ยวกับ", title: "ผู้ก่อตั้งสายเทคนิค ผู้สร้างธุรกิจ ผู้สร้างระบบนิเวศ", lede: "เส้นทาง 25 ปี จากฟินเทคยุคแรกสู่การสร้างธุรกิจการศึกษาในไทยและงานที่ปรึกษาทั่วเอเชียแปซิฟิก" },
     ventures: { eyebrow: "ธุรกิจและภาวะผู้นำ", title: "สร้าง ขยาย และเป็น Mentor ทั่วเอเชียแปซิฟิก", lede: "ธุรกิจด้านการศึกษา ข้อมูลความยั่งยืน โลจิสติกส์ และ AI รวมถึงผู้ก่อตั้งที่ได้ร่วมเป็น Mentor" },
@@ -289,6 +328,23 @@ const ko: LanguageStrings = {
     location: "거점",
     locationValue: "태국 방콕",
     kinds: { win: "수상", selected: "선정", milestone: "마일스톤", mentor: "멘토", role: "임명" },
+  },
+  about: {
+    atAGlance: {
+      title: "한눈에 보기",
+      roles: "현재 역할",
+      korea: "한국",
+      koreaValue: "K-Scouter 2025 · QUEST EDTECH Korea, 서울",
+      languages: "사용 언어",
+      languagesValue: "태국어, 영어",
+    },
+    timeline: { title: "발자취" },
+  },
+  ventures: {
+    arcCaption: "회랑: 방콕에서 서울로, 2024년부터 2026년까지.",
+    arcAlt: "방콕에서 서울까지 2024, 2025, 2026이 표시된 곡선",
+    bangkok: "방콕",
+    seoul: "서울",
   },
   pages: {
     about: { eyebrow: "소개", title: "테크니컬 파운더, 벤처 빌더, 생태계 빌더", lede: "초기 핀테크에서 태국 교육 벤처와 아시아·태평양 자문까지, 25년 경력의 여정." },

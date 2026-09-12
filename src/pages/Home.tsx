@@ -2,27 +2,17 @@ import { Link } from "wouter";
 import { ArrowRight, ArrowUpRight, Linkedin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getStrings } from "@/content/strings";
-import { getHomeContent, TrackItem } from "@/content/homeContent";
+import { getHomeContent } from "@/content/homeContent";
 import { LINKS } from "@/content/links";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { TrackLedger } from "@/components/TrackLedger";
 import { usePageTitle } from "@/lib/usePageTitle";
-
-function groupByYear(items: TrackItem[]): [string, TrackItem[]][] {
-  const map = new Map<string, TrackItem[]>();
-  for (const item of items) {
-    const list = map.get(item.year) ?? [];
-    list.push(item);
-    map.set(item.year, list);
-  }
-  return Array.from(map.entries());
-}
 
 export default function Home() {
   const { language } = useLanguage();
   const s = getStrings(language);
   const c = getHomeContent(language);
-  const years = groupByYear(c.track);
   usePageTitle();
 
   return (
@@ -173,25 +163,8 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <SectionHeading eyebrow={s.sections.track.eyebrow} title={s.sections.track.title} lede={s.sections.track.lede} />
-          <div className="mt-12 border-t-2 border-line-strong">
-            {years.map(([year, items]) => (
-              <div key={year} className="grid gap-3 border-b border-line py-8 md:grid-cols-12 md:gap-8">
-                <div className="md:col-span-2">
-                  <span className="numeral text-[2.25rem] md:text-[2.75rem]">{year}</span>
-                </div>
-                <ul className="divide-y divide-line md:col-span-10">
-                  {items.map((item) => (
-                    <li key={item.title} className="grid gap-1 py-3 md:grid-cols-[7.5rem_1fr] md:gap-6">
-                      <span className="caption md:pt-1">{s.labels.kinds[item.kind]}</span>
-                      <div>
-                        <p className="font-medium text-fg">{item.title}</p>
-                        {item.detail && <p className="mt-0.5 text-sm text-fg-muted">{item.detail}</p>}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+          <div className="mt-12">
+            <TrackLedger items={c.track} />
           </div>
         </div>
       </section>

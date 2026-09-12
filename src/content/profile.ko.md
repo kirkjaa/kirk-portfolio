@@ -24,15 +24,11 @@ QUEST는 2018년 방콕 Edtech Hackathon에서 시작했고, 같은 해 싱가�
 
 그동안의 제품: 풀스택 코딩 커리큘럼, Coding Co-Pilot Tutor(2024), GED·IGCSE·IELTS 준비 과정, REACH LearnSpace, 그리고 duPhonics. 2025년 QUEST는 AI 컨설팅 회사로 전환했습니다 — 태국어와 동남아시아 언어를 위한 LLM 현지화, 에이전틱 AI 시스템, 에이전틱 HR 개념 검증 — 기존 제품은 그대로 운영하면서요. 2026년 5월에는 서울에 응용 소프트웨어 기업 QUEST EDTECH Korea를 설립했습니다.
 
-웹사이트: [questedtech.com](https://questedtech.com)
-
 ### duPhonics — 창업자, 2020 →
 
 팬데믹 초기에 시작한 생활 문해력 텔레내니 플랫폼입니다. 아이들은 교사가 함께 있는 실시간 메타버스 안에서 배우고, 생성형 AI가 수업 진행에 맞춰 커리큘럼 — 이미지, 영상, 음성 — 을 구성합니다. VR/XR 네이티브인 Gen Alpha를 위해 만들었습니다. 우리 피치의 페르소나 Anna는 2010년 이후 출생으로, 걸어 들어갈 수 있는 화면이 없는 세상을 모릅니다.
 
 duPhonics는 APTG 5G Accelerator(2022)를 거쳤고, TED Fund를 통해 Smart City Expo 2022에, EdTech Asia 2023·2024에 출품했으며, NextRise 2024 Seoul 무대(태국 상무부 국제무역진흥국 후원)와 2024년 TECHBITE 5.0 Investment & Demo Day에 섰습니다.
-
-웹사이트: [duphonics.com](https://duphonics.com)
 
 ### QuestLanguage — 공동창업자, 2013 →
 
