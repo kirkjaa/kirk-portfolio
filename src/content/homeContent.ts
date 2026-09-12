@@ -33,6 +33,7 @@ export interface ArticleItem {
 export interface MentorshipItem {
   name: string;
   logo: string;
+  photo?: string;
   program: string;
   blurb: string;
   link?: string;
@@ -75,7 +76,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "Venture building and AI transformation for businesses, from a Bangkok startup studio.",
     "Telenanny platform for life literacy — real-time metaverse and generative AI built for Gen Alpha.",
     "IELTS, SAT and TOEFL preparation with a 100% success rate into Thailand's top international programmes.",
-    "Non-profit bridging the digital divide for underprivileged children in Thailand.",
+    "Non-profit bridging the digital divide for underprivileged children in Thailand — Digital Access, Digital Skills & AI and Career Café, with IBM, AWS, SCG and Bangkok Bank.",
   ],
   th: [
     "แพลตฟอร์ม Coding และ Literacy แบบเรียลไทม์ ปัจจุบันขยายสู่งานที่ปรึกษา AI และจดทะเบียนบริษัทในโซลเมื่อพฤษภาคม 2026",
@@ -84,7 +85,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "Venture Building และ AI Transformation ให้ธุรกิจ จากสตาร์ทอัพสตูดิโอในกรุงเทพฯ",
     "แพลตฟอร์ม Telenanny เพื่อทักษะชีวิต ใช้ Metaverse แบบเรียลไทม์และ Generative AI สำหรับ Gen Alpha",
     "หลักสูตร IELTS, SAT และ TOEFL ที่ส่งนักเรียนเข้าหลักสูตรนานาชาติชั้นนำของไทยได้ 100%",
-    "องค์กรไม่แสวงกำไรที่ลดช่องว่างดิจิทัลให้เด็กด้อยโอกาสในประเทศไทย",
+    "องค์กรไม่แสวงกำไรที่ลดช่องว่างดิจิทัลให้เด็กด้อยโอกาสในประเทศไทย ผ่านโครงการ Digital Access, Digital Skills & AI และ Career Café ร่วมกับ IBM, AWS, SCG และธนาคารกรุงเทพ",
   ],
   ko: [
     "실시간 코딩·문해력 플랫폼에서 AI 컨설팅으로 확장, 2026년 5월 서울 법인 설립.",
@@ -93,7 +94,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "방콕 스타트업 스튜디오에서 벤처 빌딩과 기업 AI 전환을 담당.",
     "생활 문해력을 위한 텔레내니 플랫폼 — Gen Alpha를 위한 실시간 메타버스와 생성형 AI.",
     "IELTS·SAT·TOEFL 준비 과정, 태국 최상위 국제 프로그램 진학 성공률 100%.",
-    "태국 소외 계층 아동의 디지털 격차 해소를 위한 비영리 단체.",
+    "태국 소외 계층 아동의 디지털 격차 해소를 위한 비영리 단체 — Digital Access, Digital Skills & AI, Career Café 프로그램을 IBM·AWS·SCG·방콕은행과 함께 운영.",
   ],
 };
 
@@ -119,22 +120,30 @@ const track: TrackItem[] = [
   { year: "2020", kind: "selected", title: "Y Combinator Startup School — graduate", detail: "REACH LearnSpace" },
   { year: "2019", kind: "win", title: "TMA Shark Tank — Winner", detail: "Thailand Competitiveness Conference 2019, \"Rethinking the Future\"" },
   { year: "2019", kind: "milestone", title: "US$80,000 in grants from Depa and TED Fund", detail: "Blockchain-backed workforce-management application" },
-  { year: "2019", kind: "selected", title: "AWS EdStart · DigitalOcean Hatch · Y Combinator Startup School", detail: "Programme memberships for QUEST EDTECH" },
+  { year: "2019", kind: "selected", title: "AWS EdStart — member", detail: "Amazon Web Services EdTech accelerator" },
+  { year: "2019", kind: "selected", title: "DigitalOcean Hatch — member", detail: "Startup programme for QUEST EDTECH" },
+  { year: "2019", kind: "selected", title: "Y Combinator Startup School — graduate", detail: "First completion, September 2019" },
+  { year: "2019", kind: "selected", title: "TED Fund programme — member", detail: "Technology and innovation-based enterprise support" },
   { year: "2019", kind: "selected", title: "Startup Thailand 2019 — showcase", detail: "QUEST booth: \"Learn Coding, Prepare for Digital Literacy\"" },
   { year: "2018", kind: "win", title: "Asia Accelerator — 1-Minute Pitch Winner", detail: "" },
   { year: "2018", kind: "selected", title: "Project Alpha by SeedPlus — top finalist", detail: "The only Thai startup among the finalists" },
-  { year: "2018", kind: "selected", title: "Depa S2 · Startup Thailand 2018 · Edtech Hackathon finalist", detail: "Where QUEST began" },
+  { year: "2018", kind: "selected", title: "Depa S2 Programme — member", detail: "Digital Economy Promotion Agency" },
+  { year: "2018", kind: "selected", title: "Startup Thailand 2018 — showcase", detail: "National startup showcase" },
+  { year: "2018", kind: "selected", title: "Edtech Hackathon 2018 — finalist", detail: "Bangkok — where QUEST began" },
 ];
 
 /* Photographs — 1600px JPEGs in public/images/events. */
 const gallery: GalleryItem[] = [
   { src: "/images/events/2024-nextrise-seoul-duphonics-on-stage.jpg", caption: "Pitching duPhonics at the Pitching Station", meta: "NextRise 2024 · Seoul" },
   { src: "/images/events/2025-nextrise-seoul-cubika-booth.jpg", caption: "CUBIKA booth E-036 with the Digital Dialogue delegation", meta: "NextRise 2025 · Seoul" },
+  { src: "/images/events/2024-korean-market-landing-program-seoul.jpg", caption: "Korean Market Landing Program, Thai delegation", meta: "Dec 2024 · Seoul" },
   { src: "/images/events/2025-echelon-singapore-asaph-top100-booth.jpg", caption: "With the ASAPH founder — e27 Top 100, Top 10", meta: "Echelon 2025 · Singapore" },
   { src: "/images/events/2025-echelon-singapore-top100-award-stage.jpg", caption: "e27 Top 100 award stage", meta: "Echelon 2025 · Singapore" },
   { src: "/images/events/2025-echelon-singapore-tasted-better-top100-booth.jpg", caption: "Tasted Better, e27 Top 100 booth", meta: "Echelon 2025 · Singapore" },
+  { src: "/images/events/2025-echelon-singapore-top100-zone.jpg", caption: "In the Top 100 Zone with a programme startup", meta: "Echelon 2025 · Singapore" },
   { src: "/images/events/2025-ntu-programme-speaking.jpg", caption: "Speaking to the NTU / NUS entrepreneurship programme", meta: "2025 · Bangkok" },
   { src: "/images/events/2025-ntu-workshop-session.jpg", caption: "Workshop session, NTU entrepreneurship academy", meta: "2025 · Bangkok" },
+  { src: "/images/events/2025-ntu-entrepreneurship-academy-group.jpg", caption: "NTU entrepreneurship academy cohort", meta: "2025 · Bangkok" },
   { src: "/images/events/2025-bascii-culture-recreation-hackathon.jpg", caption: "Mentor, Culture Re-creation Hackathon at BASCII", meta: "2025 · Chulalongkorn" },
   { src: "/images/events/2024-techbite-5-duphonics-showcase.jpg", caption: "duPhonics metaverse demo, Investment & Demo Day", meta: "TECHBITE 5.0 · 2024" },
   { src: "/images/events/2019-tma-shark-tank-winner.jpg", caption: "Shark Tank winner, Thailand Competitiveness Conference", meta: "TMA · 2019" },
@@ -154,10 +163,10 @@ const articles: ArticleItem[] = [
 ];
 
 const mentorshipBase = [
-  { name: "ASAPH", logo: "/images/logos/asaph.png", program: "e27 Top 100 · 2025 (Top 10)" },
-  { name: "Tasted Better", logo: "/images/logos/tasted-better.png", program: "e27 Top 100 · 2025" },
-  { name: "SoPet", logo: "/images/logos/sopet.webp", program: "BASCII Mentorship", link: "https://sopet.co/en" },
-  { name: "Wooffy", logo: "/images/mentees/wooffy-solution-slide.jpg", program: "BASCII Mentorship", link: "https://www.instagram.com/wooffy.bkk/" },
+  { name: "ASAPH", logo: "/images/logos/asaph.png", photo: "/images/events/2025-echelon-singapore-asaph-top100-booth.jpg", program: "e27 Top 100 · 2025 (Top 10)" },
+  { name: "Tasted Better", logo: "/images/logos/tasted-better.png", photo: "/images/events/2025-echelon-singapore-tasted-better-top100-booth.jpg", program: "e27 Top 100 · 2025" },
+  { name: "SoPet", logo: "/images/logos/sopet.webp", photo: "/images/events/2025-bascii-mentorship-student-founders.jpg", program: "BASCII Mentorship", link: "https://sopet.co/en" },
+  { name: "Wooffy", logo: "/images/mentees/wooffy-solution-slide.jpg", photo: "/images/mentees/wooffy-community-event.jpg", program: "BASCII Mentorship", link: "https://www.instagram.com/wooffy.bkk/" },
   { name: "STL Group / VEV", logo: "/images/logos/stl-group.webp", program: "Strategic consulting · 2023", link: "https://www.stlgh.com/" },
   { name: "TREG / SMO", logo: "/images/logos/treg.webp", program: "Strategic consulting · 2023", link: "https://treg.co.th/" },
 ] as const;

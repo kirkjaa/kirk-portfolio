@@ -230,22 +230,32 @@ export default function Home() {
           <SectionHeading eyebrow={s.sections.mentorship.eyebrow} title={s.sections.mentorship.title} lede={s.sections.mentorship.lede} />
           <ul className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
             {c.mentorship.map((item) => (
-              <li key={item.name} className="flex flex-col bg-surface-2 p-6">
-                <div className="flex items-center gap-4">
-                  <div className="logo-plate h-14 w-14 shrink-0">
-                    <ImageWithFallback src={item.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
+              <li key={item.name} className="flex flex-col bg-surface-2">
+                {/* Every card gets a band of the same height: a photo where there is one, the logo otherwise. */}
+                {item.photo ? (
+                  <img src={item.photo} alt={item.name} loading="lazy" className="h-44 w-full border-b border-line object-cover" />
+                ) : (
+                  <div className="flex h-44 items-center justify-center border-b border-line bg-surface-3 p-8">
+                    <ImageWithFallback src={item.logo} alt="" className="max-h-20 max-w-[60%] object-contain" loading="lazy" />
                   </div>
-                  <div>
-                    <h3 className="font-display font-bold tracking-tight">{item.name}</h3>
-                    <p className="caption mt-0.5">{item.program}</p>
-                  </div>
-                </div>
-                <p className="mt-4 text-sm leading-relaxed text-fg-muted">{item.blurb}</p>
-                {item.link && (
-                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-link mt-4 inline-flex items-center gap-1 text-sm">
-                    {s.labels.visit} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </a>
                 )}
+                <div className="flex flex-1 flex-col p-6">
+                  <div className="flex items-center gap-4">
+                    <div className="logo-plate h-14 w-14 shrink-0">
+                      <ImageWithFallback src={item.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
+                    </div>
+                    <div>
+                      <h3 className="font-display font-bold tracking-tight">{item.name}</h3>
+                      <p className="caption mt-0.5">{item.program}</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm leading-relaxed text-fg-muted">{item.blurb}</p>
+                  {item.link && (
+                    <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-link mt-4 inline-flex items-center gap-1 text-sm">
+                      {s.labels.visit} <ArrowUpRight className="h-3.5 w-3.5" />
+                    </a>
+                  )}
+                </div>
               </li>
             ))}
           </ul>

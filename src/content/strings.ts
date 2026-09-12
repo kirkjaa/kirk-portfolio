@@ -63,7 +63,7 @@ export type LanguageStrings = {
   footer: {
     roles: string;
     copyright: string;
-    links: { linkedin: string; e27: string; company: string };
+    links: { linkedin: string; e27: string; company: string; digitalBridge: string };
   };
 };
 
@@ -142,7 +142,7 @@ const en: LanguageStrings = {
   footer: {
     roles: "Venture Builder · Technical Founder · Strategic Advisor",
     copyright: "© 2026 Kirk Pathumanun",
-    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH" },
+    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH", digitalBridge: "Digital Bridge Thailand" },
   },
 };
 
@@ -221,7 +221,7 @@ const th: LanguageStrings = {
   footer: {
     roles: "Venture Builder · Technical Founder · ที่ปรึกษากลยุทธ์",
     copyright: "© 2026 Kirk Pathumanun",
-    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH" },
+    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH", digitalBridge: "Digital Bridge Thailand" },
   },
 };
 
@@ -300,7 +300,7 @@ const ko: LanguageStrings = {
   footer: {
     roles: "벤처 빌더 · 테크니컬 파운더 · 전략 자문",
     copyright: "© 2026 Kirk Pathumanun",
-    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH" },
+    links: { linkedin: "LinkedIn", e27: "e27", company: "QUEST EDTECH", digitalBridge: "Digital Bridge Thailand" },
   },
 };
 

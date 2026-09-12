@@ -19,10 +19,11 @@ export function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-3 md:items-end">
-          <nav className="flex gap-5 text-sm" aria-label="External">
+          <nav className="flex flex-wrap gap-x-5 gap-y-1 text-sm md:justify-end" aria-label="External">
             <a href={LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="text-fg-muted hover:text-fg">{s.footer.links.linkedin}</a>
             <a href={LINKS.e27} target="_blank" rel="noopener noreferrer" className="text-fg-muted hover:text-fg">{s.footer.links.e27}</a>
             <a href={LINKS.company} target="_blank" rel="noopener noreferrer" className="text-fg-muted hover:text-fg">{s.footer.links.company}</a>
+            <a href={LINKS.digitalBridge} target="_blank" rel="noopener noreferrer" className="text-fg-muted hover:text-fg">{s.footer.links.digitalBridge}</a>
           </nav>
           <p className="caption">{s.footer.copyright}</p>
         </div>

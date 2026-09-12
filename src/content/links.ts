@@ -5,4 +5,5 @@ export const LINKS = {
   company: "https://questedtech.com",
   linkedin: "https://www.linkedin.com/in/kirkjaa/",
   e27: "https://e27.co/user/kirk.pathumanun/",
+  digitalBridge: "https://www.digitalbridgethailand.com/about",
 } as const;
