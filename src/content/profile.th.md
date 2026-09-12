@@ -42,15 +42,19 @@ duPhonics ผ่าน APTG 5G Accelerator (2022) จัดแสดงที่
 
 ### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี และชนะ Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน
+Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี และชนะ Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน เดือนพฤศจิกายน 2025 Digital Dialogue ปิดดีลการลงทุน **30 ล้านบาท** ในรายการ **Shark Tank Thailand** กับ Shark แชนนอน กัลยาณมิตร สำหรับ CUBIKA Big Insights และในปี 2026 CUBIKA Korea ได้รับคัดเลือกเข้า **Global Startup Commercialization Program** ทุน 50,000,000 วอนจาก KISED และ KBAN หลังจากผมขึ้นพิทช์รอบสุดท้ายในนามบริษัท ปัจจุบันผมทำหน้าที่ Manager ของบริษัทในเกาหลี
 
 ### SSL Logistics — Chief Strategy Officer, พฤศจิกายน 2025 →
 
-SSL คือแพลตฟอร์มโลจิสติกส์และขนส่งสินค้าดิจิทัลของไทย ใช้ AI และ IoT จับคู่งานขนส่ง ติดตามแบบเรียลไทม์ วางเส้นทางให้เหมาะสม จัดการเอกสารดิจิทัล สินเชื่อเงินทุนหมุนเวียน และรายงาน ESG ผมเริ่มเป็นที่ปรึกษาด้านการขยายสู่ต่างประเทศในปี 2025 และรับตำแหน่ง CSO ในเดือนพฤศจิกายน รับผิดชอบ AI Transformation และการขยายสู่เกาหลีและญี่ปุ่น SSL เป็นหนึ่งในสามบริษัทที่ผมโค้ชจนได้ที่ใน e27 Top 100 ปี 2025
+SSL คือแพลตฟอร์มโลจิสติกส์และขนส่งสินค้าดิจิทัลของไทย ใช้ AI และ IoT จับคู่งานขนส่ง ติดตามแบบเรียลไทม์ วางเส้นทางให้เหมาะสม จัดการเอกสารดิจิทัล สินเชื่อเงินทุนหมุนเวียน และรายงาน ESG ผมเริ่มเป็นที่ปรึกษาด้านการขยายสู่ต่างประเทศในปี 2025 และรับตำแหน่ง CSO ในเดือนพฤศจิกายน รับผิดชอบ AI Transformation และการขยายสู่เกาหลีและญี่ปุ่น SSL เป็นหนึ่งในสามบริษัทที่ผมโค้ชจนได้ที่ใน e27 Top 100 ปี 2025 ปี 2026 SSL ชนะ Global Investment Link Program พร้อม PoC ไทย–เกาหลีที่ผ่านการรับรองจาก NIA จัดตั้ง Sahapan Korea เป็นบริษัทย่อย และเปิดตัว SSL-CEO แพลตฟอร์มโลจิสติกส์แบบ Agentic ที่ผมนำทีมสร้าง
 
 ### Whatnot Startup Studio — Entrepreneur in Residence, มกราคม 2025 →
 
 Whatnot คือ Venture Builder ในกรุงเทพฯ ที่ลงทุนและสร้างสตาร์ทอัพรุ่นใหม่ หน้าที่ของผมคือ Venture Building และ AI Transformation ให้ธุรกิจ คำแนะนำที่ผมให้ผู้ก่อตั้งที่นั่นเหมือนกับที่ให้ทุกที่: ให้ AI เป็นเด็กรับใช้ของคุณ ไม่ใช่กลับกัน
+
+### NODAL — Chief Strategy Officer, 2026 →
+
+Nodal Computer Vision Engineering สร้างระบบ Motion Capture แบบพกพาที่ไม่ต้องใช้มาร์กเกอร์ กล้อง Global Shutter ซิงก์กันกว่า 20 ตัวที่ 120 เฟรมต่อวินาที ความคลาดเคลื่อนต่ำกว่า 5 มิลลิวินาที ติดตั้งเสร็จในไม่ถึง 5 นาที ด้วยต้นทุนเพียงเศษเสี้ยวของระบบอย่าง Vicon หรือ Qualisys ใช้สร้างข้อมูลฝึกหุ่นยนต์ งานวิจัยทางคลินิก กีฬา และ VFX ผมเป็น Chief Strategy Officer และกำลังเตรียมการเข้าสู่ตลาดเกาหลีร่วมกับ Pen Ventures
 
 ### Digital Bridge Thailand — ที่ปรึกษา, 2024 →
 
@@ -66,6 +70,9 @@ Whatnot คือ Venture Builder ในกรุงเทพฯ ที่ลง
 - **K-Scouter 2025** — ได้รับคัดเลือกในเดือนสิงหาคม 2025 เข้าโปรแกรม K-Scouter ร่วมกับ Nautilus Investment เพื่อคัดเลือกและโค้ชสตาร์ทอัพอาเซียนสำหรับตลาดเกาหลี
 - **COMEUP 2025, โซล** — ประจำบูธ Nautilus Investment ในเดือนธันวาคม
 - **QUEST EDTECH Korea** — จดทะเบียนที่กรุงโซลในเดือนพฤษภาคม 2026 ในฐานะบริษัทซอฟต์แวร์
+- **AI Summit Seoul พฤศจิกายน 2025** — เปิดตัว QUEST Agentic Framework
+- **CUBIKA Korea ปี 2026** — ได้รับคัดเลือกเข้า Global Startup Commercialization Program ทุน 50,000,000 วอนจาก KISED และ KBAN
+- **Seoul Business Agency กันยายน 2026** — บรรยายให้สตาร์ทอัพไทย 8 รายในโครงการ Seoul Startup Hub Global Inbound Program ก่อนเดินทางไป Global Startup Center
 
 QUEST EDTECH เป็นพันธมิตรอย่างเป็นทางการของ Nautilus Investment, Pen Ventures และ Seoul Business Agency สำหรับบริษัทที่จะเข้าเกาหลี ผมทำงานทั้งกระบวนการ: โปรแกรมไหนเหมาะและเป็นไปได้จริงหรือไม่ แผนธุรกิจและ Pitch Deck ทั้งภาษาอังกฤษและเกาหลี การแนะนำให้รู้จักผู้ดำเนินโปรแกรมและนักลงทุน และเมื่อจำเป็น ผมขึ้นพิทช์แทนคุณในห้องประชุมเอง โซลในเดือนมิถุนายนและธันวาคม สิงคโปร์ระหว่างนั้น — นั่นคือจังหวะของผม
 
@@ -117,6 +124,18 @@ QUEST EDTECH เป็นพันธมิตรอย่างเป็นท�
 - **The metaverse opens new opportunities for education** (มิถุนายน 2022) — การศึกษาใน Metaverse จะเป็นประชาธิปไตยมากขึ้น และหลักสูตรจะเท่าเทียมและเปิดกว้างขึ้น
 
 ธีมซ้ำ ๆ เพราะผมต่อยอดจากมันเรื่อย ๆ: Gen Alpha, Generative และ Agentic AI, ทักษะดิจิทัลและการ Reskill, การเติบโตข้ามพรมแดน, ข้อมูลเพื่อความยั่งยืน และ Open Innovation ระหว่างสตาร์ทอัพกับองค์กรใหญ่
+
+## การบรรยาย (Speaking)
+
+- **Seoul Business Agency — "Korea Market Experience"** กันยายน 2026 บรรยายออนไลน์ให้สตาร์ทอัพไทยระยะเริ่มต้น 8 รายในโครงการ Seoul Startup Hub Global Inbound Program ก่อนเดินทางไป Global Startup Center
+- **AI Summit Seoul & Expo** พฤศจิกายน 2025 เปิดตัว QUEST Agentic Framework
+- **โครงการผู้ประกอบการ NTU Singapore ร่วมกับ NUS** ปี 2025 บรรยายและจัด Workshop ให้โครงการ
+- **NextRise Seoul** ปี 2024 เวที Pitching Station กับ duPhonics สนับสนุนโดยกรมส่งเสริมการค้าระหว่างประเทศ กระทรวงพาณิชย์
+- **EdTech Asia** ปี 2023 และ 2024 สองปีติดต่อกัน หัวข้อปี 2024 คือ "Localizing LLMs and Leveraging"
+- **TECHBITE 5.0 Investment & Demo Day** ปี 2024 จัดแสดง duPhonics
+- **Thailand Competitiveness Conference (TMA)** ปี 2019 รางวัลชนะเลิศเวที Shark Tank
+
+หัวข้อที่ผมมักได้รับเชิญให้พูด: การ Localize LLM สำหรับอาเซียน, Agentic AI ในธุรกิจ, Gen Alpha กับอนาคตของการเรียนรู้, Venture Building ด้วย AI และการเข้าตลาดเกาหลีสำหรับบริษัทในอาเซียน
 
 ## วิธีทำงานของผม (How I work)
 

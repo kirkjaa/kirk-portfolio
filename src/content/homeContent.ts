@@ -6,7 +6,8 @@ export interface RoleItem {
   role: string;
   from: string;
   blurb: string;
-  logo: string;
+  /** Omitted where we hold no logo file — the plate falls back to a monogram. */
+  logo?: string;
   link?: string;
 }
 
@@ -34,7 +35,7 @@ export interface ArticleItem {
 
 export interface MentorshipItem {
   name: string;
-  logo: string;
+  logo?: string;
   photo?: string;
   program: string;
   blurb: string;
@@ -64,6 +65,7 @@ const roleBase = [
   { org: "QUEST EDTECH", role: "CEO & Co-Founder", from: "2018", logo: "/images/logos/quest-edtech.png", link: "https://questedtech.com" },
   { org: "CUBIKA / Digital Dialogue", role: "Chief Strategy Officer", from: "2025", logo: "/images/logos/cubika-digital-dialogue.png", link: "https://ddlghq.com" },
   { org: "SSL Logistics", role: "Chief Strategy Officer", from: "2025", logo: "/images/logos/ssl-logistics.png", link: "https://www.ssllogistics.co.th" },
+  { org: "NODAL", role: "Chief Strategy Officer", from: "2026", link: "https://www.nodal3d.com/" },
   { org: "Whatnot Startup Studio", role: "Entrepreneur in Residence", from: "2025", logo: "/images/logos/whatnot-startup-studio.png", link: "https://whatnot.co" },
   { org: "duPhonics", role: "Founder", from: "2020", logo: "/images/logos/duphonics.png", link: "https://duphonics.com" },
   { org: "QuestLanguage", role: "Co-Founder", from: "2013", logo: "/images/logos/questlanguage.png", link: "https://questlanguage.com" },
@@ -75,6 +77,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "Real-time coding and literacy platforms, now an AI consulting practice; Korean entity incorporated in Seoul in May 2026.",
     "Agentic-AI data management and CUBIKA Earth carbon accounting; I lead the expansion into Korea.",
     "AI transformation and expansion into Korea and Japan for a Thai digital freight platform.",
+    "Portable, markerless motion capture — 20+ synchronised cameras at 120 FPS — for robotics, clinical research, sport and VFX. I am preparing its Korean entry.",
     "Venture building and AI transformation for businesses, from a Bangkok startup studio.",
     "Telenanny platform for life literacy — real-time metaverse and generative AI built for Gen Alpha.",
     "IELTS, SAT and TOEFL preparation with a 100% success rate into Thailand's top international programmes.",
@@ -84,6 +87,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "แพลตฟอร์ม Coding และ Literacy แบบเรียลไทม์ ปัจจุบันขยายสู่งานที่ปรึกษา AI และจดทะเบียนบริษัทในโซลเมื่อพฤษภาคม 2026",
     "แพลตฟอร์มจัดการข้อมูลด้วย Agentic AI และ CUBIKA Earth สำหรับบัญชีคาร์บอน ผมดูแลการขยายสู่เกาหลี",
     "AI Transformation และการขยายสู่เกาหลีและญี่ปุ่นให้แพลตฟอร์มโลจิสติกส์ดิจิทัลของไทย",
+    "ระบบ Motion Capture แบบพกพาที่ไม่ต้องติดมาร์กเกอร์ — กล้องซิงก์กันกว่า 20 ตัวที่ 120 FPS — สำหรับหุ่นยนต์ งานวิจัยทางคลินิก กีฬา และ VFX ผมดูแลการเข้าสู่ตลาดเกาหลีให้",
     "Venture Building และ AI Transformation ให้ธุรกิจ จากสตาร์ทอัพสตูดิโอในกรุงเทพฯ",
     "แพลตฟอร์ม Telenanny เพื่อทักษะชีวิต ใช้ Metaverse แบบเรียลไทม์และ Generative AI สำหรับ Gen Alpha",
     "หลักสูตร IELTS, SAT และ TOEFL ที่ส่งนักเรียนเข้าหลักสูตรนานาชาติชั้นนำของไทยได้ 100%",
@@ -93,6 +97,7 @@ const roleBlurbs: Record<Language, string[]> = {
     "실시간 코딩·문해력 플랫폼에서 AI 컨설팅으로 확장, 2026년 5월 서울 법인 설립.",
     "에이전틱 AI 데이터 관리와 CUBIKA Earth 탄소 회계, 한국 진출을 총괄.",
     "태국 디지털 화물 플랫폼의 AI 전환과 한국·일본 진출.",
+    "휴대 가능한 마커리스 모션 캡처 — 20대 이상의 동기화 카메라, 120 FPS — 로보틱스·임상 연구·스포츠·VFX용. 한국 진출을 준비하고 있습니다.",
     "방콕 스타트업 스튜디오에서 벤처 빌딩과 기업 AI 전환을 담당.",
     "생활 문해력을 위한 텔레내니 플랫폼 — Gen Alpha를 위한 실시간 메타버스와 생성형 AI.",
     "IELTS·SAT·TOEFL 준비 과정, 태국 최상위 국제 프로그램 진학 성공률 100%.",
@@ -107,13 +112,22 @@ function rolesFor(language: Language): RoleItem[] {
 
 /* Track record — proper nouns, kept in English in every language. Newest first. */
 const track: TrackItem[] = [
+  { year: "2026", kind: "role", title: "Chief Strategy Officer, NODAL", detail: "Portable markerless motion capture; preparing its Korean market entry with Pen Ventures" },
+  { year: "2026", kind: "win", title: "CUBIKA Korea — 2026 Global Startup Commercialization Program", detail: "KRW 50,000,000 grant from KISED and KBAN; I pitched the final round on behalf of Digital Dialogue" },
+  { year: "2026", kind: "role", title: "Manager, CUBIKA Korea", detail: "Running the Seoul entity's programme obligations, IR and counsel coordination for Digital Dialogue" },
+  { year: "2026", kind: "win", title: "SSL Logistics — Global Investment Link Program", detail: "With an NIA-validated Thailand–Korea proof of concept and Sahapan Korea established as an SSL subsidiary" },
   { year: "2026", kind: "milestone", title: "QUEST EDTECH Korea incorporated in Seoul", detail: "Application-software company (정보통신업), May 2026 — the landing after K-Scouter 2025" },
   { year: "2025", kind: "selected", title: "K-Scouter, K-Scouter Program 2025", detail: "Selected August 2025 with Nautilus Investment; Nautilus booth at COMEUP 2025, Seoul" },
+  { year: "2025", kind: "selected", title: "COMEUP 2025, Seoul", detail: "At the Nautilus Investment booth C152, 10–12 December" },
+  { year: "2025", kind: "win", title: "Shark Tank Thailand — 30 million baht for CUBIKA Big Insights", detail: "Digital Dialogue closed the investment with Shark Shannon Kalyanamitr, November 2025" },
+  { year: "2025", kind: "milestone", title: "AI Summit Seoul & Expo", detail: "Debut of the QUEST Agentic Framework, November 2025" },
+  { year: "2025", kind: "milestone", title: "QUEST Agent GIS proof of concept", detail: "An Amersfoort energy heat map built from 7 GB of XML by two people, October 2025" },
   { year: "2025", kind: "win", title: "NextRise 2025 Seoul — Inc & IR Award", detail: "Strategist for CUBIKA's Korea expansion; pre-seed / Big Data booth E-036" },
   { year: "2025", kind: "win", title: "Angel Fund Connect 2025 — Winner, 500,000 THB", detail: "CUBIKA / Digital Dialogue, awarded by DIPROM and Delta Electronics" },
   { year: "2025", kind: "mentor", title: "e27 Top 100 Programme — Mentor", detail: "Three Thai winners: ASAPH (Top 10), Tasted Better and SSL Logistics" },
   { year: "2025", kind: "role", title: "Chief Strategy Officer, CUBIKA / Digital Dialogue and SSL Logistics", detail: "Overseas expansion and AI transformation mandates" },
   { year: "2024", kind: "selected", title: "NextRise 2024 Seoul — on-stage pitch", detail: "duPhonics at the Pitching Station, sponsored by DPIT, Ministry of Commerce of Thailand" },
+  { year: "2024", kind: "milestone", title: "BELIVVR × QUEST XRCloud MOU", detail: "Southeast Asia rights for the XRCloud platform, signed in Seoul in June 2024" },
   { year: "2024", kind: "selected", title: "Korean Market Landing Program 2024, Seoul", detail: "Thai startup delegation, 16–20 December" },
   { year: "2024", kind: "selected", title: "TECHBITE 5.0 Incubator", detail: "duPhonics, Investment & Demo Day" },
   { year: "2022", kind: "selected", title: "APTG 5G Accelerator", detail: "duPhonics" },
@@ -171,6 +185,7 @@ const mentorshipBase = [
   { name: "Wooffy", logo: "/images/mentees/wooffy-solution-slide.jpg", photo: "/images/mentees/wooffy-community-event.jpg", program: "BASCII Mentorship", link: "https://www.instagram.com/wooffy.bkk/" },
   { name: "STL Group / VEV", logo: "/images/logos/stl-group.webp", program: "Strategic consulting · 2023", link: "https://www.stlgh.com/" },
   { name: "TREG / SMO", logo: "/images/logos/treg.webp", program: "Strategic consulting · 2023", link: "https://treg.co.th/" },
+  { name: "KOI Sport Management", program: "Mentorship · since 2025" },
 ] as const;
 
 const mentorshipBlurbs: Record<Language, string[]> = {
@@ -181,6 +196,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "Dog-loving community hosting events for owners and their pups.",
     "EV and logistics market-expansion strategy, pitch decks in EN / TH / ZH.",
     "Hyperlocal fan-club application entering the Chinese market.",
+    "Declan Kenny's golf and sport-management venture, Dallas to Thailand — mentored since January 2025.",
   ],
   th: [
     "ตลาดประมูลสดบนมือถือสำหรับของสะสมที่ผ่านการรับรอง",
@@ -189,6 +205,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "คอมมูนิตี้คนรักสุนัข จัดกิจกรรมให้เจ้าของและน้องหมา",
     "กลยุทธ์ขยายตลาด EV และโลจิสติกส์ พร้อม Pitch Deck ภาษาอังกฤษ ไทย จีน",
     "แอปพลิเคชันแฟนคลับแบบ Hyperlocal สำหรับการรุกตลาดจีน",
+    "ธุรกิจกอล์ฟและการจัดการกีฬาของ Declan Kenny จากดัลลัสสู่ประเทศไทย ผมเป็น Mentor ตั้งแต่มกราคม 2025",
   ],
   ko: [
     "인증 수집품을 위한 모바일 라이브 경매 마켓플레이스.",
@@ -197,6 +214,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "반려견과 보호자를 위한 커뮤니티 이벤트 브랜드.",
     "EV·물류 시장 확장 전략과 영어·태국어·중국어 피치덱.",
     "중국 시장에 진출하는 하이퍼로컬 팬클럽 애플리케이션.",
+    "Declan Kenny의 골프·스포츠 매니지먼트 벤처, 댈러스에서 태국으로 — 2025년 1월부터 멘토링.",
   ],
 };
 

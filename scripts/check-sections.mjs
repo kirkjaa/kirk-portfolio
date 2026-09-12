@@ -26,7 +26,7 @@ const PAGES = {
     "recognition",
     "founders-i-mentor",
   ],
-  "Publications.tsx": ["what-i-can-help-with", "contact"],
+  "Publications.tsx": ["speaking", "what-i-can-help-with", "contact"],
 };
 
 /* Mirrors src/lib/slugify.ts. */

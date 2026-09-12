@@ -101,7 +101,7 @@ const en: LanguageStrings = {
   proof: [
     { value: "25", label: "years building, from the US to Thailand" },
     { value: "20+", label: "businesses advised across Asia" },
-    { value: "19+", label: "awards and programme selections, 2018–2025" },
+    { value: "20+", label: "awards and programme selections, 2018–2026" },
     { value: "7", label: "contributor articles on e27" },
   ],
   sections: {
@@ -197,7 +197,7 @@ const th: LanguageStrings = {
   proof: [
     { value: "25", label: "ปีแห่งการสร้างธุรกิจ จากสหรัฐฯ ถึงไทย" },
     { value: "20+", label: "ธุรกิจทั่วเอเชียที่ให้คำปรึกษา" },
-    { value: "19+", label: "รางวัลและโปรแกรมที่ได้รับคัดเลือก 2018–2025" },
+    { value: "20+", label: "รางวัลและโปรแกรมที่ได้รับคัดเลือก 2018–2026" },
     { value: "7", label: "บทความบน e27" },
   ],
   sections: {
@@ -293,7 +293,7 @@ const ko: LanguageStrings = {
   proof: [
     { value: "25", label: "년의 경력, 미국에서 태국까지" },
     { value: "20+", label: "아시아 전역 자문 기업" },
-    { value: "19+", label: "수상 및 프로그램 선정, 2018–2025" },
+    { value: "20+", label: "수상 및 프로그램 선정, 2018–2026" },
     { value: "7", label: "e27 기고문" },
   ],
   sections: {

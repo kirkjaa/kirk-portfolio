@@ -42,15 +42,19 @@ duPhonics는 APTG 5G Accelerator(2022)를 거쳤고, TED Fund를 통해 Smart Ci
 
 ### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄하며, 한국이 첫 번째입니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 우승해 50만 바트의 상금을 받았습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다.
+Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄하며, 한국이 첫 번째입니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 우승해 50만 바트의 상금을 받았습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 현재 저는 한국 법인의 Manager를 맡고 있습니다.
 
 ### SSL Logistics — Chief Strategy Officer, 2025년 11월 →
 
-SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡아 AI 전환과 한국·일본 진출을 책임지고 있습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다.
+SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡아 AI 전환과 한국·일본 진출을 책임지고 있습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다. 2026년 SSL은 NIA가 검증한 태국–한국 개념 검증과 함께 Global Investment Link Program에 선정되었고, Sahapan Korea를 자회사로 설립했으며, 제가 구축을 이끈 에이전틱 물류 플랫폼 SSL-CEO를 출시했습니다.
 
 ### Whatnot Startup Studio — Entrepreneur in Residence, 2025년 1월 →
 
 Whatnot은 차세대 스타트업에 투자하고 함께 만드는 방콕 벤처 빌더입니다. 제 역할은 벤처 빌딩과 기업 AI 전환입니다. 그곳 창업자들에게 하는 조언은 어디서나 같습니다: AI를 당신의 심부름꾼으로 만드세요, 그 반대가 아니라.
+
+### NODAL — Chief Strategy Officer, 2026 →
+
+Nodal Computer Vision Engineering은 휴대 가능한 마커리스 모션 캡처 시스템을 만듭니다. 20대 이상의 동기화된 글로벌 셔터 카메라가 120 FPS로 촬영하고, 동기화 오차는 5밀리초 미만, 설치는 5분 이내이며, Vicon이나 Qualisys 장비의 일부 비용으로 구현됩니다. 로보틱스 학습 데이터를 만들고 임상 연구, 스포츠, VFX에 쓰입니다. 저는 이 회사의 Chief Strategy Officer로서 Pen Ventures와 함께 한국 진출을 준비하고 있습니다.
 
 ### Digital Bridge Thailand — 자문, 2024 →
 
@@ -66,6 +70,9 @@ Tarit "Matt" Amatayakul이 설립한 비영리 단체로, Digital Access, Digita
 - **K-Scouter 2025** — 2025년 8월 Nautilus Investment와 함께하는 K-Scouter 프로그램에 선정되어 한국 진출을 위한 동남아시아 스타트업을 발굴·코칭하고 있습니다.
 - **COMEUP 2025, 서울** — 12월 Nautilus Investment 부스에서.
 - **QUEST EDTECH Korea** — 2026년 5월 서울에 응용 소프트웨어 기업으로 설립.
+- **AI Summit Seoul, 2025년 11월** — QUEST Agentic Framework 공개.
+- **CUBIKA Korea, 2026년** — Global Startup Commercialization Program 선정, KISED·KBAN 지원금 5,000만 원.
+- **서울경제진흥원, 2026년 9월** — Seoul Startup Hub Global Inbound Program의 태국 스타트업 8곳을 대상으로 Global Startup Center 방문 전 브리핑.
 
 QUEST EDTECH는 Nautilus Investment, Pen Ventures, 서울경제진흥원(SBA)의 공식 파트너입니다. 한국에 진출하는 기업을 위해 저는 전 과정을 맡습니다: 어떤 프로그램이 맞고 실현 가능한지, 영어와 한국어로 된 사업계획서와 피치덱, 운영기관과 투자자 소개, 그리고 도움이 된다면 현장에서 대신 피칭하는 것까지. 6월과 12월은 서울, 그 사이는 싱가포르 — 그것이 제 리듬입니다.
 
@@ -117,6 +124,18 @@ BASCII — 출라롱콘대학교 통합혁신학부 — 에서는 **SoPet**(온�
 - **The metaverse opens new opportunities for education** (2022년 6월) — 메타버스 교육은 더 민주적이고, 커리큘럼은 더 공평하고 열려 있을 것입니다.
 
 주제가 반복되는 건 계속 그 위에 쌓아 올리기 때문입니다: Gen Alpha, 생성형·에이전틱 AI, 디지털 리터러시와 리스킬링, 국경을 넘는 성장, 지속가능성을 위한 데이터, 스타트업과 대기업의 오픈 이노베이션.
+
+## 강연 (Speaking)
+
+- **서울경제진흥원 — "Korea Market Experience"**, 2026년 9월. Seoul Startup Hub Global Inbound Program에 참여한 태국 초기 스타트업 8곳을 대상으로 한 온라인 브리핑.
+- **AI Summit Seoul & Expo**, 2025년 11월. QUEST Agentic Framework 공개.
+- **NTU Singapore 기업가 프로그램(NUS 공동)**, 2025년. 강연과 워크숍 진행.
+- **NextRise Seoul**, 2024년. 태국 상무부 국제무역진흥국 후원으로 duPhonics와 함께 Pitching Station 무대에.
+- **EdTech Asia**, 2023년과 2024년. 2년 연속 연사로 참여했으며 2024년 주제는 "Localizing LLMs and Leveraging".
+- **TECHBITE 5.0 Investment & Demo Day**, 2024년. duPhonics 쇼케이스.
+- **Thailand Competitiveness Conference (TMA)**, 2019년. Shark Tank 피칭 우승.
+
+주로 요청받는 주제: 동남아시아를 위한 LLM 현지화, 비즈니스에서의 에이전틱 AI, Gen Alpha와 학습의 미래, AI 기반 벤처 빌딩, 동남아시아 기업의 한국 시장 진출.
 
 ## 일하는 방식 (How I work)
 

@@ -6,6 +6,7 @@ import { getHomeContent } from "@/content/homeContent";
 import { LINKS } from "@/content/links";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { LogoPlate } from "@/components/LogoPlate";
 import { TrackLedger } from "@/components/TrackLedger";
 import { usePageTitle } from "@/lib/usePageTitle";
 
@@ -91,19 +92,17 @@ export default function Home() {
       <section className="section border-t border-line">
         <div className="container">
           <SectionHeading eyebrow={s.sections.roles.eyebrow} title={s.sections.roles.title} lede={s.sections.roles.lede} />
-          <ul className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-12 grid border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
             {c.roles.map((role, index) => {
               // The first role (QUEST EDTECH) runs full width; the remaining six fill a 3 × 2 grid.
               const feature = index === 0;
               return (
                 <li
                   key={role.org}
-                  className={`flex flex-col gap-4 bg-surface-2 p-6 ${feature ? "lg:col-span-3 lg:flex-row lg:items-start lg:gap-10 lg:p-8" : ""}`}
+                  className={`flex flex-col gap-4 border-b border-r border-line bg-surface-2 p-6 ${feature ? "lg:col-span-3 lg:flex-row lg:items-start lg:gap-10 lg:p-8" : ""}`}
                 >
                   <div className={`flex items-start justify-between gap-4 ${feature ? "lg:w-40 lg:shrink-0 lg:flex-col" : ""}`}>
-                    <div className="logo-plate h-14 w-28">
-                      <ImageWithFallback src={role.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
-                    </div>
+                    <LogoPlate src={role.logo} name={role.org} className="h-14 w-28" />
                     <span className="caption pt-1">
                       {role.from} — {s.labels.present}
                     </span>
@@ -204,22 +203,20 @@ export default function Home() {
       <section className="section border-t border-line">
         <div className="container">
           <SectionHeading eyebrow={s.sections.mentorship.eyebrow} title={s.sections.mentorship.title} lede={s.sections.mentorship.lede} />
-          <ul className="mt-12 grid gap-px border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="mt-12 grid border-l border-t border-line sm:grid-cols-2 lg:grid-cols-3">
             {c.mentorship.map((item) => (
-              <li key={item.name} className="flex flex-col bg-surface-2">
+              <li key={item.name} className="flex flex-col border-b border-r border-line bg-surface-2">
                 {/* Every card gets a band of the same height: a photo where there is one, the logo otherwise. */}
                 {item.photo ? (
                   <img src={item.photo} alt={item.name} loading="lazy" className="h-44 w-full border-b border-line object-cover" />
                 ) : (
                   <div className="flex h-44 items-center justify-center border-b border-line bg-surface-3 p-8">
-                    <ImageWithFallback src={item.logo} alt="" className="max-h-20 max-w-[60%] object-contain" loading="lazy" />
+                    <LogoPlate src={item.logo} name={item.name} className="h-24 w-40 border-0 bg-transparent" imageClassName="max-h-20 max-w-full object-contain" />
                   </div>
                 )}
                 <div className="flex flex-1 flex-col p-6">
                   <div className="flex items-center gap-4">
-                    <div className="logo-plate h-14 w-14 shrink-0">
-                      <ImageWithFallback src={item.logo} alt="" className="max-h-10 max-w-full object-contain" loading="lazy" />
-                    </div>
+                    <LogoPlate src={item.logo} name={item.name} className="h-14 w-14 shrink-0" />
                     <div>
                       <h3 className="font-display font-bold tracking-tight">{item.name}</h3>
                       <p className="caption mt-0.5">{item.program}</p>

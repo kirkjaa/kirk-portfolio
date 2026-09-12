@@ -7,7 +7,8 @@
  * and that is deliberate — no photo is better than a misleading one.
  */
 export interface VentureMedia {
-  logo: string;
+  /** Omitted where we hold no logo file — the plate falls back to a monogram. */
+  logo?: string;
   photo?: string;
   photoCaption?: string;
   link?: string;
@@ -43,6 +44,9 @@ export const VENTURE_MEDIA: Record<string, VentureMedia> = {
   "Whatnot Startup Studio": {
     logo: "/images/logos/whatnot-startup-studio.png",
     link: "https://whatnot.co",
+  },
+  NODAL: {
+    link: "https://www.nodal3d.com/",
   },
   "Digital Bridge Thailand": {
     logo: "/images/logos/digital-bridge-thailand.webp",

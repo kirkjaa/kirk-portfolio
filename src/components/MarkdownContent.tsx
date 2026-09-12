@@ -3,7 +3,7 @@ import ReactMarkdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowUpRight } from "lucide-react";
 import { slugify } from "@/lib/slugify";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { LogoPlate } from "@/components/LogoPlate";
 import { mediaForHeading } from "@/content/ventureMedia";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getStrings } from "@/content/strings";
@@ -44,9 +44,7 @@ export function MarkdownContent({ content, className = "", ventureHeadings = fal
       return (
         <div className="mt-12 border-t border-line pt-8 first:mt-0 first:border-0 first:pt-0">
           <div className="flex items-center gap-4">
-            <div className="logo-plate h-16 w-16 shrink-0">
-              <ImageWithFallback src={media.logo} alt="" className="max-h-11 max-w-full object-contain" loading="lazy" />
-            </div>
+            <LogoPlate src={media.logo} name={name} className="h-16 w-16 shrink-0" imageClassName="max-h-11 max-w-full object-contain" />
             <div className="min-w-0 flex-1">
               <h3 id={id} className="!mt-0 text-xl leading-tight">{name}</h3>
               {role && <p className="mt-1 text-sm font-medium text-accent-ink">{role}</p>}
