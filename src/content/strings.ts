@@ -32,6 +32,7 @@ export type LanguageStrings = {
     about: { eyebrow: string; title: string };
     roles: { eyebrow: string; title: string; lede: string };
     korea: { eyebrow: string; title: string; body: string; cta: string; photoCaption: string; chips: string[] };
+    services: { eyebrow: string; title: string; lede: string; note: string };
     track: { eyebrow: string; title: string; lede: string };
     writing: { eyebrow: string; title: string; lede: string };
     mentorship: { eyebrow: string; title: string; lede: string };
@@ -116,6 +117,7 @@ const en: LanguageStrings = {
       photoCaption: "NextRise 2024 Seoul — pitching duPhonics at the Pitching Station",
       chips: ["NextRise Seoul 2024 · 2025", "Korean Market Landing Program 2024", "K-Scouter 2025 · Nautilus Investment", "COMEUP 2025", "QUEST EDTECH Korea · May 2026"],
     },
+    services: { eyebrow: "Services", title: "What I can help with", lede: "Five ways I work with founders and leadership teams.", note: "Delivered in Thai or English, online or on site in Bangkok." },
     track: { eyebrow: "Track record", title: "Wins, selections and milestones", lede: "2018 to 2026, newest first." },
     writing: { eyebrow: "Writing", title: "On e27 since 2022", lede: "Seven contributor pieces on Gen Alpha, generative AI, carbon data, logistics and emotional economics." },
     mentorship: { eyebrow: "Mentorship & consulting", title: "Founders I've worked with", lede: "e27 Top 100, BASCII at Chulalongkorn, and strategy engagements for companies entering China and the EV market." },
@@ -212,6 +214,7 @@ const th: LanguageStrings = {
       photoCaption: "NextRise 2024 Seoul — นำเสนอ duPhonics บนเวที Pitching Station",
       chips: ["NextRise Seoul 2024 · 2025", "Korean Market Landing Program 2024", "K-Scouter 2025 · Nautilus Investment", "COMEUP 2025", "QUEST EDTECH Korea · พ.ค. 2026"],
     },
+    services: { eyebrow: "บริการ", title: "สิ่งที่ผมช่วยได้", lede: "ห้าแนวทางที่ผมทำงานร่วมกับผู้ก่อตั้งและทีมผู้บริหาร", note: "ส่งมอบเป็นภาษาไทยหรืออังกฤษ ออนไลน์หรือที่สำนักงานของคุณในกรุงเทพฯ" },
     track: { eyebrow: "ผลงาน", title: "รางวัล การคัดเลือก และหมุดหมายสำคัญ", lede: "ตั้งแต่ปี 2018 ถึง 2026 เรียงจากล่าสุด" },
     writing: { eyebrow: "บทความ", title: "เขียนให้ e27 ตั้งแต่ปี 2022", lede: "บทความ 7 ชิ้นว่าด้วย Gen Alpha, Generative AI, ข้อมูลคาร์บอน, โลจิสติกส์ และ Emotional Economics" },
     mentorship: { eyebrow: "Mentorship และที่ปรึกษา", title: "ผู้ก่อตั้งที่ผมร่วมงานด้วย", lede: "e27 Top 100, BASCII จุฬาฯ และงานที่ปรึกษากลยุทธ์ให้บริษัทที่บุกตลาดจีนและตลาด EV" },
@@ -308,6 +311,7 @@ const ko: LanguageStrings = {
       photoCaption: "NextRise 2024 Seoul — Pitching Station에서 duPhonics 피칭",
       chips: ["NextRise Seoul 2024 · 2025", "Korean Market Landing Program 2024", "K-Scouter 2025 · Nautilus Investment", "COMEUP 2025", "QUEST EDTECH Korea · 2026년 5월"],
     },
+    services: { eyebrow: "서비스", title: "도울 수 있는 일", lede: "창업자, 경영진과 함께 일하는 다섯 가지 방식.", note: "태국어 또는 영어로, 온라인 또는 방콕 현장에서 진행합니다." },
     track: { eyebrow: "트랙 레코드", title: "수상, 선정, 주요 성과", lede: "2018년부터 2026년까지, 최신순." },
     writing: { eyebrow: "기고", title: "2022년부터 e27 기고", lede: "Gen Alpha, 생성형 AI, 탄소 데이터, 물류, 감성 경제를 다룬 7편의 기고문." },
     mentorship: { eyebrow: "멘토링 & 컨설팅", title: "함께한 창업자들", lede: "e27 Top 100, 출라롱콘 BASCII, 그리고 중국·EV 시장 진출 전략 자문." },

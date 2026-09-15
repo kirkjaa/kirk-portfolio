@@ -88,6 +88,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Services */}
+      <section id="services" className="section scroll-mt-16 border-t border-line bg-surface-3/50">
+        <div className="container">
+          <SectionHeading eyebrow={s.sections.services.eyebrow} title={s.sections.services.title} lede={s.sections.services.lede} />
+          <ol className="mt-12 border-t-2 border-line-strong">
+            {c.services.map((service, index) => (
+              <li key={service.title} className="grid gap-2 border-b border-line py-7 md:grid-cols-12 md:gap-8">
+                <span className="numeral text-[1.75rem] text-accent-ink md:col-span-1 md:text-[2rem]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <h3 className="font-display text-xl font-bold leading-snug tracking-tight md:col-span-4">{service.title}</h3>
+                <p className="leading-relaxed text-fg-2 md:col-span-7">{service.body}</p>
+              </li>
+            ))}
+          </ol>
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+            <p className="text-sm text-fg-muted">{s.sections.services.note}</p>
+            <a className="btn btn-primary" href={`mailto:${LINKS.email}`}>
+              {s.hero.ctaPrimary}
+              <ArrowUpRight className="h-4 w-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Roles & ventures */}
       <section className="section border-t border-line">
         <div className="container">
@@ -165,37 +190,6 @@ export default function Home() {
           <div className="mt-12">
             <TrackLedger items={c.track} />
           </div>
-        </div>
-      </section>
-
-      {/* Writing */}
-      <section className="section border-t border-line bg-surface-3/50">
-        <div className="container">
-          <SectionHeading eyebrow={s.sections.writing.eyebrow} title={s.sections.writing.title} lede={s.sections.writing.lede} />
-          <ol className="mt-12 border-t border-line">
-            {c.articles.map((article) => (
-              <li key={article.link} className="border-b border-line">
-                <a
-                  href={article.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group grid gap-2 py-5 md:grid-cols-[8rem_1fr_auto] md:items-baseline md:gap-8"
-                >
-                  <span className="caption">{article.date}</span>
-                  <span>
-                    <span className="font-display text-lg font-semibold leading-snug tracking-tight decoration-accent decoration-2 underline-offset-4 group-hover:underline">
-                      {article.title}
-                    </span>
-                    <span className="mt-1 block text-sm text-fg-muted">{article.theme}</span>
-                    {article.quote && <span className="mt-2 block max-w-2xl text-[0.95rem] italic leading-snug text-fg-2">“{article.quote}”</span>}
-                  </span>
-                  <span className="caption inline-flex items-center gap-1 group-hover:text-fg">
-                    {s.labels.readOnE27} <ArrowUpRight className="h-3.5 w-3.5" />
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ol>
         </div>
       </section>
 

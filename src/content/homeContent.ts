@@ -50,7 +50,13 @@ export interface SuccessStory {
   program: string;
 }
 
+export interface ServiceItem {
+  title: string;
+  body: string;
+}
+
 export interface HomeContent {
+  services: ServiceItem[];
   about: string[];
   roles: RoleItem[];
   track: TrackItem[];
@@ -260,9 +266,35 @@ const about: Record<Language, string[]> = {
   ],
 };
 
+/* What I can help with — same wording as the profile markdown, three languages. */
+const services: Record<Language, ServiceItem[]> = {
+  en: [
+    { title: "Venture building with AI", body: "One intensive day from business model to AI opportunity map to an AI-MVP roadmap and a 90-day plan; longer engagements to build it." },
+    { title: "Pitching and fundraising", body: "Deck, story and script; Q&A defence; mock pitches and mock negotiations; unit-economics coaching with an investment-banker partner. I've won the TMA Shark Tank and the Asia Accelerator 1-Minute Pitch, and I coach non-native English speakers for international stages." },
+    { title: "Corporate innovation and AI transformation", body: "On-site days for leadership teams: business-model canvas, market and competitor analysis, AI adoption, a roadmap your team can execute." },
+    { title: "Cross-border entry", body: "Korea above all, also Japan, Singapore and China: programme fit, business plans and decks in the target language, introductions, representation on the ground." },
+    { title: "Research and writing", body: "Thought-leadership articles, research reports and website copy in English and Thai." },
+  ],
+  th: [
+    { title: "Venture Building ด้วย AI", body: "หนึ่งวันเข้มข้นตั้งแต่ Business Model สู่ AI Opportunity Map สู่ Roadmap ของ AI-MVP และแผน 90 วัน หรืองานระยะยาวเพื่อสร้างมันขึ้นมาจริง" },
+    { title: "การพิทช์และระดมทุน", body: "Deck เรื่องราว และสคริปต์ การรับมือ Q&A การซ้อมพิทช์และซ้อมเจรจา การโค้ช Unit Economics ร่วมกับพาร์ทเนอร์ที่เป็น Investment Banker ผมชนะ TMA Shark Tank และ Asia Accelerator 1-Minute Pitch มาแล้ว และโค้ชคนที่ไม่ได้ใช้ภาษาอังกฤษเป็นภาษาแม่ให้ขึ้นเวทีนานาชาติได้" },
+    { title: "Corporate Innovation และ AI Transformation", body: "วันทำงานร่วมกับทีมผู้บริหารที่สำนักงานของคุณ: Business Model Canvas การวิเคราะห์ตลาดและคู่แข่ง การนำ AI มาใช้ และ Roadmap ที่ทีมของคุณลงมือทำได้" },
+    { title: "การเข้าตลาดต่างประเทศ", body: "เกาหลีเป็นหลัก รวมถึงญี่ปุ่น สิงคโปร์ และจีน: ความเหมาะสมของโปรแกรม แผนธุรกิจและ Deck ในภาษาเป้าหมาย การแนะนำให้รู้จัก และการเป็นตัวแทนในพื้นที่" },
+    { title: "งานวิจัยและการเขียน", body: "บทความ Thought Leadership รายงานวิจัย และเนื้อหาเว็บไซต์ ทั้งภาษาอังกฤษและไทย" },
+  ],
+  ko: [
+    { title: "AI 기반 벤처 빌딩", body: "비즈니스 모델에서 AI 기회 지도, AI-MVP 로드맵과 90일 계획까지 하루의 집중 세션; 실제로 만들어내는 장기 프로젝트." },
+    { title: "피칭과 자금 조달", body: "덱, 스토리, 스크립트; Q&A 방어; 모의 피칭과 모의 협상; 투자은행가 파트너와의 유닛 이코노믹스 코칭. TMA Shark Tank와 Asia Accelerator 1-Minute Pitch에서 우승했고, 비원어민이 국제 무대에 서도록 코칭합니다." },
+    { title: "기업 혁신과 AI 전환", body: "경영진을 위한 현장 워크숍: 비즈니스 모델 캔버스, 시장·경쟁사 분석, AI 도입, 팀이 실행할 수 있는 로드맵." },
+    { title: "해외 진출", body: "무엇보다 한국, 그리고 일본·싱가포르·중국: 프로그램 적합성, 현지 언어 사업계획서와 덱, 소개, 현장 대리." },
+    { title: "리서치와 글쓰기", body: "영어와 태국어로 된 소트 리더십 기고, 리서치 보고서, 웹사이트 카피." },
+  ],
+};
+
 export function getHomeContent(language: Language): HomeContent {
   return {
     about: about[language] ?? about.en,
+    services: services[language] ?? services.en,
     roles: rolesFor(language),
     track,
     gallery,
