@@ -2,7 +2,7 @@
 
 I'm a technical founder and venture builder with 25 years of experience across the United States and Thailand. The reputation I've earned along the way is a specific one: I'm the guy who can solve the impossibility of business requirements for the team.
 
-Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — Chief Strategy Officer for CUBIKA / Digital Dialogue and for SSL Logistics, Entrepreneur in Residence at Whatnot Startup Studio, founder of duPhonics, and an advisor to Digital Bridge Thailand. In 2025 I was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
+Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — Chief Strategy Officer for CUBIKA / Digital Dialogue, Entrepreneur in Residence at Whatnot Startup Studio, founder of duPhonics, and an advisor to Digital Bridge Thailand. In 2025 I was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
 
 I work in Thai and English, from Bangkok, and spend a good part of the year in Seoul and Singapore.
 
@@ -42,11 +42,11 @@ A real-time, multi-user learning space with a shared whiteboard — a Zoom alter
 
 ### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-Digital Dialogue (DDLG) is a Bangkok company building CUBIKA, an agentic-AI data management and analytics platform — Capture, Curate, Consume — and CUBIKA Earth, a carbon-accounting platform. I lead overseas expansion, Korea first. CUBIKA exhibited at NextRise 2025 Seoul in the pre-seed Big Data track, where I received the Inc & IR award as the strategist behind the Korea entry, and won Angel Fund Connect 2025 (DIPROM and Delta Electronics), a 500,000 THB prize. The thinking behind CUBIKA Earth is in my e27 piece on the carbon data gap. In November 2025 Digital Dialogue closed a **30 million baht** investment on **Shark Tank Thailand** with Shark Shannon Kalyanamitr, for CUBIKA Big Insights. In 2026 CUBIKA Korea was selected for the **Global Startup Commercialization Program** — a KRW 50,000,000 grant from KISED and KBAN — after I pitched the final round on the company's behalf, and I now serve as Manager of the Korean entity.
+Digital Dialogue (DDLG) is a Bangkok company building CUBIKA, an agentic-AI data management and analytics platform — Capture, Curate, Consume — and CUBIKA Earth, a carbon-accounting platform. I lead overseas expansion, Korea first. CUBIKA exhibited at NextRise 2025 Seoul in the pre-seed Big Data track, where I received the Inc & IR award as the strategist behind the Korea entry. It also won Angel Fund Connect 2025 (DIPROM and Delta Electronics), a 500,000 THB prize, and I prepared the whole application, pitch included. The thinking behind CUBIKA Earth is in my e27 piece on the carbon data gap. In November 2025 Digital Dialogue closed a **30 million baht** investment on **Shark Tank Thailand** with Shark Shannon Kalyanamitr, for CUBIKA Big Insights. I brought the company and its CEO onto the show, prepared the documents and coached the CEO for the pitch. In 2026 CUBIKA Korea was selected for the **Global Startup Commercialization Program** — a KRW 50,000,000 grant from KISED and KBAN — after I pitched the final round on the company's behalf, and I now serve as Manager of the Korean entity.
 
-### SSL Logistics — Chief Strategy Officer, November 2025 →
+### SSL Logistics — Chief Strategy Officer, November 2025 – June 2026
 
-SSL is a Thai digital logistics and freight platform: AI and IoT for freight matching, real-time tracking and route optimisation, digital documentation, working-capital finance and ESG reporting. I started as an advisor on international expansion in 2025 and became CSO in November, responsible for AI transformation and expansion into Korea and Japan. SSL was one of the three companies I mentored to a place in the e27 Top 100 in 2025. In 2026 SSL won the Global Investment Link Program with an NIA-validated Thailand–Korea proof of concept, established Sahapan Korea as a subsidiary, and launched SSL-CEO, the agentic logistics platform I led the build of.
+SSL is a Thai digital logistics and freight platform: AI and IoT for freight matching, real-time tracking and route optimisation, digital documentation, working-capital finance and ESG reporting. I started as an advisor on international expansion in 2025, became CSO in November, and was responsible for AI transformation and expansion into Korea and Japan until June 2026. SSL was one of the three companies I mentored to a place in the e27 Top 100 in 2025. In 2026 SSL won the Global Investment Link Program with an NIA-validated Thailand–Korea proof of concept, established Sahapan Korea as a subsidiary, and launched SSL-CEO, the agentic logistics platform I led the build of.
 
 ### Whatnot Startup Studio — Entrepreneur in Residence, January 2025 →
 
@@ -54,7 +54,7 @@ Whatnot is a Bangkok venture builder that invests in and builds the next generat
 
 ### NODAL — Chief Strategy Officer, 2026 →
 
-Nodal Computer Vision Engineering builds a portable, markerless motion-capture system: twenty or more synchronised global-shutter cameras at 120 frames per second, sub-five-millisecond sync, under five minutes to set up, at a fraction of the cost of a Vicon or Qualisys rig. It produces training data for robotics, and is used in clinical research, sport and VFX. I am its Chief Strategy Officer, preparing its entry into Korea with Pen Ventures.
+Nodal Computer Vision Engineering builds a portable, markerless motion-capture system: twenty or more synchronised global-shutter cameras at 120 frames per second, sub-five-millisecond sync, under five minutes to set up, at a fraction of the cost of a Vicon or Qualisys rig. It produces training data for robotics, and is used in clinical research, sport and VFX. As its Chief Strategy Officer I prepared its application to the K-Scouter Program 2026 with Pen Ventures. NODAL was accepted, and I'm now preparing its entry into Korea.
 
 ### Digital Bridge Thailand — Advisor, 2024 →
 
@@ -67,12 +67,13 @@ Since 2024 I've been taking Thai and Southeast Asian companies into Korea's star
 - **NextRise 2024, Seoul** — pitched duPhonics on the Pitching Station stage, sponsored by DPIT, Ministry of Commerce of Thailand.
 - **Korean Market Landing Program, December 2024** — a week in Seoul with the Thai startup delegation.
 - **NextRise 2025, Seoul** — CUBIKA's booth in the pre-seed Big Data track; Inc & IR award.
-- **K-Scouter 2025** — selected in August 2025 for the K-Scouter Program with Nautilus Investment, scouting and coaching Southeast Asian startups for Korea.
+- **K-Scouter 2025** — selected in August 2025 for the K-Scouter Program with Nautilus Investment, scouting and coaching Southeast Asian startups for Korea. That year I prepared the business plans and pitch decks for the ASAPH and Sahapan Trading Group applications.
 - **COMEUP 2025, Seoul** — at the Nautilus Investment booth in December.
 - **QUEST EDTECH Korea** — incorporated in Seoul in May 2026 as an application-software company.
 - **AI Summit Seoul, November 2025** — the debut of the QUEST Agentic Framework.
 - **CUBIKA Korea, 2026** — selected for the Global Startup Commercialization Program: KRW 50,000,000 from KISED and KBAN.
 - **Seoul Business Agency, September 2026** — briefed eight Thai startups in the Seoul Startup Hub Global Inbound Program before their visit to the Global Startup Center.
+- **K-Scouter Program 2026** — NODAL was accepted into the 2026 round with Pen Ventures. With Nautilus Investment and Pen Ventures I'm preparing three more companies: Pettinee (online vet teleconsultation), Green Agro Tech International (agro-industrial manufacturing) and RIFFAI (satellite intelligence powered by AI).
 
 QUEST EDTECH is an official partner of Nautilus Investment, Pen Ventures and the Seoul Business Agency. For a company entering Korea I do the whole job: which programme fits and whether it's viable, the plan and the deck in English and Korean, introductions to the operators and investors, and — when it helps — pitching on your behalf in the room. Seoul in June and December, Singapore in between: that's the rhythm.
 
@@ -83,7 +84,7 @@ QUEST EDTECH is an official partner of Nautilus Investment, Pen Ventures and the
 | 2026 | QUEST EDTECH Korea incorporated in Seoul | Application-software company, May 2026 |
 | 2025 | K-Scouter, K-Scouter Program 2025 | Selected August 2025 with Nautilus Investment; Nautilus booth at COMEUP 2025 |
 | 2025 | NextRise 2025 Seoul — Inc & IR Award | Strategist for CUBIKA's Korea expansion |
-| 2025 | Angel Fund Connect 2025 — Winner, 500,000 THB | CUBIKA / Digital Dialogue; DIPROM and Delta Electronics |
+| 2025 | Angel Fund Connect 2025 — Winner, 500,000 THB | CUBIKA / Digital Dialogue; DIPROM and Delta Electronics; I prepared the application and the pitch |
 | 2025 | e27 Top 100 Programme — Mentor | ASAPH (Top 10), Tasted Better, SSL Logistics |
 | 2025 | Chief Strategy Officer | CUBIKA / Digital Dialogue; SSL Logistics |
 | 2024 | NextRise 2024 Seoul — on-stage pitch | duPhonics, sponsored by DPIT |
@@ -111,14 +112,15 @@ The one I'm proudest of: **Thanat "Munich" Limapichat**, whose microbial-fuel-ce
 
 On the consulting side I've worked with more than twenty businesses across Asia — corporates, government bodies and startups. Two engagements show the shape of it: **STL Group / VEV** (2023), an international expansion strategy for an EV business, and **TREG / SMO** (2023), a hyperlocal fan-club application entering the Chinese market. For both I delivered the pitch deck in English, Thai and Chinese, the business summary and plan, the pitch script, and trained the team to deliver it.
 
+In 2025 I prepared **Yunga**'s business plan for a Korea headquarters and expansion into Africa. In 2026 I wrote a Korea-entry report for **Tasted Better**, and since May my company has moved the daily retail reporting of **LDC**, a retail conglomerate in Laos, onto AI agents working under my direction.
+
 ## What I write about
 
-I've been an e27 contributor since 2022. Seven pieces so far:
+I've been an e27 contributor since 2022. Six pieces so far:
 
 - **How emotional economics is reshaping alternative investments in Southeast Asia** (June 2025) — emotional value and financial value are increasingly intertwined; what that means for collectibles and for the people who sell to affluent Asian buyers.
 - **Navigating trade turbulence** (April 2025) — tariffs are reshaping trade flows; real-time visibility, predictive analytics and automated decisions are how logistics companies stay standing.
 - **Bridging the carbon data gap** (November 2024) — emission accounting fails on fragmented data; predictive, AI-managed data is the fix.
-- **Innovate to Dominate** (October 2024) — how startups grow with industry titans, from licensing to joint ventures.
 - **The future of Gen Alpha in the workplace** (July 2024) — by 2035 the largest generation at work; Gen Alpha will be working in Roblox.
 - **Learning Reimagined** (June 2024) — why I built duPhonics: literacy inside a real-time metaverse, with generative AI doing the content.
 - **The metaverse opens new opportunities for education** (June 2022) — education in the metaverse will be more democratised, and the curriculum more equitable and open.

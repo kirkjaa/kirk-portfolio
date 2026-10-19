@@ -2,7 +2,7 @@
 
 미국과 태국을 오가며 25년간 일해 온 테크니컬 파운더이자 벤처 빌더입니다. 그동안 얻은 평판은 꽤 구체적입니다 — 팀이 불가능하다고 여기는 비즈니스 요구를 풀어내는 사람.
 
-현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. CUBIKA / Digital Dialogue와 SSL Logistics의 Chief Strategy Officer, Whatnot Startup Studio의 Entrepreneur in Residence, duPhonics 창업자, Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
+현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. CUBIKA / Digital Dialogue의 Chief Strategy Officer, Whatnot Startup Studio의 Entrepreneur in Residence, duPhonics 창업자, Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
 
 태국어와 영어로 일하며, 방콕을 거점으로 한 해의 상당 기간을 서울과 싱가포르에서 보냅니다.
 
@@ -42,11 +42,11 @@ duPhonics는 APTG 5G Accelerator(2022)를 거쳤고, TED Fund를 통해 Smart Ci
 
 ### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄하며, 한국이 첫 번째입니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 우승해 50만 바트의 상금을 받았습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 현재 저는 한국 법인의 Manager를 맡고 있습니다.
+Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄하며, 한국이 첫 번째입니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 우승해 50만 바트의 상금을 받았고, 피칭을 포함한 지원 과정 전체를 제가 준비했습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 저는 회사와 CEO를 프로그램에 연결하고, 서류를 준비하고, CEO의 피칭을 코칭했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 현재 저는 한국 법인의 Manager를 맡고 있습니다.
 
-### SSL Logistics — Chief Strategy Officer, 2025년 11월 →
+### SSL Logistics — Chief Strategy Officer, 2025년 11월 – 2026년 6월
 
-SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡아 AI 전환과 한국·일본 진출을 책임지고 있습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다. 2026년 SSL은 NIA가 검증한 태국–한국 개념 검증과 함께 Global Investment Link Program에 선정되었고, Sahapan Korea를 자회사로 설립했으며, 제가 구축을 이끈 에이전틱 물류 플랫폼 SSL-CEO를 출시했습니다.
+SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡았고, 2026년 6월까지 AI 전환과 한국·일본 진출을 책임졌습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다. 2026년 SSL은 NIA가 검증한 태국–한국 개념 검증과 함께 Global Investment Link Program에 선정되었고, Sahapan Korea를 자회사로 설립했으며, 제가 구축을 이끈 에이전틱 물류 플랫폼 SSL-CEO를 출시했습니다.
 
 ### Whatnot Startup Studio — Entrepreneur in Residence, 2025년 1월 →
 
@@ -54,7 +54,7 @@ Whatnot은 차세대 스타트업에 투자하고 함께 만드는 방콕 벤처
 
 ### NODAL — Chief Strategy Officer, 2026 →
 
-Nodal Computer Vision Engineering은 휴대 가능한 마커리스 모션 캡처 시스템을 만듭니다. 20대 이상의 동기화된 글로벌 셔터 카메라가 120 FPS로 촬영하고, 동기화 오차는 5밀리초 미만, 설치는 5분 이내이며, Vicon이나 Qualisys 장비의 일부 비용으로 구현됩니다. 로보틱스 학습 데이터를 만들고 임상 연구, 스포츠, VFX에 쓰입니다. 저는 이 회사의 Chief Strategy Officer로서 Pen Ventures와 함께 한국 진출을 준비하고 있습니다.
+Nodal Computer Vision Engineering은 휴대 가능한 마커리스 모션 캡처 시스템을 만듭니다. 20대 이상의 동기화된 글로벌 셔터 카메라가 120 FPS로 촬영하고, 동기화 오차는 5밀리초 미만, 설치는 5분 이내이며, Vicon이나 Qualisys 장비의 일부 비용으로 구현됩니다. 로보틱스 학습 데이터를 만들고 임상 연구, 스포츠, VFX에 쓰입니다. 저는 이 회사의 Chief Strategy Officer로서 Pen Ventures와 함께 K-Scouter Program 2026 지원서를 준비했고, NODAL은 선정되었습니다. 지금은 한국 진출을 준비하고 있습니다.
 
 ### Digital Bridge Thailand — 자문, 2024 →
 
@@ -67,12 +67,13 @@ Tarit "Matt" Amatayakul이 설립한 비영리 단체로, Digital Access, Digita
 - **NextRise 2024, 서울** — 태국 상무부 국제무역진흥국 후원으로 Pitching Station 무대에서 duPhonics를 피칭했습니다.
 - **Korean Market Landing Program, 2024년 12월** — 태국 스타트업 대표단과 서울에서 보낸 한 주.
 - **NextRise 2025, 서울** — 프리시드 빅데이터 트랙의 CUBIKA 부스; Inc & IR 상.
-- **K-Scouter 2025** — 2025년 8월 Nautilus Investment와 함께하는 K-Scouter 프로그램에 선정되어 한국 진출을 위한 동남아시아 스타트업을 발굴·코칭하고 있습니다.
+- **K-Scouter 2025** — 2025년 8월 Nautilus Investment와 함께하는 K-Scouter 프로그램에 선정되어 한국 진출을 위한 동남아시아 스타트업을 발굴·코칭하고 있습니다. 그해 ASAPH와 Sahapan Trading Group의 지원을 위한 사업계획서와 피치덱을 준비했습니다.
 - **COMEUP 2025, 서울** — 12월 Nautilus Investment 부스에서.
 - **QUEST EDTECH Korea** — 2026년 5월 서울에 응용 소프트웨어 기업으로 설립.
 - **AI Summit Seoul, 2025년 11월** — QUEST Agentic Framework 공개.
 - **CUBIKA Korea, 2026년** — Global Startup Commercialization Program 선정, KISED·KBAN 지원금 5,000만 원.
 - **서울경제진흥원, 2026년 9월** — Seoul Startup Hub Global Inbound Program의 태국 스타트업 8곳을 대상으로 Global Startup Center 방문 전 브리핑.
+- **K-Scouter Program 2026** — NODAL이 Pen Ventures와 함께 2026년 라운드에 선정되었습니다. Nautilus Investment, Pen Ventures와 함께 세 회사를 더 준비하고 있습니다: Pettinee(온라인 수의 원격 상담), Green Agro Tech International(농산업 제조), RIFFAI(AI 기반 위성 인텔리전스).
 
 QUEST EDTECH는 Nautilus Investment, Pen Ventures, 서울경제진흥원(SBA)의 공식 파트너입니다. 한국에 진출하는 기업을 위해 저는 전 과정을 맡습니다: 어떤 프로그램이 맞고 실현 가능한지, 영어와 한국어로 된 사업계획서와 피치덱, 운영기관과 투자자 소개, 그리고 도움이 된다면 현장에서 대신 피칭하는 것까지. 6월과 12월은 서울, 그 사이는 싱가포르 — 그것이 제 리듬입니다.
 
@@ -83,7 +84,7 @@ QUEST EDTECH는 Nautilus Investment, Pen Ventures, 서울경제진흥원(SBA)의
 | 2026 | QUEST EDTECH Korea 서울 법인 설립 | 응용 소프트웨어 기업, 2026년 5월 |
 | 2025 | K-Scouter, K-Scouter Program 2025 | 2025년 8월 Nautilus Investment와 선정; COMEUP 2025 Nautilus 부스 |
 | 2025 | NextRise 2025 Seoul — Inc & IR Award | CUBIKA 한국 진출 전략가 |
-| 2025 | Angel Fund Connect 2025 — 우승, 50만 바트 | CUBIKA / Digital Dialogue; 태국 산업진흥국·Delta Electronics |
+| 2025 | Angel Fund Connect 2025 — 우승, 50만 바트 | CUBIKA / Digital Dialogue; 태국 산업진흥국·Delta Electronics; 지원서와 피칭 준비 |
 | 2025 | e27 Top 100 Programme — 멘토 | ASAPH (Top 10), Tasted Better, SSL Logistics |
 | 2025 | Chief Strategy Officer | CUBIKA / Digital Dialogue; SSL Logistics |
 | 2024 | NextRise 2024 Seoul — 무대 피칭 | duPhonics, DITP 후원 |
@@ -111,14 +112,15 @@ BASCII — 출라롱콘대학교 통합혁신학부 — 에서는 **SoPet**(온�
 
 컨설팅 쪽으로는 아시아 전역 20개 이상의 기업·정부기관·스타트업과 일했습니다. 두 프로젝트가 그 형태를 잘 보여줍니다: EV 사업의 해외 확장 전략 **STL Group / VEV**(2023), 중국 시장에 진출하는 하이퍼로컬 팬클럽 애플리케이션 **TREG / SMO**(2023). 두 곳 모두 영어·태국어·중국어 피치덱, 사업 요약과 사업계획, 피치 스크립트를 전달하고 팀이 직접 발표할 수 있도록 훈련했습니다.
 
+2025년에는 **Yunga**의 한국 본사 설립과 아프리카 확장을 위한 사업계획서를 준비했습니다. 2026년에는 **Tasted Better**의 한국 진출 보고서를 썼고, 5월부터는 제 회사가 라오스의 유통 대기업 **LDC**의 일일 리테일 리포팅을 제 지휘 아래 AI 에이전트로 옮겼습니다.
+
 ## 쓰는 글 (What I write about)
 
-2022년부터 e27에 기고하고 있습니다. 지금까지 일곱 편:
+2022년부터 e27에 기고하고 있습니다. 지금까지 여섯 편:
 
 - **How emotional economics is reshaping alternative investments in Southeast Asia** (2025년 6월) — 감성적 가치와 금전적 가치는 점점 얽혀 갑니다; 수집품 시장과 아시아의 부유한 구매자를 상대하는 이들에게 그것이 뜻하는 바.
 - **Navigating trade turbulence** (2025년 4월) — 관세가 무역 흐름을 바꾸고 있습니다; 실시간 가시성, 예측 분석, 자동화된 의사결정이 물류 기업을 버티게 합니다.
 - **Bridging the carbon data gap** (2024년 11월) — 탄소 회계는 파편화된 데이터에서 실패합니다; 예측 가능한 AI 관리 데이터가 해법입니다.
-- **Innovate to Dominate** (2024년 10월) — 라이선싱부터 합작까지, 스타트업이 산업 거인과 함께 성장하는 법.
 - **The future of Gen Alpha in the workplace** (2024년 7월) — 2035년이면 직장에서 가장 큰 세대; Gen Alpha는 Roblox 안에서 일하게 될 것입니다.
 - **Learning Reimagined** (2024년 6월) — duPhonics를 만든 이유: 실시간 메타버스 안의 문해력, 콘텐츠는 생성형 AI가.
 - **The metaverse opens new opportunities for education** (2022년 6월) — 메타버스 교육은 더 민주적이고, 커리큘럼은 더 공평하고 열려 있을 것입니다.

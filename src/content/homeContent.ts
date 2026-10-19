@@ -70,7 +70,6 @@ export interface HomeContent {
 const roleBase = [
   { org: "QUEST EDTECH", role: "CEO & Co-Founder", from: "2018", logo: "/images/logos/quest-edtech.png", link: "https://questedtech.com" },
   { org: "CUBIKA / Digital Dialogue", role: "Chief Strategy Officer", from: "2025", logo: "/images/logos/cubika-digital-dialogue.png", link: "https://ddlghq.com" },
-  { org: "SSL Logistics", role: "Chief Strategy Officer", from: "2025", logo: "/images/logos/ssl-logistics.png", link: "https://www.ssllogistics.co.th" },
   { org: "NODAL", role: "Chief Strategy Officer", from: "2026", link: "https://www.nodal3d.com/" },
   { org: "Whatnot Startup Studio", role: "Entrepreneur in Residence", from: "2025", logo: "/images/logos/whatnot-startup-studio.png", link: "https://whatnot.co" },
   { org: "duPhonics", role: "Founder", from: "2020", logo: "/images/logos/duphonics.png", link: "https://duphonics.com" },
@@ -82,7 +81,6 @@ const roleBlurbs: Record<Language, string[]> = {
   en: [
     "Real-time coding and literacy platforms, now an AI consulting practice; Korean entity incorporated in Seoul in May 2026.",
     "Agentic-AI data management and CUBIKA Earth carbon accounting; I lead the expansion into Korea.",
-    "AI transformation and expansion into Korea and Japan for a Thai digital freight platform.",
     "Portable, markerless motion capture — 20+ synchronised cameras at 120 FPS — for robotics, clinical research, sport and VFX. I am preparing its Korean entry.",
     "Venture building and AI transformation for businesses, from a Bangkok startup studio.",
     "Telenanny platform for life literacy — real-time metaverse and generative AI built for Gen Alpha.",
@@ -92,7 +90,6 @@ const roleBlurbs: Record<Language, string[]> = {
   th: [
     "แพลตฟอร์ม Coding และ Literacy แบบเรียลไทม์ ปัจจุบันขยายสู่งานที่ปรึกษา AI และจดทะเบียนบริษัทในโซลเมื่อพฤษภาคม 2026",
     "แพลตฟอร์มจัดการข้อมูลด้วย Agentic AI และ CUBIKA Earth สำหรับบัญชีคาร์บอน ผมดูแลการขยายสู่เกาหลี",
-    "AI Transformation และการขยายสู่เกาหลีและญี่ปุ่นให้แพลตฟอร์มโลจิสติกส์ดิจิทัลของไทย",
     "ระบบ Motion Capture แบบพกพาที่ไม่ต้องติดมาร์กเกอร์ — กล้องซิงก์กันกว่า 20 ตัวที่ 120 FPS — สำหรับหุ่นยนต์ งานวิจัยทางคลินิก กีฬา และ VFX ผมดูแลการเข้าสู่ตลาดเกาหลีให้",
     "Venture Building และ AI Transformation ให้ธุรกิจ จากสตาร์ทอัพสตูดิโอในกรุงเทพฯ",
     "แพลตฟอร์ม Telenanny เพื่อทักษะชีวิต ใช้ Metaverse แบบเรียลไทม์และ Generative AI สำหรับ Gen Alpha",
@@ -102,7 +99,6 @@ const roleBlurbs: Record<Language, string[]> = {
   ko: [
     "실시간 코딩·문해력 플랫폼에서 AI 컨설팅으로 확장, 2026년 5월 서울 법인 설립.",
     "에이전틱 AI 데이터 관리와 CUBIKA Earth 탄소 회계, 한국 진출을 총괄.",
-    "태국 디지털 화물 플랫폼의 AI 전환과 한국·일본 진출.",
     "휴대 가능한 마커리스 모션 캡처 — 20대 이상의 동기화 카메라, 120 FPS — 로보틱스·임상 연구·스포츠·VFX용. 한국 진출을 준비하고 있습니다.",
     "방콕 스타트업 스튜디오에서 벤처 빌딩과 기업 AI 전환을 담당.",
     "생활 문해력을 위한 텔레내니 플랫폼 — Gen Alpha를 위한 실시간 메타버스와 생성형 AI.",
@@ -118,6 +114,7 @@ function rolesFor(language: Language): RoleItem[] {
 
 /* Track record — proper nouns, kept in English in every language. Newest first. */
 const track: TrackItem[] = [
+  { year: "2026", kind: "selected", title: "NODAL — accepted into the K-Scouter Program 2026", detail: "With Pen Ventures; I prepared the application as NODAL's Chief Strategy Officer" },
   { year: "2026", kind: "role", title: "Chief Strategy Officer, NODAL", detail: "Portable markerless motion capture; preparing its Korean market entry with Pen Ventures" },
   { year: "2026", kind: "win", title: "CUBIKA Korea — 2026 Global Startup Commercialization Program", detail: "KRW 50,000,000 grant from KISED and KBAN; I pitched the final round on behalf of Digital Dialogue" },
   { year: "2026", kind: "role", title: "Manager, CUBIKA Korea", detail: "Running the Seoul entity's programme obligations, IR and counsel coordination for Digital Dialogue" },
@@ -125,11 +122,11 @@ const track: TrackItem[] = [
   { year: "2026", kind: "milestone", title: "QUEST EDTECH Korea incorporated in Seoul", detail: "Application-software company (정보통신업), May 2026 — the landing after K-Scouter 2025" },
   { year: "2025", kind: "selected", title: "K-Scouter, K-Scouter Program 2025", detail: "Selected August 2025 with Nautilus Investment; Nautilus booth at COMEUP 2025, Seoul" },
   { year: "2025", kind: "selected", title: "COMEUP 2025, Seoul", detail: "At the Nautilus Investment booth C152, 10–12 December" },
-  { year: "2025", kind: "win", title: "Shark Tank Thailand — 30 million baht for CUBIKA Big Insights", detail: "Digital Dialogue closed the investment with Shark Shannon Kalyanamitr, November 2025" },
+  { year: "2025", kind: "win", title: "Shark Tank Thailand — 30 million baht for CUBIKA Big Insights", detail: "Digital Dialogue closed the investment with Shark Shannon Kalyanamitr, November 2025; I brought the company and its CEO onto the show, prepared the documents and coached the CEO for the pitch" },
   { year: "2025", kind: "milestone", title: "AI Summit Seoul & Expo", detail: "Debut of the QUEST Agentic Framework, November 2025" },
   { year: "2025", kind: "milestone", title: "QUEST Agent GIS proof of concept", detail: "An Amersfoort energy heat map built from 7 GB of XML by two people, October 2025" },
   { year: "2025", kind: "win", title: "NextRise 2025 Seoul — Inc & IR Award", detail: "Strategist for CUBIKA's Korea expansion; pre-seed / Big Data booth E-036" },
-  { year: "2025", kind: "win", title: "Angel Fund Connect 2025 — Winner, 500,000 THB", detail: "CUBIKA / Digital Dialogue, awarded by DIPROM and Delta Electronics" },
+  { year: "2025", kind: "win", title: "Angel Fund Connect 2025 — Winner, 500,000 THB", detail: "CUBIKA / Digital Dialogue, awarded by DIPROM and Delta Electronics; I prepared the whole application, pitch included" },
   { year: "2025", kind: "mentor", title: "e27 Top 100 Programme — Mentor", detail: "Three Thai winners: ASAPH (Top 10), Tasted Better and SSL Logistics" },
   { year: "2025", kind: "role", title: "Chief Strategy Officer, CUBIKA / Digital Dialogue and SSL Logistics", detail: "Overseas expansion and AI transformation mandates" },
   { year: "2024", kind: "selected", title: "NextRise 2024 Seoul — on-stage pitch", detail: "duPhonics at the Pitching Station, sponsored by DPIT, Ministry of Commerce of Thailand" },
@@ -173,12 +170,11 @@ const gallery: GalleryItem[] = [
   { src: "/images/events/corporate-consulting-workshop.jpg", caption: "Design-thinking workshop with a corporate team", meta: "Corporate consulting" },
 ];
 
-/* All seven e27 contributor pieces, newest first. */
+/* All six e27 contributor pieces, newest first. ("Innovate to Dominate", Oct 2024, is not Kirk's and was removed on 19 Oct 2026; don't re-add it.) */
 const articles: ArticleItem[] = [
   { date: "3 Jun 2025", title: "How emotional economics is reshaping alternative investments in Southeast Asia", theme: "Collectibles and investor psychology", quote: "Emotional value and financial value are increasingly intertwined.", link: "https://e27.co/how-emotional-economics-is-reshaping-alternative-investments-in-southeast-asia-20250603/" },
   { date: "6 Apr 2025", title: "Navigating trade turbulence: Digital transformation enhances global logistics amid rising tariffs", theme: "Logistics resilience", quote: "Technology and startup ideas will flourish from this turbulent time in the logistics sector.", link: "https://e27.co/navigating-trade-turbulence-digital-transformation-enhances-global-logistics-amid-rising-tariffs-20250406/" },
   { date: "25 Nov 2024", title: "Bridging the carbon data gap: How predictive insights for data sustainability are revolutionising emission accounting", theme: "Carbon accounting and AI data", link: "https://e27.co/bridging-the-carbon-data-gap-how-predictive-insights-for-data-sustainability-are-revolutionising-emission-accounting-20241125/" },
-  { date: "26 Oct 2024", title: "Innovate to Dominate: Open innovation paths for startups to grow with industry titans", theme: "Startup–corporate partnerships", link: "https://e27.co/innovate-to-dominate-open-innovation-paths-for-startups-to-grow-with-industry-titans-20241026/" },
   { date: "14 Jul 2024", title: "The future of Gen Alpha in the workplace: A primer for business leaders", theme: "Gen Alpha and XR", quote: "Gen Alpha will be working in Roblox.", link: "https://e27.co/the-future-of-gen-alpha-in-the-workplace-a-primer-for-business-leaders-20240714/" },
   { date: "27 Jun 2024", title: "Learning Reimagined: Enhancing literacy with real-time metaverse and Gen AI", theme: "duPhonics", link: "https://e27.co/learning-reimagined-enhancing-literacy-with-real-time-metaverse-and-gen-ai-20240627/" },
   { date: "6 Jun 2022", title: "The metaverse opens new opportunities for education", theme: "Metaverse education", quote: "Education in the metaverse will be more democratised, the academic curriculum will be more equitable and open.", link: "https://e27.co/the-metaverse-opens-new-opportunities-for-education-20220606/" },
@@ -191,6 +187,10 @@ const mentorshipBase = [
   { name: "Wooffy", logo: "/images/mentees/wooffy-solution-slide.jpg", photo: "/images/mentees/wooffy-community-event.jpg", program: "BASCII Mentorship", link: "https://www.instagram.com/wooffy.bkk/" },
   { name: "STL Group / VEV", logo: "/images/logos/stl-group.webp", program: "Strategic consulting · 2023", link: "https://www.stlgh.com/" },
   { name: "TREG / SMO", logo: "/images/logos/treg.webp", program: "Strategic consulting · 2023", link: "https://treg.co.th/" },
+  { name: "LDC", program: "AI consulting · 2026" },
+  { name: "Pettinee", program: "K-Scouter Program 2026" },
+  { name: "Green Agro Tech International", program: "K-Scouter Program 2026" },
+  { name: "RIFFAI", program: "K-Scouter Program 2026" },
   { name: "KOI Sport Management", program: "Mentorship · since 2025" },
 ] as const;
 
@@ -202,6 +202,10 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "Dog-loving community hosting events for owners and their pups.",
     "EV and logistics market-expansion strategy, pitch decks in EN / TH / ZH.",
     "Hyperlocal fan-club application entering the Chinese market.",
+    "Retail conglomerate in Laos; since May 2026 my company has moved its daily retail reporting onto AI agents.",
+    "24/7 online vet teleconsultation from Bangkok, preparing for Korea.",
+    "Agro-industrial manufacturer, recognized at NSTDA's Industry 4.0 Recognition Awards 2025.",
+    "Satellite intelligence powered by AI, with offices in Singapore, Bangkok and San Francisco.",
     "Declan Kenny's golf and sport-management venture, Dallas to Thailand — mentored since January 2025.",
   ],
   th: [
@@ -211,6 +215,10 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "คอมมูนิตี้คนรักสุนัข จัดกิจกรรมให้เจ้าของและน้องหมา",
     "กลยุทธ์ขยายตลาด EV และโลจิสติกส์ พร้อม Pitch Deck ภาษาอังกฤษ ไทย จีน",
     "แอปพลิเคชันแฟนคลับแบบ Hyperlocal สำหรับการรุกตลาดจีน",
+    "กลุ่มธุรกิจค้าปลีกในลาว ตั้งแต่พฤษภาคม 2026 บริษัทของผมย้ายงานรายงานค้าปลีกประจำวันมาทำงานบน AI Agent",
+    "บริการปรึกษาสัตวแพทย์ออนไลน์ 24 ชั่วโมงจากกรุงเทพฯ กำลังเตรียมตัวเข้าตลาดเกาหลี",
+    "ผู้ผลิตด้านอุตสาหกรรมเกษตร ได้รับการยกย่องในงาน Industry 4.0 Recognition Awards 2025 ของ สวทช.",
+    "Satellite Intelligence ที่ขับเคลื่อนด้วย AI มีสำนักงานที่สิงคโปร์ กรุงเทพฯ และซานฟรานซิสโก",
     "ธุรกิจกอล์ฟและการจัดการกีฬาของ Declan Kenny จากดัลลัสสู่ประเทศไทย ผมเป็น Mentor ตั้งแต่มกราคม 2025",
   ],
   ko: [
@@ -220,6 +228,10 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "반려견과 보호자를 위한 커뮤니티 이벤트 브랜드.",
     "EV·물류 시장 확장 전략과 영어·태국어·중국어 피치덱.",
     "중국 시장에 진출하는 하이퍼로컬 팬클럽 애플리케이션.",
+    "라오스 유통 대기업 — 2026년 5월부터 제 회사가 일일 리테일 리포팅을 AI 에이전트로 전환.",
+    "방콕의 24시간 온라인 수의 원격 상담 서비스, 한국 진출 준비 중.",
+    "2025년 NSTDA Industry 4.0 Recognition Awards에서 인정받은 농산업 제조 기업.",
+    "AI 기반 위성 인텔리전스, 싱가포르·방콕·샌프란시스코 거점.",
     "Declan Kenny의 골프·스포츠 매니지먼트 벤처, 댈러스에서 태국으로 — 2025년 1월부터 멘토링.",
   ],
 };

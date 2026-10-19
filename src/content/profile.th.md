@@ -2,7 +2,7 @@
 
 ผมเป็น Technical Founder และ Venture Builder ที่มีประสบการณ์ 25 ปีทั้งในสหรัฐอเมริกาและประเทศไทย ชื่อเสียงที่ผมสะสมมาตลอดทางค่อนข้างเฉพาะเจาะจงครับ — ผมคือคนที่แก้โจทย์ธุรกิจที่ใครก็ว่าเป็นไปไม่ได้ให้ทีมได้
 
-วันนี้ผมเป็น CEO และผู้ร่วมก่อตั้ง QUEST EDTECH ที่กรุงเทพฯ และตั้งแต่พฤษภาคม 2026 ที่กรุงโซลด้วย เป็น Chief Strategy Officer ให้ CUBIKA / Digital Dialogue และ SSL Logistics เป็น Entrepreneur in Residence ที่ Whatnot Startup Studio เป็นผู้ก่อตั้ง duPhonics และเป็นที่ปรึกษาให้ Digital Bridge Thailand ในปี 2025 ผมได้รับคัดเลือกเป็น K-Scouter ทำหน้าที่คัดเลือกและโค้ชบริษัทจากอาเซียนเข้าสู่โปรแกรมสตาร์ทอัพของเกาหลีร่วมกับ Nautilus Investment
+วันนี้ผมเป็น CEO และผู้ร่วมก่อตั้ง QUEST EDTECH ที่กรุงเทพฯ และตั้งแต่พฤษภาคม 2026 ที่กรุงโซลด้วย เป็น Chief Strategy Officer ให้ CUBIKA / Digital Dialogue เป็น Entrepreneur in Residence ที่ Whatnot Startup Studio เป็นผู้ก่อตั้ง duPhonics และเป็นที่ปรึกษาให้ Digital Bridge Thailand ในปี 2025 ผมได้รับคัดเลือกเป็น K-Scouter ทำหน้าที่คัดเลือกและโค้ชบริษัทจากอาเซียนเข้าสู่โปรแกรมสตาร์ทอัพของเกาหลีร่วมกับ Nautilus Investment
 
 ผมทำงานทั้งภาษาไทยและอังกฤษ ประจำอยู่ที่กรุงเทพฯ และใช้เวลาส่วนหนึ่งของแต่ละปีที่โซลและสิงคโปร์
 
@@ -42,11 +42,11 @@ duPhonics ผ่าน APTG 5G Accelerator (2022) จัดแสดงที่
 
 ### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
 
-Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี และชนะ Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน เดือนพฤศจิกายน 2025 Digital Dialogue ปิดดีลการลงทุน **30 ล้านบาท** ในรายการ **Shark Tank Thailand** กับ Shark แชนนอน กัลยาณมิตร สำหรับ CUBIKA Big Insights และในปี 2026 CUBIKA Korea ได้รับคัดเลือกเข้า **Global Startup Commercialization Program** ทุน 50,000,000 วอนจาก KISED และ KBAN หลังจากผมขึ้นพิทช์รอบสุดท้ายในนามบริษัท ปัจจุบันผมทำหน้าที่ Manager ของบริษัทในเกาหลี
+Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี CUBIKA ยังชนะ Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท โดยผมเตรียมการสมัครทั้งหมดรวมถึงการพิทช์ แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน เดือนพฤศจิกายน 2025 Digital Dialogue ปิดดีลการลงทุน **30 ล้านบาท** ในรายการ **Shark Tank Thailand** กับ Shark แชนนอน กัลยาณมิตร สำหรับ CUBIKA Big Insights ผมเป็นคนพาบริษัทและ CEO เข้ารายการ เตรียมเอกสาร และโค้ช CEO สำหรับการพิทช์ และในปี 2026 CUBIKA Korea ได้รับคัดเลือกเข้า **Global Startup Commercialization Program** ทุน 50,000,000 วอนจาก KISED และ KBAN หลังจากผมขึ้นพิทช์รอบสุดท้ายในนามบริษัท ปัจจุบันผมทำหน้าที่ Manager ของบริษัทในเกาหลี
 
-### SSL Logistics — Chief Strategy Officer, พฤศจิกายน 2025 →
+### SSL Logistics — Chief Strategy Officer, พฤศจิกายน 2025 – มิถุนายน 2026
 
-SSL คือแพลตฟอร์มโลจิสติกส์และขนส่งสินค้าดิจิทัลของไทย ใช้ AI และ IoT จับคู่งานขนส่ง ติดตามแบบเรียลไทม์ วางเส้นทางให้เหมาะสม จัดการเอกสารดิจิทัล สินเชื่อเงินทุนหมุนเวียน และรายงาน ESG ผมเริ่มเป็นที่ปรึกษาด้านการขยายสู่ต่างประเทศในปี 2025 และรับตำแหน่ง CSO ในเดือนพฤศจิกายน รับผิดชอบ AI Transformation และการขยายสู่เกาหลีและญี่ปุ่น SSL เป็นหนึ่งในสามบริษัทที่ผมโค้ชจนได้ที่ใน e27 Top 100 ปี 2025 ปี 2026 SSL ชนะ Global Investment Link Program พร้อม PoC ไทย–เกาหลีที่ผ่านการรับรองจาก NIA จัดตั้ง Sahapan Korea เป็นบริษัทย่อย และเปิดตัว SSL-CEO แพลตฟอร์มโลจิสติกส์แบบ Agentic ที่ผมนำทีมสร้าง
+SSL คือแพลตฟอร์มโลจิสติกส์และขนส่งสินค้าดิจิทัลของไทย ใช้ AI และ IoT จับคู่งานขนส่ง ติดตามแบบเรียลไทม์ วางเส้นทางให้เหมาะสม จัดการเอกสารดิจิทัล สินเชื่อเงินทุนหมุนเวียน และรายงาน ESG ผมเริ่มเป็นที่ปรึกษาด้านการขยายสู่ต่างประเทศในปี 2025 และรับตำแหน่ง CSO ในเดือนพฤศจิกายน โดยรับผิดชอบ AI Transformation และการขยายสู่เกาหลีและญี่ปุ่นจนถึงเดือนมิถุนายน 2026 SSL เป็นหนึ่งในสามบริษัทที่ผมโค้ชจนได้ที่ใน e27 Top 100 ปี 2025 ปี 2026 SSL ชนะ Global Investment Link Program พร้อม PoC ไทย–เกาหลีที่ผ่านการรับรองจาก NIA จัดตั้ง Sahapan Korea เป็นบริษัทย่อย และเปิดตัว SSL-CEO แพลตฟอร์มโลจิสติกส์แบบ Agentic ที่ผมนำทีมสร้าง
 
 ### Whatnot Startup Studio — Entrepreneur in Residence, มกราคม 2025 →
 
@@ -54,7 +54,7 @@ Whatnot คือ Venture Builder ในกรุงเทพฯ ที่ลง
 
 ### NODAL — Chief Strategy Officer, 2026 →
 
-Nodal Computer Vision Engineering สร้างระบบ Motion Capture แบบพกพาที่ไม่ต้องใช้มาร์กเกอร์ กล้อง Global Shutter ซิงก์กันกว่า 20 ตัวที่ 120 เฟรมต่อวินาที ความคลาดเคลื่อนต่ำกว่า 5 มิลลิวินาที ติดตั้งเสร็จในไม่ถึง 5 นาที ด้วยต้นทุนเพียงเศษเสี้ยวของระบบอย่าง Vicon หรือ Qualisys ใช้สร้างข้อมูลฝึกหุ่นยนต์ งานวิจัยทางคลินิก กีฬา และ VFX ผมเป็น Chief Strategy Officer และกำลังเตรียมการเข้าสู่ตลาดเกาหลีร่วมกับ Pen Ventures
+Nodal Computer Vision Engineering สร้างระบบ Motion Capture แบบพกพาที่ไม่ต้องใช้มาร์กเกอร์ กล้อง Global Shutter ซิงก์กันกว่า 20 ตัวที่ 120 เฟรมต่อวินาที ความคลาดเคลื่อนต่ำกว่า 5 มิลลิวินาที ติดตั้งเสร็จในไม่ถึง 5 นาที ด้วยต้นทุนเพียงเศษเสี้ยวของระบบอย่าง Vicon หรือ Qualisys ใช้สร้างข้อมูลฝึกหุ่นยนต์ งานวิจัยทางคลินิก กีฬา และ VFX ผมเป็น Chief Strategy Officer เตรียมใบสมัคร K-Scouter Program 2026 ร่วมกับ Pen Ventures ซึ่ง NODAL ได้รับคัดเลือกแล้ว และตอนนี้ผมกำลังเตรียมการเข้าสู่ตลาดเกาหลี
 
 ### Digital Bridge Thailand — ที่ปรึกษา, 2024 →
 
@@ -67,12 +67,13 @@ Nodal Computer Vision Engineering สร้างระบบ Motion Capture แ
 - **NextRise 2024, โซล** — นำเสนอ duPhonics บนเวที Pitching Station สนับสนุนโดยกรมส่งเสริมการค้าระหว่างประเทศ กระทรวงพาณิชย์
 - **Korean Market Landing Program, ธันวาคม 2024** — หนึ่งสัปดาห์ในโซลกับคณะสตาร์ทอัพไทย
 - **NextRise 2025, โซล** — บูธ CUBIKA ในกลุ่ม Pre-seed สาย Big Data และรางวัล Inc & IR
-- **K-Scouter 2025** — ได้รับคัดเลือกในเดือนสิงหาคม 2025 เข้าโปรแกรม K-Scouter ร่วมกับ Nautilus Investment เพื่อคัดเลือกและโค้ชสตาร์ทอัพอาเซียนสำหรับตลาดเกาหลี
+- **K-Scouter 2025** — ได้รับคัดเลือกในเดือนสิงหาคม 2025 เข้าโปรแกรม K-Scouter ร่วมกับ Nautilus Investment เพื่อคัดเลือกและโค้ชสตาร์ทอัพอาเซียนสำหรับตลาดเกาหลี ปีนั้นผมเตรียมแผนธุรกิจและ Pitch Deck สำหรับใบสมัครของ ASAPH และ Sahapan Trading Group
 - **COMEUP 2025, โซล** — ประจำบูธ Nautilus Investment ในเดือนธันวาคม
 - **QUEST EDTECH Korea** — จดทะเบียนที่กรุงโซลในเดือนพฤษภาคม 2026 ในฐานะบริษัทซอฟต์แวร์
 - **AI Summit Seoul พฤศจิกายน 2025** — เปิดตัว QUEST Agentic Framework
 - **CUBIKA Korea ปี 2026** — ได้รับคัดเลือกเข้า Global Startup Commercialization Program ทุน 50,000,000 วอนจาก KISED และ KBAN
 - **Seoul Business Agency กันยายน 2026** — บรรยายให้สตาร์ทอัพไทย 8 รายในโครงการ Seoul Startup Hub Global Inbound Program ก่อนเดินทางไป Global Startup Center
+- **K-Scouter Program 2026** — NODAL ได้รับคัดเลือกเข้ารอบปี 2026 ร่วมกับ Pen Ventures และผมกำลังเตรียมอีกสามบริษัทร่วมกับ Nautilus Investment และ Pen Ventures: Pettinee (ปรึกษาสัตวแพทย์ออนไลน์), Green Agro Tech International (ผู้ผลิตด้านอุตสาหกรรมเกษตร) และ RIFFAI (Satellite Intelligence ที่ขับเคลื่อนด้วย AI)
 
 QUEST EDTECH เป็นพันธมิตรอย่างเป็นทางการของ Nautilus Investment, Pen Ventures และ Seoul Business Agency สำหรับบริษัทที่จะเข้าเกาหลี ผมทำงานทั้งกระบวนการ: โปรแกรมไหนเหมาะและเป็นไปได้จริงหรือไม่ แผนธุรกิจและ Pitch Deck ทั้งภาษาอังกฤษและเกาหลี การแนะนำให้รู้จักผู้ดำเนินโปรแกรมและนักลงทุน และเมื่อจำเป็น ผมขึ้นพิทช์แทนคุณในห้องประชุมเอง โซลในเดือนมิถุนายนและธันวาคม สิงคโปร์ระหว่างนั้น — นั่นคือจังหวะของผม
 
@@ -83,7 +84,7 @@ QUEST EDTECH เป็นพันธมิตรอย่างเป็นท�
 | 2026 | จดทะเบียน QUEST EDTECH Korea ที่กรุงโซล | บริษัทซอฟต์แวร์ พฤษภาคม 2026 |
 | 2025 | K-Scouter, K-Scouter Program 2025 | คัดเลือกสิงหาคม 2025 ร่วมกับ Nautilus Investment; บูธ Nautilus ที่ COMEUP 2025 |
 | 2025 | NextRise 2025 Seoul — Inc & IR Award | นักกลยุทธ์การขยาย CUBIKA สู่เกาหลี |
-| 2025 | Angel Fund Connect 2025 — ชนะเลิศ 500,000 บาท | CUBIKA / Digital Dialogue; กรมส่งเสริมอุตสาหกรรมและ Delta Electronics |
+| 2025 | Angel Fund Connect 2025 — ชนะเลิศ 500,000 บาท | CUBIKA / Digital Dialogue; กรมส่งเสริมอุตสาหกรรมและ Delta Electronics; ผมเตรียมการสมัครและการพิทช์ |
 | 2025 | e27 Top 100 Programme — Mentor | ASAPH (Top 10), Tasted Better, SSL Logistics |
 | 2025 | Chief Strategy Officer | CUBIKA / Digital Dialogue; SSL Logistics |
 | 2024 | NextRise 2024 Seoul — พิทช์บนเวที | duPhonics สนับสนุนโดย DITP |
@@ -111,14 +112,15 @@ QUEST EDTECH เป็นพันธมิตรอย่างเป็นท�
 
 ในด้านที่ปรึกษา ผมทำงานกับธุรกิจมากกว่า 20 แห่งทั่วเอเชีย — องค์กรขนาดใหญ่ หน่วยงานภาครัฐ และสตาร์ทอัพ สองงานที่แสดงรูปแบบของมันได้ดี: **STL Group / VEV** (2023) กลยุทธ์ขยายตลาดต่างประเทศสำหรับธุรกิจ EV และ **TREG / SMO** (2023) แอปพลิเคชันแฟนคลับแบบ Hyperlocal ที่เข้าตลาดจีน ทั้งสองงานผมส่งมอบ Pitch Deck ภาษาอังกฤษ ไทย และจีน สรุปธุรกิจและแผนธุรกิจ สคริปต์การพิทช์ และฝึกทีมให้นำเสนอได้เอง
 
+ปี 2025 ผมเตรียมแผนธุรกิจให้ **Yunga** สำหรับการตั้งสำนักงานใหญ่ในเกาหลีและการขยายสู่แอฟริกา ปี 2026 ผมเขียนรายงานการเข้าตลาดเกาหลีให้ **Tasted Better** และตั้งแต่เดือนพฤษภาคม บริษัทของผมย้ายงานรายงานค้าปลีกประจำวันของ **LDC** กลุ่มธุรกิจค้าปลีกในลาว มาทำงานบน AI Agent ภายใต้การกำกับของผม
+
 ## สิ่งที่ผมเขียน (What I write about)
 
-ผมเขียนให้ e27 ตั้งแต่ปี 2022 จนถึงตอนนี้เจ็ดชิ้น:
+ผมเขียนให้ e27 ตั้งแต่ปี 2022 จนถึงตอนนี้หกชิ้น:
 
 - **How emotional economics is reshaping alternative investments in Southeast Asia** (มิถุนายน 2025) — มูลค่าทางอารมณ์กับมูลค่าทางการเงินผูกพันกันมากขึ้นเรื่อย ๆ และนั่นหมายถึงอะไรสำหรับของสะสมและคนที่ขายให้ผู้ซื้อชาวเอเชียที่มีกำลังซื้อสูง
 - **Navigating trade turbulence** (เมษายน 2025) — ภาษีศุลกากรกำลังเปลี่ยนเส้นทางการค้า การมองเห็นแบบเรียลไทม์ การวิเคราะห์เชิงคาดการณ์ และการตัดสินใจอัตโนมัติคือสิ่งที่ทำให้บริษัทโลจิสติกส์ยืนอยู่ได้
 - **Bridging the carbon data gap** (พฤศจิกายน 2024) — บัญชีการปล่อยคาร์บอนล้มเหลวเพราะข้อมูลกระจัดกระจาย ข้อมูลที่จัดการด้วย AI แบบคาดการณ์ได้คือทางแก้
-- **Innovate to Dominate** (ตุลาคม 2024) — สตาร์ทอัพเติบโตไปกับยักษ์ใหญ่ในอุตสาหกรรมได้อย่างไร ตั้งแต่ Licensing ถึง Joint Venture
 - **The future of Gen Alpha in the workplace** (กรกฎาคม 2024) — ภายในปี 2035 จะเป็นเจเนอเรชันที่ใหญ่ที่สุดในที่ทำงาน และ Gen Alpha จะทำงานอยู่ใน Roblox
 - **Learning Reimagined** (มิถุนายน 2024) — ทำไมผมถึงสร้าง duPhonics: การรู้หนังสือใน Metaverse แบบเรียลไทม์ โดยให้ Generative AI ทำเนื้อหา
 - **The metaverse opens new opportunities for education** (มิถุนายน 2022) — การศึกษาใน Metaverse จะเป็นประชาธิปไตยมากขึ้น และหลักสูตรจะเท่าเทียมและเปิดกว้างขึ้น
