@@ -73,7 +73,7 @@ Since 2024 I've been taking Thai and Southeast Asian companies into Korea's star
 - **AI Summit Seoul, November 2025** — the debut of the QUEST Agentic Framework.
 - **CUBIKA Korea, 2026** — selected for the Global Startup Commercialization Program: KRW 50,000,000 from KISED and KBAN.
 - **Seoul Business Agency, September 2026** — briefed eight Thai startups in the Seoul Startup Hub Global Inbound Program before their visit to the Global Startup Center.
-- **K-Scouter Program 2026** — NODAL was accepted into the 2026 round with Pen Ventures. I'm also preparing Pettinee (online vet teleconsultation) for this year's round with Nautilus Investment and Pen Ventures.
+- **K-Scouter Program 2026** — NODAL and Pettinee (online vet teleconsultation) were both accepted into the 2026 round with Pen Ventures. I prepared both companies for the round.
 
 QUEST EDTECH is an official partner of Nautilus Investment, Pen Ventures and the Seoul Business Agency. For a company entering Korea I do the whole job: which programme fits and whether it's viable, the plan and the deck in English and Korean, introductions to the operators and investors, and — when it helps — pitching on your behalf in the room. Seoul in June and December, Singapore in between: that's the rhythm.
 

@@ -201,7 +201,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "EV and logistics market-expansion strategy, pitch decks in EN / TH / ZH.",
     "Hyperlocal fan-club application entering the Chinese market.",
     "Retail conglomerate in Laos; since May 2026 my company has moved its daily retail reporting onto AI agents.",
-    "24/7 online vet teleconsultation from Bangkok, preparing for Korea.",
+    "24/7 online vet teleconsultation from Bangkok, accepted into the K-Scouter Program 2026 with Pen Ventures.",
     "Declan Kenny's golf and sport-management venture, Dallas to Thailand — mentored since January 2025.",
   ],
   th: [
@@ -212,7 +212,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "กลยุทธ์ขยายตลาด EV และโลจิสติกส์ พร้อม Pitch Deck ภาษาอังกฤษ ไทย จีน",
     "แอปพลิเคชันแฟนคลับแบบ Hyperlocal สำหรับการรุกตลาดจีน",
     "กลุ่มธุรกิจค้าปลีกในลาว ตั้งแต่พฤษภาคม 2026 บริษัทของผมย้ายงานรายงานค้าปลีกประจำวันมาทำงานบน AI Agent",
-    "บริการปรึกษาสัตวแพทย์ออนไลน์ 24 ชั่วโมงจากกรุงเทพฯ กำลังเตรียมตัวเข้าตลาดเกาหลี",
+    "บริการปรึกษาสัตวแพทย์ออนไลน์ 24 ชั่วโมงจากกรุงเทพฯ ได้รับคัดเลือกเข้า K-Scouter Program 2026 ร่วมกับ Pen Ventures",
     "ธุรกิจกอล์ฟและการจัดการกีฬาของ Declan Kenny จากดัลลัสสู่ประเทศไทย ผมเป็น Mentor ตั้งแต่มกราคม 2025",
   ],
   ko: [
@@ -223,7 +223,7 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "EV·물류 시장 확장 전략과 영어·태국어·중국어 피치덱.",
     "중국 시장에 진출하는 하이퍼로컬 팬클럽 애플리케이션.",
     "라오스 유통 대기업 — 2026년 5월부터 제 회사가 일일 리테일 리포팅을 AI 에이전트로 전환.",
-    "방콕의 24시간 온라인 수의 원격 상담 서비스, 한국 진출 준비 중.",
+    "방콕의 24시간 온라인 수의 원격 상담 서비스, Pen Ventures와 함께 K-Scouter Program 2026에 선정.",
     "Declan Kenny의 골프·스포츠 매니지먼트 벤처, 댈러스에서 태국으로 — 2025년 1월부터 멘토링.",
   ],
 };
