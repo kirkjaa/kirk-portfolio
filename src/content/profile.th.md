@@ -73,7 +73,7 @@ Nodal Computer Vision Engineering สร้างระบบ Motion Capture แ
 - **AI Summit Seoul พฤศจิกายน 2025** — เปิดตัว QUEST Agentic Framework
 - **CUBIKA Korea ปี 2026** — ได้รับคัดเลือกเข้า Global Startup Commercialization Program ทุน 50,000,000 วอนจาก KISED และ KBAN
 - **Seoul Business Agency กันยายน 2026** — บรรยายให้สตาร์ทอัพไทย 8 รายในโครงการ Seoul Startup Hub Global Inbound Program ก่อนเดินทางไป Global Startup Center
-- **K-Scouter Program 2026** — NODAL ได้รับคัดเลือกเข้ารอบปี 2026 ร่วมกับ Pen Ventures และผมกำลังเตรียมอีกสามบริษัทร่วมกับ Nautilus Investment และ Pen Ventures: Pettinee (ปรึกษาสัตวแพทย์ออนไลน์), Green Agro Tech International (ผู้ผลิตด้านอุตสาหกรรมเกษตร) และ RIFFAI (Satellite Intelligence ที่ขับเคลื่อนด้วย AI)
+- **K-Scouter Program 2026** — NODAL ได้รับคัดเลือกเข้ารอบปี 2026 ร่วมกับ Pen Ventures และผมกำลังเตรียมอีกสองบริษัทร่วมกับ Nautilus Investment และ Pen Ventures: Pettinee (ปรึกษาสัตวแพทย์ออนไลน์) และ Green Agro Tech International (ผู้ผลิตด้านอุตสาหกรรมเกษตร)
 
 QUEST EDTECH เป็นพันธมิตรอย่างเป็นทางการของ Nautilus Investment, Pen Ventures และ Seoul Business Agency สำหรับบริษัทที่จะเข้าเกาหลี ผมทำงานทั้งกระบวนการ: โปรแกรมไหนเหมาะและเป็นไปได้จริงหรือไม่ แผนธุรกิจและ Pitch Deck ทั้งภาษาอังกฤษและเกาหลี การแนะนำให้รู้จักผู้ดำเนินโปรแกรมและนักลงทุน และเมื่อจำเป็น ผมขึ้นพิทช์แทนคุณในห้องประชุมเอง โซลในเดือนมิถุนายนและธันวาคม สิงคโปร์ระหว่างนั้น — นั่นคือจังหวะของผม
 
