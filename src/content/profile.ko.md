@@ -73,7 +73,7 @@ Tarit "Matt" Amatayakul이 설립한 비영리 단체로, Digital Access, Digita
 - **AI Summit Seoul, 2025년 11월** — QUEST Agentic Framework 공개.
 - **CUBIKA Korea, 2026년** — Global Startup Commercialization Program 선정, KISED·KBAN 지원금 5,000만 원.
 - **서울경제진흥원, 2026년 9월** — Seoul Startup Hub Global Inbound Program의 태국 스타트업 8곳을 대상으로 Global Startup Center 방문 전 브리핑.
-- **K-Scouter Program 2026** — NODAL이 Pen Ventures와 함께 2026년 라운드에 선정되었습니다. Nautilus Investment, Pen Ventures와 함께 두 회사를 더 준비하고 있습니다: Pettinee(온라인 수의 원격 상담), Green Agro Tech International(농산업 제조).
+- **K-Scouter Program 2026** — NODAL이 Pen Ventures와 함께 2026년 라운드에 선정되었습니다. Nautilus Investment, Pen Ventures와 함께 올해 라운드를 위해 Pettinee(온라인 수의 원격 상담)도 준비하고 있습니다.
 
 QUEST EDTECH는 Nautilus Investment, Pen Ventures, 서울경제진흥원(SBA)의 공식 파트너입니다. 한국에 진출하는 기업을 위해 저는 전 과정을 맡습니다: 어떤 프로그램이 맞고 실현 가능한지, 영어와 한국어로 된 사업계획서와 피치덱, 운영기관과 투자자 소개, 그리고 도움이 된다면 현장에서 대신 피칭하는 것까지. 6월과 12월은 서울, 그 사이는 싱가포르 — 그것이 제 리듬입니다.
 

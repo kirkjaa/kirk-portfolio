@@ -189,7 +189,6 @@ const mentorshipBase = [
   { name: "TREG / SMO", logo: "/images/logos/treg.webp", program: "Strategic consulting · 2023", link: "https://treg.co.th/" },
   { name: "LDC", program: "AI consulting · 2026" },
   { name: "Pettinee", program: "K-Scouter Program 2026" },
-  { name: "Green Agro Tech International", program: "K-Scouter Program 2026" },
   { name: "KOI Sport Management", program: "Mentorship · since 2025" },
 ] as const;
 
@@ -203,7 +202,6 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "Hyperlocal fan-club application entering the Chinese market.",
     "Retail conglomerate in Laos; since May 2026 my company has moved its daily retail reporting onto AI agents.",
     "24/7 online vet teleconsultation from Bangkok, preparing for Korea.",
-    "Agro-industrial manufacturer, recognized at NSTDA's Industry 4.0 Recognition Awards 2025.",
     "Declan Kenny's golf and sport-management venture, Dallas to Thailand — mentored since January 2025.",
   ],
   th: [
@@ -215,7 +213,6 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "แอปพลิเคชันแฟนคลับแบบ Hyperlocal สำหรับการรุกตลาดจีน",
     "กลุ่มธุรกิจค้าปลีกในลาว ตั้งแต่พฤษภาคม 2026 บริษัทของผมย้ายงานรายงานค้าปลีกประจำวันมาทำงานบน AI Agent",
     "บริการปรึกษาสัตวแพทย์ออนไลน์ 24 ชั่วโมงจากกรุงเทพฯ กำลังเตรียมตัวเข้าตลาดเกาหลี",
-    "ผู้ผลิตด้านอุตสาหกรรมเกษตร ได้รับการยกย่องในงาน Industry 4.0 Recognition Awards 2025 ของ สวทช.",
     "ธุรกิจกอล์ฟและการจัดการกีฬาของ Declan Kenny จากดัลลัสสู่ประเทศไทย ผมเป็น Mentor ตั้งแต่มกราคม 2025",
   ],
   ko: [
@@ -227,7 +224,6 @@ const mentorshipBlurbs: Record<Language, string[]> = {
     "중국 시장에 진출하는 하이퍼로컬 팬클럽 애플리케이션.",
     "라오스 유통 대기업 — 2026년 5월부터 제 회사가 일일 리테일 리포팅을 AI 에이전트로 전환.",
     "방콕의 24시간 온라인 수의 원격 상담 서비스, 한국 진출 준비 중.",
-    "2025년 NSTDA Industry 4.0 Recognition Awards에서 인정받은 농산업 제조 기업.",
     "Declan Kenny의 골프·스포츠 매니지먼트 벤처, 댈러스에서 태국으로 — 2025년 1월부터 멘토링.",
   ],
 };
