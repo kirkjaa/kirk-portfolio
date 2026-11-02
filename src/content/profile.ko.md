@@ -2,7 +2,7 @@
 
 미국과 태국을 오가며 25년간 일해 온 테크니컬 파운더이자 벤처 빌더입니다. 그동안 얻은 평판은 꽤 구체적입니다 — 팀이 불가능하다고 여기는 비즈니스 요구를 풀어내는 사람.
 
-현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. duPhonics 창업자이자 Digital Bridge Thailand 자문을 맡고 있습니다. 2025년부터 2026년 10월까지는 CUBIKA / Digital Dialogue의 Chief Strategy Officer이자 Whatnot Startup Studio의 Entrepreneur in Residence였습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
+현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. duPhonics 창업자이자 Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 CUBIKA / Digital Dialogue의 Chief Strategy Officer였고, 2025년 1월부터 2026년 10월까지 Whatnot Startup Studio의 Entrepreneur in Residence였습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
 
 태국어와 영어로 일하며, 방콕을 거점으로 한 해의 상당 기간을 서울과 싱가포르에서 보냅니다.
 
@@ -40,7 +40,7 @@ duPhonics는 APTG 5G Accelerator(2022)를 거쳤고, TED Fund를 통해 Smart Ci
 
 ## CSO와 자문으로서 (Where I serve as CSO and advisor)
 
-### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 – 2026년 10월
+### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025년 1월 – 7월
 
 Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄했으며, 한국이 첫 번째였습니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 3위를 차지해 50만 바트의 상금을 받았고, 피칭을 포함한 지원 과정 전체를 제가 준비했습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 저는 회사와 CEO를 프로그램에 연결하고, 서류를 준비하고, CEO의 피칭을 코칭했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 저는 2026년 10월까지 한국 법인의 Manager를 맡았습니다.
 

@@ -2,7 +2,7 @@
 
 I'm a technical founder and venture builder with 25 years of experience across the United States and Thailand. The reputation I've earned along the way is a specific one: I'm the guy who can solve the impossibility of business requirements for the team.
 
-Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — founder of duPhonics, and an advisor to Digital Bridge Thailand. From 2025 to October 2026 I was Chief Strategy Officer for CUBIKA / Digital Dialogue and Entrepreneur in Residence at Whatnot Startup Studio. In 2025 I was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
+Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — founder of duPhonics, and an advisor to Digital Bridge Thailand. In 2025 I was Chief Strategy Officer for CUBIKA / Digital Dialogue, and from January 2025 to October 2026 Entrepreneur in Residence at Whatnot Startup Studio. In 2025 I was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
 
 I work in Thai and English, from Bangkok, and spend a good part of the year in Seoul and Singapore.
 
@@ -40,7 +40,7 @@ A real-time, multi-user learning space with a shared whiteboard — a Zoom alter
 
 ## Where I serve as CSO and advisor
 
-### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 – October 2026
+### CUBIKA / Digital Dialogue — Chief Strategy Officer, January – July 2025
 
 Digital Dialogue (DDLG) is a Bangkok company building CUBIKA, an agentic-AI data management and analytics platform — Capture, Curate, Consume — and CUBIKA Earth, a carbon-accounting platform. I led its overseas expansion, Korea first. CUBIKA exhibited at NextRise 2025 Seoul in the pre-seed Big Data track, where I received the Inc & IR award as the strategist behind the Korea entry. It also took third place at Angel Fund Connect 2025 (DIPROM and Delta Electronics), a 500,000 THB prize, and I prepared the whole application, pitch included. The thinking behind CUBIKA Earth is in my e27 piece on the carbon data gap. In November 2025 Digital Dialogue closed a **30 million baht** investment on **Shark Tank Thailand** with Shark Shannon Kalyanamitr, for CUBIKA Big Insights. I brought the company and its CEO onto the show, prepared the documents and coached the CEO for the pitch. In 2026 CUBIKA Korea was selected for the **Global Startup Commercialization Program** — a KRW 50,000,000 grant from KISED and KBAN — after I pitched the final round on the company's behalf, and I served as Manager of the Korean entity until October 2026.
 

@@ -2,7 +2,7 @@
 
 ผมเป็น Technical Founder และ Venture Builder ที่มีประสบการณ์ 25 ปีทั้งในสหรัฐอเมริกาและประเทศไทย ชื่อเสียงที่ผมสะสมมาตลอดทางค่อนข้างเฉพาะเจาะจงครับ — ผมคือคนที่แก้โจทย์ธุรกิจที่ใครก็ว่าเป็นไปไม่ได้ให้ทีมได้
 
-วันนี้ผมเป็น CEO และผู้ร่วมก่อตั้ง QUEST EDTECH ที่กรุงเทพฯ และตั้งแต่พฤษภาคม 2026 ที่กรุงโซลด้วย เป็นผู้ก่อตั้ง duPhonics และเป็นที่ปรึกษาให้ Digital Bridge Thailand ตั้งแต่ปี 2025 ถึงตุลาคม 2026 ผมเคยเป็น Chief Strategy Officer ให้ CUBIKA / Digital Dialogue และ Entrepreneur in Residence ที่ Whatnot Startup Studio ในปี 2025 ผมได้รับคัดเลือกเป็น K-Scouter ทำหน้าที่คัดเลือกและโค้ชบริษัทจากอาเซียนเข้าสู่โปรแกรมสตาร์ทอัพของเกาหลีร่วมกับ Nautilus Investment
+วันนี้ผมเป็น CEO และผู้ร่วมก่อตั้ง QUEST EDTECH ที่กรุงเทพฯ และตั้งแต่พฤษภาคม 2026 ที่กรุงโซลด้วย เป็นผู้ก่อตั้ง duPhonics และเป็นที่ปรึกษาให้ Digital Bridge Thailand ในปี 2025 ผมเคยเป็น Chief Strategy Officer ให้ CUBIKA / Digital Dialogue และตั้งแต่มกราคม 2025 ถึงตุลาคม 2026 เป็น Entrepreneur in Residence ที่ Whatnot Startup Studio ในปี 2025 ผมได้รับคัดเลือกเป็น K-Scouter ทำหน้าที่คัดเลือกและโค้ชบริษัทจากอาเซียนเข้าสู่โปรแกรมสตาร์ทอัพของเกาหลีร่วมกับ Nautilus Investment
 
 ผมทำงานทั้งภาษาไทยและอังกฤษ ประจำอยู่ที่กรุงเทพฯ และใช้เวลาส่วนหนึ่งของแต่ละปีที่โซลและสิงคโปร์
 
@@ -40,7 +40,7 @@ duPhonics ผ่าน APTG 5G Accelerator (2022) จัดแสดงที่
 
 ## บทบาท CSO และที่ปรึกษา (Where I serve as CSO and advisor)
 
-### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 – ตุลาคม 2026
+### CUBIKA / Digital Dialogue — Chief Strategy Officer, มกราคม – กรกฎาคม 2025
 
 Digital Dialogue (DDLG) เป็นบริษัทในกรุงเทพฯ ที่สร้าง CUBIKA แพลตฟอร์มจัดการและวิเคราะห์ข้อมูลด้วย Agentic AI — Capture, Curate, Consume — และ CUBIKA Earth แพลตฟอร์มบัญชีคาร์บอน ผมดูแลการขยายสู่ต่างประเทศ โดยเริ่มจากเกาหลี CUBIKA ออกบูธที่ NextRise 2025 Seoul ในกลุ่ม Pre-seed สาย Big Data ซึ่งผมได้รับรางวัล Inc & IR ในฐานะนักกลยุทธ์เบื้องหลังการเข้าสู่เกาหลี CUBIKA ยังคว้ารางวัลอันดับ 3 จาก Angel Fund Connect 2025 (กรมส่งเสริมอุตสาหกรรมและ Delta Electronics) รับเงินรางวัล 500,000 บาท โดยผมเตรียมการสมัครทั้งหมดรวมถึงการพิทช์ แนวคิดเบื้องหลัง CUBIKA Earth อยู่ในบทความของผมบน e27 เรื่องช่องว่างข้อมูลคาร์บอน เดือนพฤศจิกายน 2025 Digital Dialogue ปิดดีลการลงทุน **30 ล้านบาท** ในรายการ **Shark Tank Thailand** กับ Shark แชนนอน กัลยาณมิตร สำหรับ CUBIKA Big Insights ผมเป็นคนพาบริษัทและ CEO เข้ารายการ เตรียมเอกสาร และโค้ช CEO สำหรับการพิทช์ และในปี 2026 CUBIKA Korea ได้รับคัดเลือกเข้า **Global Startup Commercialization Program** ทุน 50,000,000 วอนจาก KISED และ KBAN หลังจากผมขึ้นพิทช์รอบสุดท้ายในนามบริษัท และผมทำหน้าที่ Manager ของบริษัทในเกาหลีจนถึงเดือนตุลาคม 2026
 
