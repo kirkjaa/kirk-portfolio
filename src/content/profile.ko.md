@@ -2,7 +2,7 @@
 
 미국과 태국을 오가며 25년간 일해 온 테크니컬 파운더이자 벤처 빌더입니다. 그동안 얻은 평판은 꽤 구체적입니다 — 팀이 불가능하다고 여기는 비즈니스 요구를 풀어내는 사람.
 
-현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. CUBIKA / Digital Dialogue의 Chief Strategy Officer, Whatnot Startup Studio의 Entrepreneur in Residence, duPhonics 창업자, Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
+현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. duPhonics 창업자이자 Digital Bridge Thailand 자문을 맡고 있습니다. 2025년부터 2026년 10월까지는 CUBIKA / Digital Dialogue의 Chief Strategy Officer이자 Whatnot Startup Studio의 Entrepreneur in Residence였습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
 
 태국어와 영어로 일하며, 방콕을 거점으로 한 해의 상당 기간을 서울과 싱가포르에서 보냅니다.
 
@@ -40,17 +40,17 @@ duPhonics는 APTG 5G Accelerator(2022)를 거쳤고, TED Fund를 통해 Smart Ci
 
 ## CSO와 자문으로서 (Where I serve as CSO and advisor)
 
-### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 →
+### CUBIKA / Digital Dialogue — Chief Strategy Officer, 2025 – 2026년 10월
 
-Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄하며, 한국이 첫 번째입니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 우승해 50만 바트의 상금을 받았고, 피칭을 포함한 지원 과정 전체를 제가 준비했습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 저는 회사와 CEO를 프로그램에 연결하고, 서류를 준비하고, CEO의 피칭을 코칭했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 현재 저는 한국 법인의 Manager를 맡고 있습니다.
+Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUBIKA — Capture, Curate, Consume — 와 탄소 회계 플랫폼 CUBIKA Earth를 만드는 방콕 기업입니다. 저는 해외 확장을 총괄했으며, 한국이 첫 번째였습니다. CUBIKA는 NextRise 2025 Seoul 프리시드 빅데이터 트랙에 출품했고, 저는 한국 진출을 설계한 전략가로서 Inc & IR 상을 받았습니다. 또한 Angel Fund Connect 2025(태국 산업진흥국·Delta Electronics)에서 3위를 차지해 50만 바트의 상금을 받았고, 피칭을 포함한 지원 과정 전체를 제가 준비했습니다. CUBIKA Earth의 배경이 되는 생각은 탄소 데이터 격차에 관한 제 e27 기고문에 담겨 있습니다. 2025년 11월 Digital Dialogue는 Shark Tank Thailand에서 Shannon Kalyanamitr로부터 CUBIKA Big Insights에 **3,000만 바트**의 투자를 유치했습니다. 저는 회사와 CEO를 프로그램에 연결하고, 서류를 준비하고, CEO의 피칭을 코칭했습니다. 2026년에는 제가 회사를 대신해 최종 라운드에서 피칭한 뒤 CUBIKA Korea가 **Global Startup Commercialization Program**에 선정되어 KISED와 KBAN으로부터 5,000만 원의 지원금을 받았고, 저는 2026년 10월까지 한국 법인의 Manager를 맡았습니다.
 
 ### SSL Logistics — Chief Strategy Officer, 2025년 11월 – 2026년 6월
 
 SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡았고, 2026년 6월까지 AI 전환과 한국·일본 진출을 책임졌습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다. 2026년 SSL은 NIA가 검증한 태국–한국 개념 검증과 함께 Global Investment Link Program에 선정되었고, Sahapan Korea를 자회사로 설립했으며, 제가 구축을 이끈 에이전틱 물류 플랫폼 SSL-CEO를 출시했습니다.
 
-### Whatnot Startup Studio — Entrepreneur in Residence, 2025년 1월 →
+### Whatnot Startup Studio — Entrepreneur in Residence, 2025년 1월 – 2026년 10월
 
-Whatnot은 차세대 스타트업에 투자하고 함께 만드는 방콕 벤처 빌더입니다. 제 역할은 벤처 빌딩과 기업 AI 전환입니다. 그곳 창업자들에게 하는 조언은 어디서나 같습니다: AI를 당신의 심부름꾼으로 만드세요, 그 반대가 아니라.
+Whatnot은 차세대 스타트업에 투자하고 함께 만드는 방콕 벤처 빌더입니다. 제 역할은 벤처 빌딩과 기업 AI 전환이었습니다. 그곳 창업자들에게 하는 조언은 어디서나 같습니다: AI를 당신의 심부름꾼으로 만드세요, 그 반대가 아니라.
 
 ### NODAL — Chief Strategy Officer, 2026 →
 
@@ -84,7 +84,7 @@ QUEST EDTECH는 Nautilus Investment, Pen Ventures, 서울경제진흥원(SBA)의
 | 2026 | QUEST EDTECH Korea 서울 법인 설립 | 응용 소프트웨어 기업, 2026년 5월 |
 | 2025 | K-Scouter, K-Scouter Program 2025 | 2025년 8월 Nautilus Investment와 선정; COMEUP 2025 Nautilus 부스 |
 | 2025 | NextRise 2025 Seoul — Inc & IR Award | CUBIKA 한국 진출 전략가 |
-| 2025 | Angel Fund Connect 2025 — 우승, 50만 바트 | CUBIKA / Digital Dialogue; 태국 산업진흥국·Delta Electronics; 지원서와 피칭 준비 |
+| 2025 | Angel Fund Connect 2025 — 3위, 50만 바트 | CUBIKA / Digital Dialogue; 태국 산업진흥국·Delta Electronics; 지원서와 피칭 준비 |
 | 2025 | e27 Top 100 Programme — 멘토 | ASAPH (Top 10), Tasted Better, SSL Logistics |
 | 2025 | Chief Strategy Officer | CUBIKA / Digital Dialogue; SSL Logistics |
 | 2024 | NextRise 2024 Seoul — 무대 피칭 | duPhonics, DITP 후원 |
