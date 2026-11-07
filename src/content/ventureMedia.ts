@@ -41,10 +41,6 @@ export const VENTURE_MEDIA: Record<string, VentureMedia> = {
     logo: "/images/logos/ssl-logistics.png",
     link: "https://www.ssllogistics.co.th",
   },
-  "Whatnot Startup Studio": {
-    logo: "/images/logos/whatnot-startup-studio.png",
-    link: "https://whatnot.co",
-  },
   NODAL: {
     link: "https://www.nodal3d.com/",
   },

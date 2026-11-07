@@ -2,7 +2,7 @@
 
 미국과 태국을 오가며 25년간 일해 온 테크니컬 파운더이자 벤처 빌더입니다. 그동안 얻은 평판은 꽤 구체적입니다 — 팀이 불가능하다고 여기는 비즈니스 요구를 풀어내는 사람.
 
-현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. duPhonics 창업자이자 Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 CUBIKA / Digital Dialogue의 Chief Strategy Officer였고, 2025년 1월부터 2026년 10월까지 Whatnot Startup Studio의 Entrepreneur in Residence였습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
+현재 방콕의 QUEST EDTECH CEO 겸 공동창업자이며, 2026년 5월부터는 서울에서도 회사를 운영하고 있습니다. duPhonics 창업자이자 Digital Bridge Thailand 자문을 맡고 있습니다. 2025년에는 CUBIKA / Digital Dialogue의 Chief Strategy Officer였습니다. 2025년에는 K-Scouter로 선정되어 Nautilus Investment와 함께 동남아시아 기업을 한국 스타트업 프로그램으로 발굴하고 코칭하고 있습니다.
 
 태국어와 영어로 일하며, 방콕을 거점으로 한 해의 상당 기간을 서울과 싱가포르에서 보냅니다.
 
@@ -47,10 +47,6 @@ Digital Dialogue(DDLG)는 에이전틱 AI 데이터 관리·분석 플랫폼 CUB
 ### SSL Logistics — Chief Strategy Officer, 2025년 11월 – 2026년 6월
 
 SSL은 태국의 디지털 물류·화물 플랫폼입니다: AI와 IoT 기반 화물 매칭, 실시간 추적과 경로 최적화, 디지털 문서, 운전자본 금융, ESG 보고. 2025년 해외 확장 자문으로 시작해 11월에 CSO를 맡았고, 2026년 6월까지 AI 전환과 한국·일본 진출을 책임졌습니다. SSL은 2025년 제가 멘토링해 e27 Top 100에 오른 세 회사 중 하나입니다. 2026년 SSL은 NIA가 검증한 태국–한국 개념 검증과 함께 Global Investment Link Program에 선정되었고, Sahapan Korea를 자회사로 설립했으며, 제가 구축을 이끈 에이전틱 물류 플랫폼 SSL-CEO를 출시했습니다.
-
-### Whatnot Startup Studio — Entrepreneur in Residence, 2025년 1월 – 2026년 10월
-
-Whatnot은 차세대 스타트업에 투자하고 함께 만드는 방콕 벤처 빌더입니다. 제 역할은 벤처 빌딩과 기업 AI 전환이었습니다. 그곳 창업자들에게 하는 조언은 어디서나 같습니다: AI를 당신의 심부름꾼으로 만드세요, 그 반대가 아니라.
 
 ### NODAL — Chief Strategy Officer, 2026 →
 

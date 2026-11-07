@@ -2,7 +2,7 @@
 
 I'm a technical founder and venture builder with 25 years of experience across the United States and Thailand. The reputation I've earned along the way is a specific one: I'm the guy who can solve the impossibility of business requirements for the team.
 
-Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — founder of duPhonics, and an advisor to Digital Bridge Thailand. In 2025 I was Chief Strategy Officer for CUBIKA / Digital Dialogue, and from January 2025 to October 2026 Entrepreneur in Residence at Whatnot Startup Studio. In 2025 I was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
+Today I'm CEO and Co-Founder of QUEST EDTECH in Bangkok — and, since May 2026, in Seoul — founder of duPhonics, and an advisor to Digital Bridge Thailand. In 2025 I was Chief Strategy Officer for CUBIKA / Digital Dialogue, and was selected as a K-Scouter, scouting and coaching Southeast Asian companies into Korea's startup programmes with Nautilus Investment.
 
 I work in Thai and English, from Bangkok, and spend a good part of the year in Seoul and Singapore.
 
@@ -47,10 +47,6 @@ Digital Dialogue (DDLG) is a Bangkok company building CUBIKA, an agentic-AI data
 ### SSL Logistics — Chief Strategy Officer, November 2025 – June 2026
 
 SSL is a Thai digital logistics and freight platform: AI and IoT for freight matching, real-time tracking and route optimisation, digital documentation, working-capital finance and ESG reporting. I started as an advisor on international expansion in 2025, became CSO in November, and was responsible for AI transformation and expansion into Korea and Japan until June 2026. SSL was one of the three companies I mentored to a place in the e27 Top 100 in 2025. In 2026 SSL won the Global Investment Link Program with an NIA-validated Thailand–Korea proof of concept, established Sahapan Korea as a subsidiary, and launched SSL-CEO, the agentic logistics platform I led the build of.
-
-### Whatnot Startup Studio — Entrepreneur in Residence, January 2025 – October 2026
-
-Whatnot is a Bangkok venture builder that invests in and builds the next generation of startups. My mandate was venture building and AI transformation for businesses. My advice to the founders there was the same as everywhere: make AI your errand bot, not the other way around.
 
 ### NODAL — Chief Strategy Officer, 2026 →
 
